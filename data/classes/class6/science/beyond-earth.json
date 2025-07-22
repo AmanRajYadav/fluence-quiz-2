@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 12,
+    "chapterName": "Beyond Earth",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is the closest planet to the Sun?",
+      "options": ["Mercury", "Venus", "Earth", "Mars"],
+      "correct": 0,
+      "explanation": "Mercury is the closest planet to the Sun",
+      "topic": "Solar System"
+    }
+  ]
+}

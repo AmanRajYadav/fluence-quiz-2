@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 8,
+    "chapterName": "A Journey through States of Water",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Water exists in how many states?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1,
+      "explanation": "Water exists in three states: solid (ice), liquid (water), and gas (water vapor)",
+      "topic": "States of Matter"
+    }
+  ]
+}

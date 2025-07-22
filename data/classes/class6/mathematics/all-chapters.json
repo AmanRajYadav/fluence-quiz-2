@@ -1,0 +1,234 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "mathematics",
+    "chapterName": "All Chapters",
+    "chapterDescription": "Mixed questions from all Class 6 Mathematics chapters",
+    "totalQuestions": 50,
+    "difficulty": "mixed",
+    "topics": ["All Mathematics Topics"],
+    "isSpecial": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What comes next in the pattern: 2, 4, 6, 8, ?",
+      "options": ["9", "10", "11", "12"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "This is an even number pattern, so 10 comes next",
+      "topic": "Patterns in Mathematics",
+      "chapter": "Chapter 1"
+    },
+    {
+      "id": 2,
+      "question": "What is the place value of 7 in the number 47,856?",
+      "options": ["7", "70", "700", "7000"],
+      "correct": 3,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "7 is in the thousands place, so its place value is 7000",
+      "topic": "Number Play",
+      "chapter": "Chapter 3"
+    },
+    {
+      "id": 3,
+      "question": "A line that goes on forever in both directions is called a:",
+      "options": ["Ray", "Line segment", "Line", "Angle"],
+      "correct": 2,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "A line extends infinitely in both directions",
+      "topic": "Lines and Angles",
+      "chapter": "Chapter 2"
+    },
+    {
+      "id": 4,
+      "question": "Complete the pattern: 1, 4, 7, 10, ?",
+      "options": ["12", "13", "14", "15"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Add 3 each time: 1+3=4, 4+3=7, 7+3=10, 10+3=13",
+      "topic": "Patterns in Mathematics",
+      "chapter": "Chapter 1"
+    },
+    {
+      "id": 5,
+      "question": "Round 4,567 to the nearest thousand:",
+      "options": ["4,000", "5,000", "4,500", "4,600"],
+      "correct": 1,
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "4,567 is closer to 5,000 than to 4,000, so we round up to 5,000",
+      "topic": "Number Play",
+      "chapter": "Chapter 3"
+    },
+    {
+      "id": 6,
+      "question": "How many sides does a pentagon have?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "A pentagon has 5 sides",
+      "topic": "Playing with Constructions",
+      "chapter": "Chapter 8"
+    },
+    {
+      "id": 7,
+      "question": "Which number is a prime number?",
+      "options": ["4", "6", "7", "8"],
+      "correct": 2,
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "7 is prime because it has only two factors: 1 and 7",
+      "topic": "Prime Time",
+      "chapter": "Chapter 5"
+    },
+    {
+      "id": 8,
+      "question": "What is the perimeter of a square with side 5 cm?",
+      "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+      "correct": 2,
+      "difficulty": "easy",
+      "points": "10",
+      "explanation": "Perimeter of square = 4 × side = 4 × 5 = 20 cm",
+      "topic": "Perimeter and Area",
+      "chapter": "Chapter 6"
+    },
+    {
+      "id": 9,
+      "question": "What fraction of this circle is shaded if half is shaded?",
+      "options": ["1/4", "1/2", "3/4", "1/3"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Half means 1/2",
+      "topic": "Fractions",
+      "chapter": "Chapter 7"
+    },
+    {
+      "id": 10,
+      "question": "Which is greater: -5 or -2?",
+      "options": ["-5", "-2", "Both are equal", "Cannot compare"],
+      "correct": 1,
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "-2 is greater than -5 because it's closer to 0 on the number line",
+      "topic": "The Other Side of Zero",
+      "chapter": "Chapter 10"
+    },
+    {
+      "id": 11,
+      "question": "A shape that looks exactly the same when folded along a line has:",
+      "options": ["No symmetry", "Line symmetry", "Point symmetry", "Rotational symmetry"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Line symmetry means the shape looks the same when folded along the line",
+      "topic": "Symmetry",
+      "chapter": "Chapter 9"
+    },
+    {
+      "id": 12,
+      "question": "In a pictograph, if 🌟 = 10 students, how many students does 🌟🌟🌟 represent?",
+      "options": ["3", "10", "30", "13"],
+      "correct": 2,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "3 stars × 10 students per star = 30 students",
+      "topic": "Data Handling and Presentation",
+      "chapter": "Chapter 4"
+    },
+    {
+      "id": 13,
+      "question": "What is the next number: 1, 1, 2, 3, 5, 8, ?",
+      "options": ["11", "13", "15", "16"],
+      "correct": 1,
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "This is the Fibonacci sequence: each number is the sum of the two before it. 5+8=13",
+      "topic": "Patterns in Mathematics",
+      "chapter": "Chapter 1"
+    },
+    {
+      "id": 14,
+      "question": "How many thousands are there in 1 lakh?",
+      "options": ["10", "100", "1000", "10000"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "1 lakh = 1,00,000 = 100 thousands",
+      "topic": "Number Play",
+      "chapter": "Chapter 3"
+    },
+    {
+      "id": 15,
+      "question": "An angle measuring 90° is called a:",
+      "options": ["Acute angle", "Right angle", "Obtuse angle", "Straight angle"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "A 90° angle is called a right angle",
+      "topic": "Lines and Angles",
+      "chapter": "Chapter 2"
+    },
+    {
+      "id": 16,
+      "question": "Which number has factors 1, 2, 3, 4, 6, 12?",
+      "options": ["10", "12", "15", "18"],
+      "correct": 1,
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "12 has factors: 1, 2, 3, 4, 6, and 12",
+      "topic": "Prime Time",
+      "chapter": "Chapter 5"
+    },
+    {
+      "id": 17,
+      "question": "What is the area of a rectangle with length 6 cm and width 4 cm?",
+      "options": ["10 cm²", "20 cm²", "24 cm²", "26 cm²"],
+      "correct": 2,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "Area of rectangle = length × width = 6 × 4 = 24 cm²",
+      "topic": "Perimeter and Area",
+      "chapter": "Chapter 6"
+    },
+    {
+      "id": 18,
+      "question": "Which fraction is equivalent to 1/2?",
+      "options": ["1/4", "2/4", "1/3", "3/6"],
+      "correct": 1,
+      "difficulty": "medium",
+      "points": 15,
+      "explanation": "2/4 = 1/2 (both numerator and denominator are doubled)",
+      "topic": "Fractions",
+      "chapter": "Chapter 7"
+    },
+    {
+      "id": 19,
+      "question": "How many angles does a triangle have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "A triangle has 3 angles",
+      "topic": "Playing with Constructions",
+      "chapter": "Chapter 8"
+    },
+    {
+      "id": 20,
+      "question": "Which temperature is below 0°C?",
+      "options": ["5°C", "0°C", "-3°C", "10°C"],
+      "correct": 2,
+      "difficulty": "easy",
+      "points": 10,
+      "explanation": "-3°C is below 0°C (negative temperature)",
+      "topic": "The Other Side of Zero",
+      "chapter": "Chapter 10"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "mathematics",
+    "chapterNumber": 8,
+    "chapterName": "Playing with Constructions",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many sides does a pentagon have?",
+      "options": ["4", "5", "6", "7"],
+      "correct": 1,
+      "explanation": "A pentagon has 5 sides",
+      "topic": "Polygons"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social science",
+    "chapterNumber": 1,
+    "chapterName": "Locating Places on the Earth",
+    "totalQuestions": 30,
+    "difficulty": "Mixed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a book or collection of maps called?",
+      "options": [
+        "A globe",
+        "An atlas",
+        "A dictionary",
+        "An encyclopedia"
+      ],
+      "correct": 1,
+      "explanation": "An atlas is defined in the chapter as a book or collection of maps.",
+      "topic": "Maps and Their Components",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following are the three important components of maps mentioned in the text?",
+      "options": [
+        "Colors, pictures, and words",
+        "Latitude, longitude, and altitude",
+        "Distance, direction, and symbols",
+        "Oceans, continents, and countries"
+      ],
+      "correct": 2,
+      "explanation": "The chapter explicitly states that distance, direction, and symbols are the three important components of maps.",
+      "topic": "Maps and Their Components",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the imaginary line that runs halfway between the North and South Poles called?",
+      "options": [
+        "Prime Meridian",
+        "Equator",
+        "Tropic of Cancer",
+        "International Date Line"
+      ],
+      "correct": 1,
+      "explanation": "The text defines the Equator as the imaginary circle halfway between the two poles.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "The Prime Meridian, the international standard for 0° longitude, passes through which area?",
+      "options": [
+        "Paris, France",
+        "New York, USA",
+        "Ujjain, India",
+        "Greenwich, England"
+      ],
+      "correct": 3,
+      "explanation": "In 1884, nations decided that the meridian passing through Greenwich, an area of London, would become the international standard for the Prime Meridian.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What type of map primarily shows natural features such as mountains, oceans, and rivers?",
+      "options": [
+        "A political map",
+        "A thematic map",
+        "A physical map",
+        "A road map"
+      ],
+      "correct": 2,
+      "explanation": "Physical maps are defined as those which mainly show natural features like mountains, oceans, and rivers.",
+      "topic": "Maps and Their Components",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "According to the text, how many degrees does the Earth spin per hour?",
+      "options": [
+        "10 degrees",
+        "15 degrees",
+        "24 degrees",
+        "360 degrees"
+      ],
+      "correct": 1,
+      "explanation": "The Earth makes a full 360° turn every 24 hours, which means it spins 15° per hour (360 / 24 = 15).",
+      "topic": "Understanding Time Zones",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What is the latitude of the South Pole?",
+      "options": [
+        "0°",
+        "90°N",
+        "90°S",
+        "180°"
+      ],
+      "correct": 2,
+      "explanation": "The text specifies that the latitudes of the two poles are 90° North and 90° South, noted as 90°N and 90°S.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "What is a spherical model of the Earth called?",
+      "options": [
+        "A map",
+        "An atlas",
+        "A globe",
+        "A coordinate"
+      ],
+      "correct": 2,
+      "explanation": "A globe is described as a sphere on which a map of the Earth is drawn.",
+      "topic": "Mapping the Earth",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What are the four cardinal directions mentioned in the chapter?",
+      "options": [
+        "Up, Down, Left, Right",
+        "Northeast, Southeast, Southwest, Northwest",
+        "Top, Bottom, Side, Center",
+        "North, East, South, West"
+      ],
+      "correct": 3,
+      "explanation": "The text identifies North, East, South, and West as the four cardinal directions.",
+      "topic": "Maps and Their Components",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Lines of latitude are also known as:",
+      "options": [
+        "Meridians",
+        "Parallels",
+        "Grids",
+        "Poles"
+      ],
+      "correct": 1,
+      "explanation": "The text states that a line of latitude is called a 'parallel of latitude' because it runs parallel to the Equator.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Why is a globe a more accurate representation of the Earth than a flat map?",
+      "options": [
+        "Globes are bigger than maps.",
+        "Globes can show more countries.",
+        "The Earth is a sphere, and a globe has the same shape.",
+        "Globes use more colors than maps."
+      ],
+      "correct": 2,
+      "explanation": "The text explains that because the Earth is a sphere, a globe with the same shape represents its geography better than a flat map.",
+      "topic": "Mapping the Earth",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "If it is 12:00 PM (noon) at the Prime Meridian (0°), what would be the local time at a location with 30°E longitude?",
+      "options": [
+        "10:00 AM",
+        "11:00 AM",
+        "1:00 PM",
+        "2:00 PM"
+      ],
+      "correct": 3,
+      "explanation": "The Earth rotates 15° per hour. Moving eastward adds time. So, 30° east is 2 hours ahead of the Prime Meridian (30 / 15 = 2).",
+      "topic": "Understanding Time Zones",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of studying the past, according to 'Theme B - Tapestry of the Past'?",
+      "options": [
+        "To memorize dates and names of rulers.",
+        "Because it is the key to understanding the present.",
+        "To learn about old maps and tools.",
+        "To prove that modern life is better."
+      ],
+      "correct": 1,
+      "explanation": "Theme B states that the past is the key to understanding the present and helps us understand who we are.",
+      "topic": "Why Social Science?",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "What is the general relationship between a location's latitude and its climate?",
+      "options": [
+        "There is no relationship.",
+        "The higher the latitude, the hotter the climate.",
+        "The higher the latitude (closer to the poles), the colder the climate.",
+        "The lower the latitude, the colder the climate."
+      ],
+      "correct": 2,
+      "explanation": "The text explains that as you travel away from the Equator (latitude increases), the climate becomes more moderate and then colder.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "Why do very large countries like the USA and Russia have multiple time zones?",
+      "options": [
+        "They have many large cities.",
+        "They span a great distance from east to west.",
+        "They are in both the Northern and Southern Hemispheres.",
+        "They have different governments in different areas."
+      ],
+      "correct": 1,
+      "explanation": "The chapter mentions that countries that are too large, spanning vast distances, cannot use a single time zone.",
+      "topic": "Understanding Time Zones",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "What does a map's 'scale' help you understand?",
+      "options": [
+        "The direction of north.",
+        "The meaning of the symbols.",
+        "The relationship between distance on the map and distance on the ground.",
+        "The type of map it is."
+      ],
+      "correct": 2,
+      "explanation": "The scale represents how a distance on the map corresponds to the actual distance on the ground, allowing huge places to fit on paper.",
+      "topic": "Maps and Their Components",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "What was the significance of the city of Ujjayinī in ancient Indian astronomy?",
+      "options": [
+        "It was the capital of India.",
+        "It was the location of a prime meridian called 'madhya rekha'.",
+        "It was where the first paper map was created.",
+        "It is located exactly at the North Pole."
+      ],
+      "correct": 1,
+      "explanation": "The text highlights that Ujjayinī was a reputed center for astronomy and the location of India's own prime meridian.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "If you travel westward across the International Date Line by plane, what must you do?",
+      "options": [
+        "Add a day to the date.",
+        "Subtract a day from the date.",
+        "Change your watch by 12 hours.",
+        "Nothing changes."
+      ],
+      "correct": 0,
+      "explanation": "The text states that if you cross the International Date Line travelling westward, you add a day (e.g., from Sunday to Monday).",
+      "topic": "Understanding Time Zones",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "What is the difference between parallels of latitude and meridians of longitude in terms of their shape and length?",
+      "options": [
+        "Both are full circles of the same length.",
+        "Parallels are full circles of varying lengths, while meridians are half-circles of the same length.",
+        "Meridians are full circles, while parallels are half-circles.",
+        "Both are half-circles of varying lengths."
+      ],
+      "correct": 1,
+      "explanation": "Parallels are circles that get smaller towards the poles. Meridians are half-circles running from pole to pole, and are all the same length.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "What is Indian Standard Time (IST) in relation to Greenwich Mean Time (GMT)?",
+      "options": [
+        "Exactly the same as GMT.",
+        "5.5 hours behind GMT.",
+        "5.5 hours ahead of GMT.",
+        "24 hours ahead of GMT."
+      ],
+      "correct": 2,
+      "explanation": "The book explicitly states that Indian Standard Time (IST) is 5 hours 30 minutes (5.5 hours) ahead of GMT.",
+      "topic": "Understanding Time Zones",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Two friends are on the phone. One in Porbandar (western India) sees daylight, while the other in Tinsukia (eastern India) says it's dark. How is this possible if they both use IST?",
+      "options": [
+        "One of them has a broken clock.",
+        "Assam has a different standard time than Gujarat.",
+        "The sun actually sets at the same moment everywhere in India.",
+        "Due to the large longitudinal distance, the local time (and thus sunset) is much earlier in the east."
+      ],
+      "correct": 3,
+      "explanation": "Even with a single standard time (IST), the local time based on the sun's position differs. The sun sets earlier in eastern India (Tinsukia) than in western India (Porbandar).",
+      "topic": "Understanding Time Zones",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Why are parallels of latitude not all the same length?",
+      "options": [
+        "Because map-makers draw them that way for art.",
+        "Because they are circles drawn on a sphere, and they become smaller as they get closer to the poles.",
+        "Because the Earth is flattened at the Equator.",
+        "Because time zones interfere with their length."
+      ],
+      "correct": 1,
+      "explanation": "The text explains that the Equator is the largest circle, and the parallels of latitude grow smaller as we move towards the poles on the spherical Earth.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "The text uses a chessboard to explain coordinates. What is the fundamental concept this analogy is trying to teach about locating places on Earth?",
+      "options": [
+        "That the Earth is flat like a board.",
+        "That we need rules to travel.",
+        "That using a grid system with two reference points (like latitude and longitude) allows for precise location.",
+        "That geography is a game."
+      ],
+      "correct": 2,
+      "explanation": "The chessboard example illustrates how a grid (letters and numbers) allows one to precisely determine the location of any square, just as latitude and longitude do for any place on Earth.",
+      "topic": "Mapping the Earth",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Why are the boundary lines for time zones on a world map often not perfectly straight?",
+      "options": [
+        "Because of magnetic interference from the poles.",
+        "Because it's difficult to draw straight lines on a map.",
+        "They are adjusted to follow international borders to keep a single country within one time zone where possible.",
+        "They follow mountain ranges and rivers."
+      ],
+      "correct": 2,
+      "explanation": "The text explains that time zone lines are not fully straight because they have to respect each country's standard time and therefore tend to follow international borders.",
+      "topic": "Understanding Time Zones",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "Delhi and Bengaluru have almost the same longitude (~77°E) but different latitudes. What does this imply about their local time?",
+      "options": [
+        "Their local times are several hours apart.",
+        "Their local times are nearly identical.",
+        "Delhi's local time is ahead of Bengaluru's.",
+        "Bengaluru's local time is ahead of Delhi's."
+      ],
+      "correct": 1,
+      "explanation": "Local time is determined by longitude. Since their longitudes are almost the same, their local times will also be almost the same, despite the large north-south distance between them.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "Why, according to the text, is it impossible to represent the spherical Earth perfectly on a flat sheet of paper?",
+      "options": [
+        "Paper is not strong enough.",
+        "There isn't a big enough sheet of paper.",
+        "You cannot flatten a curved surface without tearing or distorting it, as shown by the orange peel analogy.",
+        "It is forbidden by international law."
+      ],
+      "correct": 2,
+      "explanation": "The text uses the analogy of trying to flatten large pieces of an orange peel to demonstrate that a spherical surface cannot be made flat without tearing it.",
+      "topic": "Mapping the Earth",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "The text states that Social Science is not a 'science' in the same way as physics. What is the primary reason given for this distinction?",
+      "options": [
+        "Social Science does not use any scientific methods.",
+        "Social Science is not as important as physics.",
+        "Its subject, human society, is too diverse and complex for the kind of fixed procedures and results found in sciences like physics.",
+        "Social scientists do not perform experiments in laboratories."
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that while Social Science uses scientific methods, its focus on diverse and complex human society prevents the set procedures and fixed results seen in natural sciences.",
+      "topic": "Why Social Science?",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "What fundamental concept did ancient Indian astronomers demonstrate by establishing a prime meridian through Ujjayinī?",
+      "options": [
+        "That the Earth is flat.",
+        "That they needed a zero-reference line to systematically measure longitude and perform calculations.",
+        "That Ujjain was the center of the world.",
+        "That timekeeping was not important."
+      ],
+      "correct": 1,
+      "explanation": "The existence of the 'madhya rekha' (middle line) shows an advanced understanding of the need for a zero or prime meridian as a reference for longitudinal calculations.",
+      "topic": "Latitudes and Longitudes",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "The International Date Line deviates from the 180° longitude meridian in some places. What is the most logical reason for this?",
+      "options": [
+        "To make the map look more interesting.",
+        "To avoid splitting island nations or countries into two different calendar days.",
+        "To follow underwater mountain ranges.",
+        "To account for the Earth's wobble."
+      ],
+      "correct": 1,
+      "explanation": "The text states the line deviates to avoid dividing some countries into two different days, which would be highly impractical for the people living there.",
+      "topic": "Understanding Time Zones",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "The book mentions 'multidisciplinarity' as a deliberate choice. What is the educational goal of mixing topics like poetry and chess into geography chapters?",
+      "options": [
+        "To make the book longer.",
+        "To make the lessons more confusing.",
+        "To show that all subjects are the same.",
+        "To enrich perspective and show how different fields connect, reflecting the complexity of real life."
+      ],
+      "correct": 3,
+      "explanation": "The text explains this is a deliberate choice to enrich perspective by bringing elements from diverse fields together, because 'life constantly mixes numerous elements together'.",
+      "topic": "Why Social Science?",
+      "difficulty": "hard"
+    }
+  ]
+}

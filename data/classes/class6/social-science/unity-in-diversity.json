@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social science",
+    "chapterNumber": 8,
+    "chapterName": "Unity in Diversity, or 'Many in the One'",
+    "totalQuestions": 30,
+    "difficulty": "Mixed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are basic food grains like rice, wheat, and millets called because they are the basic food for most Indians?",
+      "options": [
+        "Specialty grains",
+        "Imported grains",
+        "Staple grains",
+        "Cash crops"
+      ],
+      "correct": 2,
+      "explanation": "The text identifies cereals and pulses as 'staple grains' because they form the basic food for most people in India.",
+      "topic": "Food Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which of these is mentioned as a famous type of silk sari?",
+      "options": [
+        "Chintz",
+        "Khadi",
+        "Kanjivaram",
+        "Denim"
+      ],
+      "correct": 2,
+      "explanation": "The text lists Banarasi, Kanjivaram, Paithani, and Patan Patola among the famous types of silk saris.",
+      "topic": "Textile Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the name of the collection of stories with animal characters that teaches life skills and is at least 2,200 years old?",
+      "options": [
+        "The Ramayana",
+        "The Mahabharata",
+        "The Vedas",
+        "The Panchatantra"
+      ],
+      "correct": 3,
+      "explanation": "The Panchatantra is described as a collection of delightful stories with animals as main characters, with an original Sanskrit text at least 2,200 years old.",
+      "topic": "Literary Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What event does the festival of Makara Sankranti and its regional variations like Pongal and Lohri mark?",
+      "options": [
+        "The beginning of monsoon",
+        "The beginning of the harvest season",
+        "The new year",
+        "A historical battle"
+      ],
+      "correct": 1,
+      "explanation": "The chapter states that Makara Sankranti marks the beginning of the harvest season in many parts of India.",
+      "topic": "Festival Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Which national organization conducted the massive 'People of India project' survey?",
+      "options": [
+        "The Archaeological Survey of India",
+        "The National Museum",
+        "The Anthropological Survey of India",
+        "The Ministry of Culture"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that the Anthropological Survey of India conducted a massive survey called the 'People of India project'.",
+      "topic": "A Rich Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What are the two major epics of India that have been adapted into countless versions across the country?",
+      "options": [
+        "Panchatantra and Jataka Tales",
+        "Vedas and Upanishads",
+        "Ramayana and Mahabharata",
+        "Gita and Puranas"
+      ],
+      "correct": 2,
+      "explanation": "The text identifies the Ramayana and the Mahabharata as India's two epics that are central to its literary unity in diversity.",
+      "topic": "Literary Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Which type of Indian printed cotton became so popular in 17th-century Europe that its import was eventually banned by England and France?",
+      "options": [
+        "Muslin",
+        "Chintz",
+        "Silk",
+        "Kalamkari"
+      ],
+      "correct": 1,
+      "explanation": "The text describes 'chintz' as a beautiful type of printed cotton that became so popular in Europe that its import was banned to protect local products.",
+      "topic": "Textile Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "According to the map in the chapter, what is the harvest festival celebrated in Gujarat around January 14th called?",
+      "options": [
+        "Lohri",
+        "Pongal",
+        "Uttarayan",
+        "Magh Bihu"
+      ],
+      "correct": 2,
+      "explanation": "The map showing different harvest festivals labels the one in Gujarat as Uttarayan.",
+      "topic": "Festival Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "In the Ramayana, who kidnaps Sita, leading to the epic's central conflict?",
+      "options": [
+        "Duryodhana",
+        "Krishna",
+        "Hanuman",
+        "Ravana"
+      ],
+      "correct": 3,
+      "explanation": "The summary of the Ramayana mentions that Rama defeats the demon Ravana, who had kidnapped his wife Sita.",
+      "topic": "Literary Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What is the common theme shared by various kinds of dals, rice, wheat, and millets in Indian cuisine?",
+      "options": [
+        "They are all imported.",
+        "They are all used only for festivals.",
+        "They are all staple grains common to almost every part of the country.",
+        "They are all grown in the same state."
+      ],
+      "correct": 2,
+      "explanation": "The text explains that despite the diversity of dishes, these food grains are common to almost every part of the country, showing unity.",
+      "topic": "Food Diversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "How does the sari serve as an example of 'unity in diversity'?",
+      "options": [
+        "It is always made of the same fabric and worn the same way.",
+        "It is a single, common dress (unity) that comes in hundreds of fabrics, designs, and draping styles (diversity).",
+        "Only one community in India wears the sari.",
+        "The sari has not changed at all for thousands of years."
+      ],
+      "correct": 1,
+      "explanation": "The text explains that the sari is a single dress (unity) but has immense variety in fabrics, weaving, color, and ways of wearing (diversity).",
+      "topic": "Textile Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "What did the 'People of India project' conclude about the Ramayana and Mahabharata's presence in India?",
+      "options": [
+        "They are only known in North India.",
+        "They are only read in Sanskrit.",
+        "Many communities, including tribal ones, have their own versions and connect their history to the epics.",
+        "The stories are no longer popular."
+      ],
+      "correct": 2,
+      "explanation": "The project found that many communities, including tribes like the Bhils and Gonds, have their own versions and legends connecting their regions to the epics' heroes.",
+      "topic": "Literary Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Why did England and France ban the import of Indian chintz in the 17th century?",
+      "options": [
+        "The fabric was of poor quality.",
+        "They wanted to protect their own textile products from the competition.",
+        "There was a dispute over shipping routes.",
+        "Indian merchants refused to trade with them."
+      ],
+      "correct": 1,
+      "explanation": "The text states that to protect their own products from a sharp drop in sales, England and France decided to ban the import of chintz.",
+      "topic": "Textile Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "What commonality is observed among festivals like Maghi/Lohri, Pongal, Poush Songkranti, and Magh Bihu?",
+      "options": [
+        "They are all celebrated in the same state.",
+        "They are all different names for similar harvest festivals celebrated around the same time.",
+        "They all involve flying kites.",
+        "They are celebrated in honor of the same historical king."
+      ],
+      "correct": 1,
+      "explanation": "The chapter uses these festivals as an example of a common theme (harvest) celebrated across India at the same time but with different names and customs.",
+      "topic": "Festival Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "The stories of the Panchatantra were adapted into about 200 versions in over 50 languages worldwide. What does this illustrate?",
+      "options": [
+        "That the original text was lost.",
+        "That Indian literature was not very original.",
+        "How a single source of stories ('one') can spread and transform into many different versions ('many').",
+        "That animals can't really talk."
+      ],
+      "correct": 2,
+      "explanation": "The text uses the global spread and adaptation of the Panchatantra to illustrate how 'one' collection of stories has become 'many'.",
+      "topic": "Literary Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "The text says 'the same ingredients (unity) can be used in a number of combinations (diversity) to prepare an endless variety of dishes!' What does this analogy explain?",
+      "options": [
+        "That all Indian food tastes the same.",
+        "That India has a limited number of spices.",
+        "The concept of 'unity in diversity' as applied to Indian cuisine.",
+        "That cooking is a difficult skill."
+      ],
+      "correct": 2,
+      "explanation": "This sentence is a direct analogy explaining the principle of unity in diversity using the example of food, where common ingredients create diverse dishes.",
+      "topic": "Food Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "According to the text, what is the first thing that usually strikes visitors about India?",
+      "options": [
+        "Its political system",
+        "Its uniform culture",
+        "Its rich diversity",
+        "Its economic policies"
+      ],
+      "correct": 2,
+      "explanation": "The chapter begins by stating that India's rich diversity is usually the first thing that strikes visitors.",
+      "topic": "A Rich Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "What is the central theme of both the Ramayana and the Mahabharata?",
+      "options": [
+        "A travelogue to different cities",
+        "The creation of the universe",
+        "Heroes fighting to re-establish dharma",
+        "A guide to ancient farming techniques"
+      ],
+      "correct": 2,
+      "explanation": "The text states that these two epics narrate the stories of heroes who fight to re-establish dharma (what is right).",
+      "topic": "Literary Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "The chapter shows multiple images of a sari being used for purposes other than a dress, such as a cradle or a fishing net. What does this demonstrate?",
+      "options": [
+        "That saris are not good as dresses.",
+        "That people in the past were not fashionable.",
+        "The simplicity, economy, and creative versatility of the garment.",
+        "That there is a shortage of rope and nets."
+      ],
+      "correct": 2,
+      "explanation": "These images illustrate the point made in the text about the sari's simplicity, economy, and the diverse, creative ways it can be used beyond clothing.",
+      "topic": "Textile Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "According to historian Vincent Smith, what provides the answer to the challenge of writing a single history for a bewilderingly diverse country like India?",
+      "options": [
+        "Focusing only on the history of its rulers",
+        "Ignoring the diversity altogether",
+        "The fact that India offers unity in diversity",
+        "Writing separate histories for every community"
+      ],
+      "correct": 2,
+      "explanation": "The text quotes Vincent Smith, who found the answer to the query in the fact that 'India offers unity in diversity'.",
+      "topic": "A Rich Diversity",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Sri Aurobindo's quote mentions 'Swabhava and Swadharma' as the sure foundation for India. Based on the chapter's theme, what does this likely imply?",
+      "options": [
+        "India should adopt a single, uniform culture.",
+        "India's true nature (Swabhava) is to find its own path (Swadharma) through the principle of unity in diversity.",
+        "India should isolate itself from the rest of the world.",
+        "India's foundation is based on economic principles alone."
+      ],
+      "correct": 1,
+      "explanation": "In the context of 'Many in the One', Swabhava (one's own true nature) and Swadharma (one's own way) suggest that India's strength lies in embracing its inherent nature of unity in diversity, not in imposing uniformity.",
+      "topic": "Conceptual Understanding",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Jawaharlal Nehru observed that even illiterate villagers knew hundreds of verses from the epics by heart. What does this suggest about the role of these texts in Indian society?",
+      "options": [
+        "Literacy was not valued in ancient India.",
+        "The epics were only for entertainment and had no moral value.",
+        "The cultural and moral content of the epics was deeply integrated into the popular mind through a strong oral tradition, transcending literacy.",
+        "Only villagers were interested in the epics."
+      ],
+      "correct": 2,
+      "explanation": "Nehru's observation highlights that the epics were not just written texts for the elite, but a living part of the culture, transmitted orally and providing a shared moral and narrative framework for all.",
+      "topic": "Literary Diversity",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "The text states, 'Indian culture celebrates diversity as an enrichment, but never loses sight of the underlying unity'. How do the examples of the epics support this?",
+      "options": [
+        "There is only one official version of each epic.",
+        "The core story and values (unity) remain recognizable across countless regional and folk variations (diversity).",
+        "The epics are always performed in the same language, Sanskrit.",
+        "Different communities are forbidden from adapting the epics."
+      ],
+      "correct": 1,
+      "explanation": "The epics' core themes, characters, and moral questions provide an underlying unity, which is enriched and nourished by the diverse ways different communities retell and interpret the stories.",
+      "topic": "Conceptual Understanding",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "The 'People of India' project found 325 languages using 25 scripts. How does this finding present a challenge to the idea of a single, unified national identity?",
+      "options": [
+        "It proves that no unity exists in India.",
+        "It suggests that a unified identity must be based on something other than a single language or script, embracing linguistic diversity instead.",
+        "It means communication between different parts of India is impossible.",
+        "It shows that only 25 languages are important."
+      ],
+      "correct": 1,
+      "explanation": "This 'bewildering diversity,' as Vincent Smith called it, means that any concept of Indian unity cannot be based on linguistic uniformity. Instead, it must be a unity that accommodates and thrives on this diversity.",
+      "topic": "A Rich Diversity",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "Why would tribal communities like the Bhils and Gonds adapt the Mahabharata and Ramayana and connect the heroes to their own regions?",
+      "options": [
+        "They were forced to do so by rulers.",
+        "To make these national narratives part of their own local history and identity, thereby participating in a shared cultural web.",
+        "They misunderstood the original stories.",
+        "There were no other stories available to them."
+      ],
+      "correct": 1,
+      "explanation": "This adaptation is an active process of cultural integration. By placing epic heroes in their own lands, communities make the national story a local one, weaving their own identity into the larger cultural tapestry of India.",
+      "topic": "Literary Diversity",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "Rabindranath Tagore's prayer is to 'never lose the bliss of the touch of the one in the play of the many'. What does this sentiment advocate for?",
+      "options": [
+        "Focusing only on unity and ignoring diversity.",
+        "Appreciating diverse expressions (the many) while always feeling the underlying connection or unity (the one).",
+        "The replacement of 'the many' with 'the one'.",
+        "A society where everyone is completely independent with no unifying elements."
+      ],
+      "correct": 1,
+      "explanation": "Tagore's prayer beautifully captures the essence of the chapter: finding joy and meaning in the diverse manifestations of life ('the play of the many') without losing connection to the fundamental unity that binds them.",
+      "topic": "Conceptual Understanding",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "The chapter discusses food, clothing, festivals, and literature. What is the common analytical pattern used in all four examples?",
+      "options": [
+        "Proving that diversity is a problem for India.",
+        "Demonstrating that all aspects of Indian culture originated from one place.",
+        "Identifying a common element or theme (unity) and then showing its numerous variations and expressions (diversity).",
+        "Arguing that unity is more important than diversity."
+      ],
+      "correct": 2,
+      "explanation": "In each section, the text first establishes a unifying factor (staple grains, the sari, the harvest season, the epics) and then elaborates on the rich diversity of its expression.",
+      "topic": "Conceptual Understanding",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "The text states that in classical arts and architecture, 'both diversity and unity are easily noticeable'. Based on the chapter's logic, what might this look like?",
+      "options": [
+        "All temples look exactly the same.",
+        "There are no common principles in Indian architecture.",
+        "Different regional styles of temples (diversity) might share common underlying principles of sacred geometry or iconic figures (unity).",
+        "Architecture shows unity, but art shows only diversity."
+      ],
+      "correct": 2,
+      "explanation": "Applying the chapter's logic, one would expect to find common philosophical or structural principles (unity) expressed through distinct regional architectural styles, materials, and carvings (diversity).",
+      "topic": "Conceptual Understanding",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "The chapter mentions 'many Indians may be called migrants' because they don't live near their birthplace. How does this internal migration contribute to India's 'unity in diversity'?",
+      "options": [
+        "It erases regional cultures entirely.",
+        "It prevents people from different regions from ever meeting.",
+        "It leads to the constant mixing of people, languages, and customs, reinforcing diversity in any given place while also creating shared experiences.",
+        "It forces everyone to adopt the culture of the place they move to."
+      ],
+      "correct": 2,
+      "explanation": "The movement of people across regions is a dynamic force that enhances diversity locally (e.g., a person from Bengal living in Kerala) while also fostering a broader, shared understanding and national unity through interaction.",
+      "topic": "A Rich Diversity",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Why does the final sentence argue that unity 'nourishes' diversity?",
+      "options": [
+        "Because unity forces everyone to be diverse.",
+        "Because without a shared cultural or civilizational foundation (unity), the various differences (diversity) might lead to fragmentation rather than a rich, interconnected tapestry.",
+        "Because diversity can only exist if it is centrally controlled.",
+        "Because unity and diversity are conflicting ideas that cannot coexist."
+      ],
+      "correct": 1,
+      "explanation": "The idea that unity 'nourishes' diversity implies a symbiotic relationship. A common foundation of values and shared heritage provides a stable ground from which diverse cultural expressions can grow and flourish without breaking the whole apart.",
+      "topic": "Conceptual Understanding",
+      "difficulty": "hard"
+    }
+  ]
+}

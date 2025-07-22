@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 6,
+    "chapterName": "The Beginnings of Indian Civilisation",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which river valley is known as the cradle of Indian civilization?",
+      "options": ["Ganga", "Yamuna", "Indus", "Brahmaputra"],
+      "correct": 2,
+      "explanation": "The Indus River valley is known as the cradle of Indian civilization where the Harappan culture flourished",
+      "topic": "Ancient Civilizations"
+    }
+  ]
+}

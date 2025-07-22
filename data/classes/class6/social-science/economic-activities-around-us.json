@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 14,
+    "chapterName": "Economic Activities Around Us",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of these is a primary economic activity?",
+      "options": ["Teaching", "Farming", "Banking", "Transportation"],
+      "correct": 1,
+      "explanation": "Farming is a primary economic activity as it involves direct extraction from nature",
+      "topic": "Economic Activities"
+    }
+  ]
+}

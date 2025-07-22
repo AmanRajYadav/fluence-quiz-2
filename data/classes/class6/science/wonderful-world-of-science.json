@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 1,
+    "chapterName": "The Wonderful World of Science",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Science helps us understand the world around us through:",
+      "options": ["Observation", "Guessing", "Magic", "Stories"],
+      "correct": 0,
+      "explanation": "Science is based on careful observation and experimentation",
+      "topic": "Scientific Method"
+    }
+  ]
+}

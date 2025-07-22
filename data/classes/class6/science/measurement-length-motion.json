@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 5,
+    "chapterName": "Measurement of Length and Motion",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "The SI unit of length is:",
+      "options": ["Centimeter", "Meter", "Kilometer", "Millimeter"],
+      "correct": 1,
+      "explanation": "Meter is the SI (International System) unit of length",
+      "topic": "Units of Measurement"
+    }
+  ]
+}

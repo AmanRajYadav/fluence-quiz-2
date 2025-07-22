@@ -1,0 +1,20 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "hindi",
+    "category": "gadya",
+    "categoryName": "गद्य (Prose)",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "गद्य का मतलब क्या है?",
+      "options": ["कविता", "छंदरहित लेखन", "नाटक", "कहानी"],
+      "correct": 1,
+      "explanation": "गद्य का मतलब छंदरहित लेखन है, जैसे कहानी, निबंध आदि",
+      "topic": "गद्य की परिभाषा"
+    }
+  ]
+}

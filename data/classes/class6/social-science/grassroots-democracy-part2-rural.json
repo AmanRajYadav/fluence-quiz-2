@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 11,
+    "chapterName": "Grassroots Democracy — Part 2: Rural",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "The village-level democratic institution in India is called:",
+      "options": ["Municipality", "Panchayat", "Corporation", "Council"],
+      "correct": 1,
+      "explanation": "Panchayat is the village-level democratic institution that manages local governance in rural areas",
+      "topic": "Rural Governance"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social science",
+    "chapterNumber": 2,
+    "chapterName": "Oceans and Continents",
+    "totalQuestions": 30,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What nickname was given to Earth by early astronauts because of its appearance from space?",
+      "options": [
+        "The Green Marble",
+        "The Blue Planet",
+        "The Water World",
+        "The White Cloud"
+      ],
+      "correct": 1,
+      "explanation": "When seen from outer space, the Earth appears mostly blue because almost three-fourths of its surface is covered with water, leading astronauts to call it the 'blue planet'.",
+      "topic": "Introduction to Earth's Surface",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What is a large continuous expanse of land called?",
+      "options": [
+        "An island",
+        "A peninsula",
+        "A continent",
+        "A landmass"
+      ],
+      "correct": 2,
+      "explanation": "The text defines a 'continent' as a large continuous expanse of land.",
+      "topic": "Continents",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "According to the text, which is the largest ocean in the world?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that the Pacific Ocean is the largest of all the oceans.",
+      "topic": "Oceans",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What is the term for the plant life of a particular region?",
+      "options": [
+        "Fauna",
+        "Marine",
+        "Algae",
+        "Flora"
+      ],
+      "correct": 3,
+      "explanation": "The glossary in the chapter defines 'Flora' as the plant life of a particular region or period of time.",
+      "topic": "Ecosystem Terminology",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What is a piece of land surrounded by water on all sides called?",
+      "options": [
+        "Continent",
+        "Island",
+        "Bay",
+        "Gulf"
+      ],
+      "correct": 1,
+      "explanation": "The chapter defines islands as smaller pieces of land surrounded by water on all sides.",
+      "topic": "Landforms",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Which is the largest island in the world mentioned in the text?",
+      "options": [
+        "Andaman and Nicobar",
+        "Lakshadweep",
+        "Australia",
+        "Greenland"
+      ],
+      "correct": 3,
+      "explanation": "The text clearly states that Greenland is the largest island in the world.",
+      "topic": "Islands",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "According to the United Nations, what day is designated as World Oceans Day?",
+      "options": [
+        "June 8",
+        "December 26",
+        "April 22",
+        "January 1"
+      ],
+      "correct": 0,
+      "explanation": "The text mentions that the United Nations has designated June 8 as World Oceans Day.",
+      "topic": "Oceans and Conservation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Approximately how much of the Earth's surface is covered by water?",
+      "options": [
+        "One-fourth",
+        "Half",
+        "Three-fourths",
+        "One-third"
+      ],
+      "correct": 2,
+      "explanation": "The chapter states that almost three-fourths of the Earth's surface is covered with water.",
+      "topic": "Earth's Surface Composition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Which is the smallest ocean listed in the chapter?",
+      "options": [
+        "Southern Ocean",
+        "Indian Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean"
+      ],
+      "correct": 3,
+      "explanation": "The text ranks the oceans by size and identifies the Arctic Ocean as the smallest one.",
+      "topic": "Oceans",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Which continent is the coldest and was the site of India's 'Dakshin Gangotri' research base?",
+      "options": [
+        "Asia",
+        "Europe",
+        "Antarctica",
+        "Australia"
+      ],
+      "correct": 2,
+      "explanation": "The text describes Antarctica as a continent with a very cold climate where India established its scientific base station.",
+      "topic": "Continents and Research",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Why is most of the water on Earth unfit for consumption by humans?",
+      "options": [
+        "It is frozen in glaciers.",
+        "It is too deep in the ground.",
+        "It is salty seawater.",
+        "It is polluted by plastics."
+      ],
+      "correct": 2,
+      "explanation": "The chapter explains that seawater, which makes up most of the planet's water, is salty and unfit for consumption by most land animals, including humans.",
+      "topic": "Water Resources",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "What is the primary cause of a tsunami, as described in the text?",
+      "options": [
+        "Strong winds from a cyclone",
+        "Heavy monsoon rains",
+        "An earthquake or volcanic eruption on the ocean floor",
+        "The melting of glaciers"
+      ],
+      "correct": 2,
+      "explanation": "A tsunami is defined as a huge wave generally caused by a strong earthquake or a volcanic eruption at the bottom of the ocean.",
+      "topic": "Natural Disasters",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Why are Europe and Asia, despite being a single landmass (Eurasia), often considered two separate continents?",
+      "options": [
+        "They are separated by a large ocean.",
+        "A large mountain range divides them perfectly.",
+        "For historical and cultural reasons.",
+        "They are on different tectonic plates."
+      ],
+      "correct": 2,
+      "explanation": "The text states that for historical and cultural reasons, Europe's evolution has been very different from Asia's, which is why they are often seen as two continents.",
+      "topic": "Continents",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "What vital role do the oceans' flora play, earning them the nickname 'the planet's lungs'?",
+      "options": [
+        "They absorb plastic pollution.",
+        "They produce more than half of the world's oxygen.",
+        "They are a major source of medicine.",
+        "They regulate the salt content of the water."
+      ],
+      "correct": 1,
+      "explanation": "More than half of the world's oxygen is produced by the oceans' flora, which is why they are called 'the planet's lungs'.",
+      "topic": "Role of Oceans",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "The five Olympic rings symbolize five inhabited continents. Which continent from the seven-continent list is excluded?",
+      "options": [
+        "Africa",
+        "Australia",
+        "Antarctica",
+        "Asia"
+      ],
+      "correct": 2,
+      "explanation": "The rings represent Africa, America, Asia, Australia and Europe. The uninhabited continent of Antarctica is not represented.",
+      "topic": "Continents",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a source of freshwater?",
+      "options": [
+        "Bay of Bengal",
+        "Arabian Sea",
+        "Pacific Ocean",
+        "Glaciers"
+      ],
+      "correct": 3,
+      "explanation": "The text lists glaciers, rivers, lakes, the atmosphere, and groundwater as sources of freshwater, which is a small proportion of the planet's water.",
+      "topic": "Water Resources",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "What is the relationship between the oceans and India's monsoon rains?",
+      "options": [
+        "The monsoons cause the oceans to get bigger.",
+        "The oceans have no effect on the monsoons.",
+        "The monsoon rains originate in the ocean.",
+        "The monsoon rains make the ocean water less salty."
+      ],
+      "correct": 2,
+      "explanation": "The text explains that clouds, which bring rain, originate in the ocean, citing India's monsoon rains as an example.",
+      "topic": "Climate and Oceans",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "According to the text, what are two major threats to marine life caused by human activity?",
+      "options": [
+        "Fishing and swimming",
+        "Tsunamis and cyclones",
+        "Pollution and overfishing",
+        "Migration and trade"
+      ],
+      "correct": 2,
+      "explanation": "The chapter explicitly mentions that throwing plastic waste (pollution) and excessive fishing (overfishing) are human activities threatening the marine environment.",
+      "topic": "Human Impact on Oceans",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "What is the name of the Vedic deity associated with oceans, invoked in the motto of the Indian Navy?",
+      "options": [
+        "Indra",
+        "Agni",
+        "Varuna",
+        "Surya"
+      ],
+      "correct": 2,
+      "explanation": "The motto 'Sam noh Varunah' is an invocation to Varuna, a Vedic deity associated with the oceans.",
+      "topic": "Culture and Oceans",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Based on the distribution map, which hemisphere has a greater proportion of land?",
+      "options": [
+        "The Southern Hemisphere",
+        "The Northern Hemisphere",
+        "The Eastern Hemisphere",
+        "The Western Hemisphere"
+      ],
+      "correct": 1,
+      "explanation": "The chapter states that oceans and continents are not distributed equally and that the Northern Hemisphere holds more land than the Southern Hemisphere.",
+      "topic": "Distribution of Land and Water",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "The text states that the lines dividing oceans on maps are 'conventions'. What is the most significant implication of this statement?",
+      "options": [
+        "Mapmakers often make mistakes.",
+        "Oceans can change their names over time.",
+        "The world's oceans are all interconnected and form one continuous body of water.",
+        "Each ocean has a distinct and separate ecosystem."
+      ],
+      "correct": 2,
+      "explanation": "The text clarifies that the dividing lines are conventions and that seawater constantly flows across different oceans, meaning they are not truly separate.",
+      "topic": "Oceans",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "The chapter poses a question: If water is so abundant, why is there talk of 'water scarcity'? What is the underlying reason for this paradox?",
+      "options": [
+        "Most of the water is polluted by plastic.",
+        "A very small proportion of the total water is freshwater suitable for human use.",
+        "Oceans are too far away from most cities.",
+        "Climate change is causing all the water to evaporate."
+      ],
+      "correct": 1,
+      "explanation": "The paradox exists because while the Earth is covered in water, most of it is salty ocean water. The freshwater available for human consumption is a very small fraction of the total.",
+      "topic": "Water Resources",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "Why would geologists prefer the term 'Eurasia' while many others refer to 'Europe' and 'Asia' separately?",
+      "options": [
+        "Geologists are only concerned with culture.",
+        "Geologists focus on the single, continuous landmass rather than historical or cultural divisions.",
+        "Eurasia is an older term that is no longer in common use.",
+        "There is a large ocean separating Europe and Asia."
+      ],
+      "correct": 1,
+      "explanation": "Geologists look at the physical geography and see a single, unbroken continent (a landmass), whereas the separation into Europe and Asia is based on human factors like history and culture.",
+      "topic": "Continents",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "The text mentions both the blessings and dangers of oceans. Which option best represents this duality?",
+      "options": [
+        "Providing fish for food but also having mysterious creatures.",
+        "Enabling trade routes but also causing tsunamis.",
+        "Having salty water but also freshwater in rivers.",
+        "Being blue in color but having white clouds above."
+      ],
+      "correct": 1,
+      "explanation": "Oceans are a blessing as they facilitate trade, but they are also a danger as they can generate destructive events like tsunamis and cyclones.",
+      "topic": "Role of Oceans",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "Why is a massive landmass like Australia considered a continent and not an island?",
+      "options": [
+        "It has a unique culture.",
+        "It is located in the Southern Hemisphere.",
+        "It has its own tectonic plate.",
+        "Because it is so large, it is not considered an island."
+      ],
+      "correct": 3,
+      "explanation": "The text explicitly states that continents are also surrounded by water, but 'because they are so large, they are not considered islands'.",
+      "topic": "Continents and Islands",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "What is the primary function of the 'Indian Ocean Tsunami Warning System'?",
+      "options": [
+        "To prevent earthquakes from happening.",
+        "To provide early detection of tsunamis to protect lives and property.",
+        "To dispatch rescue teams after a tsunami has struck.",
+        "To study the marine life affected by tsunamis."
+      ],
+      "correct": 1,
+      "explanation": "The text explains that such 'early warning systems' help detect tsunamis before they hit a coast, which helps in taking measures to protect lives and property.",
+      "topic": "Natural Disasters",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "If there were no oceans, what would the climate of the Earth be like, according to the text?",
+      "options": [
+        "A lush jungle",
+        "A frozen tundra",
+        "A desert",
+        "A single, large swamp"
+      ],
+      "correct": 2,
+      "explanation": "The text argues that oceans are essential for the water cycle and rainfall, concluding that 'Without oceans... The Earth would be a desert.'",
+      "topic": "Climate and Oceans",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "India's establishment of the 'Dakshin Gangotri' research base in Antarctica demonstrates what?",
+      "options": [
+        "An attempt to claim territory on the continent.",
+        "A commitment to scientific research in remote and harsh environments.",
+        "A plan to create a new tourist destination.",
+        "The search for new sources of freshwater."
+      ],
+      "correct": 1,
+      "explanation": "The text states that the Indian Antarctica Programme explores the continent and conducts research on the evolution of climate and environment, indicating a commitment to science.",
+      "topic": "Continents and Research",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "The different ways of counting continents (four, five, six, or seven) arise from disagreements on how to classify which landmasses?",
+      "options": [
+        "Australia and Antarctica",
+        "Africa and Asia",
+        "The Americas (North and South) and Africa-Eurasia",
+        "Greenland and India"
+      ],
+      "correct": 2,
+      "explanation": "The variations in counting come from whether North and South America are seen as one or two continents, and whether Africa, Europe, and Asia are seen as one, two, or three continents.",
+      "topic": "Continents",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "What is the main idea conveyed by the section titled 'Oceans and Life'?",
+      "options": [
+        "Humans should avoid the oceans because they are dangerous.",
+        "Oceans are only important for the people who live on the coast.",
+        "Oceans are a distant and irrelevant part of the environment.",
+        "Oceans are fundamentally vital for regulating global climate and sustaining all life on Earth."
+      ],
+      "correct": 3,
+      "explanation": "This section summarizes how oceans produce oxygen, send rain, regulate climate, and support life, emphasizing their critical and interconnected role for the entire planet.",
+      "topic": "Role of Oceans",
+      "difficulty": "hard"
+    }
+  ]
+}
