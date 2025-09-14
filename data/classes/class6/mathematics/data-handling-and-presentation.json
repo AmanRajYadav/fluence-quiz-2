@@ -4,17 +4,429 @@
     "subject": "mathematics",
     "chapterNumber": 4,
     "chapterName": "Data Handling and Presentation",
-    "totalQuestions": 1,
+    "totalQuestions": 30,
     "difficulty": "easy"
   },
   "questions": [
     {
       "id": 1,
-      "question": "In a pictograph, if 🌟 = 10 students, how many students does 🌟🌟🌟 represent?",
-      "options": ["3", "10", "30", "13"],
+      "question": "What is a collection of facts, numbers, or observations that convey information called?",
+      "options": [
+        "A graph",
+        "A list",
+        "Data",
+        "A table"
+      ],
       "correct": 2,
-      "explanation": "3 stars × 10 students per star = 30 students",
-      "topic": "Pictographs"
+      "explanation": "Any collection of facts, numbers, measures, observations, or other descriptions of things that convey information is called data.",
+      "topic": "Introduction to Data",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "In a frequency table, what does the tally mark '||||' with a line through it represent?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "correct": 1,
+      "explanation": "When using tally marks, a count of 5 is represented by putting a line through the previous four marks.",
+      "topic": "Organising Data",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Which type of graph uses pictures of objects to represent data?",
+      "options": [
+        "Bar graph",
+        "Line graph",
+        "Pictograph",
+        "Column graph"
+      ],
+      "correct": 2,
+      "explanation": "A pictograph represents data through pictures of objects.",
+      "topic": "Pictographs",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "In the pictograph about modes of travelling, what does one smiley face symbol represent?",
+      "options": [
+        "10 students",
+        "5 students",
+        "1 student",
+        "2 students"
+      ],
+      "correct": 2,
+      "explanation": "The key for the pictograph showing modes of travelling indicates that one smiley face symbol equals 1 student.",
+      "topic": "Reading Pictographs",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What is the term for the number of times a particular observation occurs in a dataset?",
+      "options": [
+        "Scale",
+        "Tally",
+        "Data",
+        "Frequency"
+      ],
+      "correct": 3,
+      "explanation": "Frequencies are the counts of the occurrences of values, measures or observations. For example, the number of students who prefer a certain sweet is the frequency for that sweet.",
+      "topic": "Organising Data",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "According to the bar graph of sweet preferences, which sweet was the most popular among the students?",
+      "options": [
+        "Jalebi",
+        "Gulab jamun",
+        "Gujiya",
+        "Rasgulla"
+      ],
+      "correct": 2,
+      "explanation": "The bar for Gujiya is the tallest in the graph, indicating it was chosen by the most students (13).",
+      "topic": "Reading Bar Graphs",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What is a bar graph with vertical bars also called?",
+      "options": [
+        "A horizontal graph",
+        "A pictograph",
+        "An infographic",
+        "A column graph"
+      ],
+      "correct": 3,
+      "explanation": "A bar graph with vertical bars is also called a column graph, as the bars resemble columns or pillars.",
+      "topic": "Bar Graphs",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "In a bar graph, what must be true about the width of the bars?",
+      "options": [
+        "They must be of different widths.",
+        "They must be of uniform width.",
+        "The width depends on the frequency.",
+        "The width must increase with each bar."
+      ],
+      "correct": 1,
+      "explanation": "When making bar graphs, bars of uniform width are drawn either horizontally or vertically.",
+      "topic": "Drawing a Bar Graph",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What does the 'scale' or 'key' in a pictograph or bar graph tell you?",
+      "options": [
+        "The title of the graph.",
+        "The total number of items.",
+        "What each symbol or unit length represents.",
+        "The most popular item."
+      ],
+      "correct": 2,
+      "explanation": "A scale or key is added to a graph to show what each symbol or picture represents (e.g., 1 smiley = 5 students).",
+      "topic": "Pictographs and Bar Graphs",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What is the first step in drawing a bar graph?",
+      "options": [
+        "Choose a scale.",
+        "Draw the bars.",
+        "Draw a horizontal line and a vertical line.",
+        "Write the title."
+      ],
+      "correct": 2,
+      "explanation": "The first step to prepare a bar graph is to draw a horizontal line and a vertical line, which serve as the axes.",
+      "topic": "Drawing a Bar Graph",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "In the pictograph where one symbol represents 10 children, how many children sometimes slept at least 9 hours?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "50"
+      ],
+      "correct": 1,
+      "explanation": "There are 2 complete pictures (2 x 10 = 20) and a half picture (half of 10 = 5), so the total is 20 + 5 = 25 children.",
+      "topic": "Interpreting Pictographs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "What is the main advantage of arranging numerical data, like shoe sizes, in ascending order?",
+      "options": [
+        "It makes the list look neater.",
+        "It helps to quickly find the smallest and largest values.",
+        "It is the only way to create a table.",
+        "It automatically calculates the total."
+      ],
+      "correct": 1,
+      "explanation": "Arranging data in ascending order helps to easily identify the largest and smallest values, as well as the frequency of each number.",
+      "topic": "Organising Data",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "In the railway ticket bar graph, the bar for Vidisha is 6 units high and represents 24 tickets. What is the scale of the graph?",
+      "options": [
+        "1 unit length = 1 ticket",
+        "1 unit length = 6 tickets",
+        "1 unit length = 24 tickets",
+        "1 unit length = 4 tickets"
+      ],
+      "correct": 3,
+      "explanation": "If 6 units represent 24 tickets, then one unit length represents 24 divided by 6, which is 4 tickets.",
+      "topic": "Interpreting Bar Graphs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "According to the traffic bar graph, what is the total number of vehicles that passed through the crossing between 8 a.m. and 10 a.m.?",
+      "options": [
+        "1200",
+        "1800",
+        "1000",
+        "800"
+      ],
+      "correct": 1,
+      "explanation": "The bar for 8-9 a.m. shows 1000 vehicles and the bar for 9-10 a.m. shows about 800 vehicles. The total is 1000 + 800 = 1800 vehicles.",
+      "topic": "Reading Bar Graphs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "When is it particularly useful to choose a scale where one unit represents multiple items (e.g., 1 unit = 10 runs)?",
+      "options": [
+        "When all the data values are small.",
+        "When there are only two categories.",
+        "When the data values are large or spread out.",
+        "When you are making a pictograph."
+      ],
+      "correct": 2,
+      "explanation": "When data is large, like Smriti's scores up to 100, using a scale like 1 unit length = 10 runs makes the graph easier and less tedious to draw.",
+      "topic": "Drawing a Bar Graph",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Why might a frequency table of sweet preferences not be sufficient for a teacher to distribute the correct sweet to each student?",
+      "options": [
+        "The table might have calculation errors.",
+        "The table only shows totals, not individual student choices.",
+        "Some students might change their minds.",
+        "The teacher might forget the sweets."
+      ],
+      "correct": 1,
+      "explanation": "A frequency table shows the total count for each sweet but does not link each student to their specific choice, making individual distribution impossible from that table alone.",
+      "topic": "Data Analysis",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "What is a major challenge in creating a pictograph when a frequency (e.g., 35) is not an exact multiple of the scale (e.g., 1 symbol = 10)?",
+      "options": [
+        "It's impossible to draw.",
+        "You have to use fractions or parts of a symbol.",
+        "The graph becomes too large.",
+        "The scale must be changed."
+      ],
+      "correct": 1,
+      "explanation": "When a frequency is not a multiple of the scale, one must use a part of the symbol to represent the remainder, like using half a symbol to show 5 when the scale is 10.",
+      "topic": "Pictographs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "How much did the population of India increase from the year 1951 to 2001, based on the bar graph?",
+      "options": [
+        "About 36 crores",
+        "About 84 crores",
+        "About 66 crores",
+        "About 102 crores"
+      ],
+      "correct": 2,
+      "explanation": "The population in 1951 was about 36 crores and in 2001 it was about 102 crores (not explicitly stated but shown on a later, similar graph). Based on the 1991 value of 84 and 1951 value of 36, a significant increase occurred. The increase from 36 crores (1951) to an estimated 102 crores (2001) is 66 crores.",
+      "topic": "Interpreting Bar Graphs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "Based on the bar graph of Imran's family expenditure, the spending on food (₹3400) is highest. Which item accounts for the second-highest expenditure?",
+      "options": [
+        "Miscellaneous",
+        "Education",
+        "House rent",
+        "Transport"
+      ],
+      "correct": 2,
+      "explanation": "After Food (₹3400), the next highest expenditure is House rent at ₹3000.",
+      "topic": "Reading Bar Graphs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Under which circumstances is a bar graph generally more practical to use than a pictograph?",
+      "options": [
+        "When the data is very simple.",
+        "When the audience is young children.",
+        "When the amount of data is large.",
+        "When you want to use colors."
+      ],
+      "correct": 2,
+      "explanation": "When the amount of data is large, presenting it with a pictograph can be time-consuming and difficult, making a bar graph a better alternative.",
+      "topic": "Comparing Graphs",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "When creating a visual representation of the heights of the tallest mountains on each continent, why is a vertical bar graph (column graph) considered more intuitive?",
+      "options": [
+        "It uses less ink.",
+        "Horizontal bars are not allowed.",
+        "It is more visually appealing to represent height with vertical bars that grow upward like mountains.",
+        "It is faster to draw."
+      ],
+      "correct": 2,
+      "explanation": "It is more intuitive and visually suggestive to represent heights, which are measured upwards from the ground, using vertical bars or columns.",
+      "topic": "Aesthetic Considerations",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "An infographic shows taller mountains as both taller and wider triangles. Why can this be misleading?",
+      "options": [
+        "Triangles are a bad shape for graphs.",
+        "It implies a relationship between height and width that may not be true.",
+        "The colors are distracting.",
+        "The graph doesn't have a title."
+      ],
+      "correct": 1,
+      "explanation": "Using bars of the same width makes it clear only one variable (height) is being compared. Making taller triangles also wider implies additional, potentially incorrect, information that taller mountains are always wider.",
+      "topic": "Infographics and Misleading Data",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "In the table of Jaspreet Bumrah's wickets, a student suggests adding 0+1+2+3+4+5+6+7 to find the total wickets taken. Why is this incorrect?",
+      "options": [
+        "He should have used a calculator.",
+        "He forgot to add the number of matches.",
+        "This adds the wicket categories, not the total wickets based on frequency.",
+        "The data in the table is wrong."
+      ],
+      "correct": 2,
+      "explanation": "This method is incorrect because it only sums the types of outcomes. The correct way is to multiply each wicket number by the number of matches (its frequency) in which it occurred and then sum those products.",
+      "topic": "Data Analysis",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Why does a question like 'When did India get independence?' NOT require data collection in the same way as 'What is the most popular TV show among classmates?'",
+      "options": [
+        "The first question is harder to answer.",
+        "The second question is about TV.",
+        "The first question has a single, verifiable factual answer, while the second requires collecting opinions from a group.",
+        "The first question is history, not math."
+      ],
+      "correct": 2,
+      "explanation": "Finding the most popular TV show requires collecting data (opinions) from a group. Finding the date of independence requires looking up a single, established fact, not collecting data from multiple sources.",
+      "topic": "Data Collection",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "Based on the traffic graph, why might the traffic be heaviest in the 7-8 a.m. interval and lighter in the 6-7 a.m. interval?",
+      "options": [
+        "The traffic police started work at 7 a.m.",
+        "It is a random pattern with no explanation.",
+        "This is likely when most people are commuting to work or school.",
+        "There were more cars sold that year."
+      ],
+      "correct": 2,
+      "explanation": "The text prompts the reader to infer a reason. A logical explanation is that the 7-8 a.m. period is a peak commuting time for people going to work and school, whereas 6-7 a.m. is too early for most.",
+      "topic": "Making Inferences from Data",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "What is the primary risk of focusing too much on making a data visualization 'fancy' or 'artistic'?",
+      "options": [
+        "It might take too long to create.",
+        "It may accidentally mislead the audience or misrepresent the data.",
+        "It might not be colorful enough.",
+        "It will be too expensive to print."
+      ],
+      "correct": 1,
+      "explanation": "While making graphs visually appealing is good, focusing too much on artistic elements can sometimes be misleading and distort the factual information the data is supposed to represent.",
+      "topic": "Infographics and Misleading Data",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Looking at the bar graph of tiger populations in India from 2006 to 2022, what is the most significant trend shown?",
+      "options": [
+        "The population has been decreasing steadily.",
+        "The population has stayed exactly the same.",
+        "The population has been consistently increasing over the period shown.",
+        "The population fluctuated up and down."
+      ],
+      "correct": 2,
+      "explanation": "The bar graph clearly shows that for each four-year interval from 2006 to 2022, the number of tigers has increased, showing a positive trend.",
+      "topic": "Making Inferences from Data",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "If you were to create a bar graph showing the lengths of the longest rivers on each continent, what would be the most intuitive orientation for the bars and why?",
+      "options": [
+        "Vertical, because rivers are tall.",
+        "Horizontal, because river lengths are distances measured parallel to the ground.",
+        "Circular, to show the rivers flow around the world.",
+        "Vertical, because it looks more professional."
+      ],
+      "correct": 1,
+      "explanation": "The text suggests that lengths that are parallel to the ground, like distances, are usually best represented using bar graphs with horizontal bars.",
+      "topic": "Aesthetic Considerations",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "What is the correct way to find the total number of wickets taken by Bumrah from the frequency table?",
+      "options": [
+        "Add the numbers in the 'Number of Matches' column.",
+        "Multiply (0x7) + (1x8) + (2x?) + (3x3) + (4x3) + (5x?) + ... and sum the results.",
+        "Find the average of the 'Wickets Taken' column.",
+        "Count the total number of rows in the table."
+      ],
+      "correct": 1,
+      "explanation": "To find the total wickets, you must multiply the number of wickets taken (e.g., 0, 1, 2) by its corresponding frequency (number of matches) and then add all those products together.",
+      "topic": "Data Analysis",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "The chapter emphasizes that the purpose of data handling is to find answers, test hypotheses, or make decisions. Which of the following activities best reflects this purpose?",
+      "options": [
+        "Copying a bar graph perfectly from the book.",
+        "Memorizing the definition of 'data'.",
+        "Collecting data on favorite games to determine which game is most popular in the class.",
+        "Coloring a pictograph with different crayons."
+      ],
+      "correct": 2,
+      "explanation": "The main focus is to use data handling to answer specific questions. Collecting data on games to find the most popular one is a direct application of this principle.",
+      "topic": "Purpose of Data Handling",
+      "difficulty": "hard"
     }
   ]
 }

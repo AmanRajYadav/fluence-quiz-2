@@ -1,20 +1,432 @@
 {
   "chapterInfo": {
     "class": 6,
-    "subject": "social-science",
+    "subject": "social science",
     "chapterNumber": 3,
     "chapterName": "Landforms and Life",
-    "totalQuestions": 1,
-    "difficulty": "easy"
+    "totalQuestions": 30,
+    "difficulty": "mixed"
   },
   "questions": [
     {
       "id": 1,
-      "question": "Which is the highest mountain peak in the world?",
-      "options": ["K2", "Mount Everest", "Kanchenjunga", "Makalu"],
+      "question": "What are the three major types of landforms discussed in the chapter?",
+      "options": [
+        "Volcanoes, Deserts, and Islands",
+        "Mountains, Plateaus, and Plains",
+        "Hills, Valleys, and Rivers",
+        "Coasts, Forests, and Grasslands"
+      ],
       "correct": 1,
-      "explanation": "Mount Everest is the highest mountain peak in the world at 8,848 meters",
-      "topic": "Mountains"
+      "explanation": "The chapter broadly divides landforms into three main categories: mountains, plateaus, and plains.",
+      "topic": "Types of Landforms",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What is the term for the height of an object above sea level?",
+      "options": [
+        "Terrain",
+        "Altitude",
+        "Summit",
+        "Slope"
+      ],
+      "correct": 1,
+      "explanation": "Altitude is defined as the height of an object above sea level.",
+      "topic": "Geographical Terms",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Which landform is described as being much higher than the surrounding landscape, with a broad base and a narrow summit?",
+      "options": [
+        "Plateau",
+        "Hill",
+        "Plain",
+        "Mountain"
+      ],
+      "correct": 3,
+      "explanation": "Mountains are defined as landforms that are much higher than the surrounding landscape and are recognized by a broad base, steep slopes, and a narrow summit.",
+      "topic": "Mountains",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Which plateau is nicknamed the 'Roof of the World' due to its high average altitude?",
+      "options": [
+        "Deccan Plateau",
+        "Chhota Nagpur Plateau",
+        "Tibetan Plateau",
+        "East African Plateau"
+      ],
+      "correct": 2,
+      "explanation": "The Tibetan Plateau has an average altitude of 4,500 m, which is why it has been nicknamed the 'Roof of the World'.",
+      "topic": "Plateaus",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "According to the text, which landform is generally not more than 300 metres above sea level and has an extensive flat surface?",
+      "options": [
+        "Plateau",
+        "Mountain",
+        "Plains",
+        "Hills"
+      ],
+      "correct": 2,
+      "explanation": "Plains are described as landforms with an extensive flat or gently undulating surface, generally not more than 300 metres above sea level.",
+      "topic": "Plains",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "Who was the first Indian woman to successfully climb Mount Everest in 1984?",
+      "options": [
+        "Arunima Sinha",
+        "Kalidasa",
+        "Bachendri Pal",
+        "Chomolungma"
+      ],
+      "correct": 2,
+      "explanation": "Bachendri Pal was the first Indian woman to climb Mount Everest in 1984.",
+      "topic": "Life in the Mountains",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What is the term for water from the atmosphere reaching the ground in any form, such as rain or snow?",
+      "options": [
+        "Cloudburst",
+        "Altitude",
+        "Precipitation",
+        "Sediment"
+      ],
+      "correct": 2,
+      "explanation": "Precipitation is defined as water from the atmosphere reaching the ground in any form, with rain, snow, and hail being the most common.",
+      "topic": "Geographical Terms",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Which landform is often called a 'storehouse of minerals'?",
+      "options": [
+        "Mountains",
+        "Plains",
+        "Valleys",
+        "Plateaus"
+      ],
+      "correct": 3,
+      "explanation": "Plateaus are rich in mineral deposits and have been called 'storehouses of minerals'.",
+      "topic": "Plateaus",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is the meeting point of two or more rivers called?",
+      "options": [
+        "Tributary",
+        "Confluence",
+        "Valley",
+        "Source"
+      ],
+      "correct": 1,
+      "explanation": "A confluence is the meeting point of two or more rivers.",
+      "topic": "Rivers and Plains",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What is the highest mountain peak in the world?",
+      "options": [
+        "Mount Kilimanjaro",
+        "Kanchenjunga",
+        "Mount Everest",
+        "Mont Blanc"
+      ],
+      "correct": 2,
+      "explanation": "Mount Everest is mentioned as the highest mountain in the world at 8,849 m.",
+      "topic": "Mountains",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Why are plains, such as the Ganga plain, highly suitable for agriculture?",
+      "options": [
+        "They have a cold climate which is good for crops.",
+        "They are rocky and prevent soil erosion.",
+        "Rivers deposit fertile sediments, making the soil rich.",
+        "They are at a high altitude, receiving more sunlight."
+      ],
+      "correct": 2,
+      "explanation": "Rivers originating in mountains carry sediments (rock, sand, silt) and deposit them in the plains, making the soil very fertile and ideal for agriculture.",
+      "topic": "Plains",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "How are hills distinguished from mountains in the text?",
+      "options": [
+        "Hills are always covered in snow, while mountains are not.",
+        "Hills have sharp peaks, while mountains have rounded tops.",
+        "Hills are part of ranges, while mountains are isolated.",
+        "Hills have lower height, less steep slopes, and rounded tops."
+      ],
+      "correct": 3,
+      "explanation": "The text defines hills as highlands with a lower height, less steep slopes, and rounded tops compared to mountains.",
+      "topic": "Mountains",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "What is terrace farming, and in which landform is it commonly practiced?",
+      "options": [
+        "Growing crops underwater in plains.",
+        "Planting trees in a random pattern on plateaus.",
+        "Cutting steps into slopes to create flat ground for farming in mountains.",
+        "Using large terraces to build houses in deserts."
+      ],
+      "correct": 2,
+      "explanation": "Terrace farming is a method of cultivation where steps are cut into mountain slopes to create flat areas for farming, as regular farming is difficult on steep terrain.",
+      "topic": "Life in the Mountains",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "What is the key difference between 'young' mountains like the Himalayas and 'old' mountains like the Aravalli Range?",
+      "options": [
+        "Young mountains are shorter and more rounded due to erosion.",
+        "Old mountains are still growing in height.",
+        "Young mountains have tall, sharp peaks, while old mountains are shorter and rounded.",
+        "Old mountains are found in Europe, while young mountains are in Asia."
+      ],
+      "correct": 2,
+      "explanation": "The text explains that 'young' mountains like the Himalayas are tall with sharp peaks, whereas 'old' mountains like the Aravalli Range are shorter and more rounded from being worn down by erosion over time.",
+      "topic": "Mountains",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "How was the Deccan Plateau of central and south India formed?",
+      "options": [
+        "By river sediment deposition.",
+        "Through volcanic activity millions of years ago.",
+        "By the collision of two continents recently.",
+        "By wind erosion of ancient mountains."
+      ],
+      "correct": 1,
+      "explanation": "The Deccan Plateau is one of the oldest plateaus in the world and was formed through volcanic activity.",
+      "topic": "Plateaus",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "The text mentions that the shift from rainfed agriculture to irrigation in the Ganga plains has created a new challenge. What is this challenge?",
+      "options": [
+        "A decrease in agricultural production.",
+        "An increase in annual rainfall.",
+        "The depletion (decrease) of groundwater.",
+        "The soil becoming less fertile."
+      ],
+      "correct": 2,
+      "explanation": "While irrigation increased production, it has also contributed to the depletion of groundwater, presenting a challenge for the future of agriculture in the region.",
+      "topic": "Life in the Plains",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "What type of vegetation gives way to grasses, mosses, and lichen at higher altitudes on mountains?",
+      "options": [
+        "Desert shrubs",
+        "Conifer trees like pines and firs",
+        "Jute and hemp crops",
+        "Tropical rainforests"
+      ],
+      "correct": 1,
+      "explanation": "At lower altitudes, montane forests with conifer trees are common, but at higher altitudes, these trees give way to grasses, mosses, and lichen.",
+      "topic": "Mountain Environment",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "Mount Kilimanjaro is mentioned as being different from the Himalayas or the Alps in what way?",
+      "options": [
+        "It is the highest mountain in the world.",
+        "It is an isolated mountain, not part of a range.",
+        "It is an 'old' mountain with a rounded top.",
+        "It is located in South America."
+      ],
+      "correct": 1,
+      "explanation": "The text notes that Mount Kilimanjaro in eastern Africa is an isolated mountain that is not part of any mountain range.",
+      "topic": "Mountains",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "What is the common characteristic of both hot deserts (like the Sahara) and cold deserts (like the Gobi)?",
+      "options": [
+        "They are both located in Africa.",
+        "They have unique but very little precipitation.",
+        "They are both considered plateaus.",
+        "They have no flora or fauna."
+      ],
+      "correct": 1,
+      "explanation": "Deserts, whether hot or cold, are defined as large, dry expanses with very little precipitation.",
+      "topic": "Deserts",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "In the ancient Tamil classification system of 'tiņais', what was the main occupation associated with the 'Marudam' landscape?",
+      "options": [
+        "Hunting and gathering",
+        "Cattle rearing",
+        "Fishing and seafaring",
+        "Farming"
+      ],
+      "correct": 3,
+      "explanation": "The table of tiņais shows that the 'Marudam' landscape, described as fertile agricultural plains, was associated with the main occupation of farming.",
+      "topic": "Landforms and Culture",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "The text states that mountains like the Himalayas are still being shaped by upliftment and erosion. What does this suggest about the Earth's surface?",
+      "options": [
+        "The Earth's surface is static and unchanging.",
+        "All landforms were created at the same time.",
+        "The Earth's surface is a dynamic and constantly changing system.",
+        "Erosion only happens on old mountains."
+      ],
+      "correct": 2,
+      "explanation": "The fact that mountains can still be growing (upliftment) while also being worn down (erosion) shows that the Earth's surface is not fixed but is an active and dynamic system.",
+      "topic": "Formation of Landforms",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Why might uncontrolled tourism be considered a 'human-made challenge' for mountain communities?",
+      "options": [
+        "Tourists bring new cultural ideas.",
+        "An excessive inflow of visitors can put the fragile mountain environment under pressure.",
+        "Tourism provides no economic benefits to local people.",
+        "Tourists help in preventing landslides and avalanches."
+      ],
+      "correct": 1,
+      "explanation": "The text states that an excessive inflow of visitors can put the fragile mountain environment under pressure, and it is often difficult to find the right balance between tourism and conservation.",
+      "topic": "Life in the Mountains",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "Based on the description of plateaus, what is the most likely reason for the formation of spectacular waterfalls like Victoria Falls or Nohkalikai Falls?",
+      "options": [
+        "Heavy rainfall erodes the flat surface of the plateau.",
+        "Rivers flowing across the flat top of a plateau suddenly drop down its steep slopes.",
+        "Underground springs emerge with great force from the side of the plateau.",
+        "Melting glaciers from nearby mountains carve out the waterfalls."
+      ],
+      "correct": 1,
+      "explanation": "Plateaus are elevated landforms with flat tops and often steep sides. A river flowing on the flat surface would create a waterfall when it reaches the edge and plunges down the steep slope.",
+      "topic": "Plateaus",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Arunima Sinha's achievement of climbing the highest peak on every continent after losing a leg best exemplifies which concept defined in the chapter?",
+      "options": [
+        "Precipitation",
+        "Confluence",
+        "Sedimentation",
+        "Resilience"
+      ],
+      "correct": 3,
+      "explanation": "Resilience is defined as the capacity to meet challenges and difficulties, adapt to them, or overcome them. Arunima Sinha's story is a powerful example of this.",
+      "topic": "Human Adaptability",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "What does the ancient Tamil 'tiņai' classification system suggest about the relationship between early human societies and their environment?",
+      "options": [
+        "Early societies preferred to live in only one type of landscape.",
+        "The environment had little impact on people's way of life.",
+        "A community's primary occupation and culture were deeply connected to its specific landscape.",
+        "All ancient people were primarily farmers, regardless of the landform."
+      ],
+      "correct": 2,
+      "explanation": "The 'tiņai' system directly links each landscape (mountain, forest, plain, coast, arid land) to a specific primary occupation, showing a keen awareness of how the environment shaped human life.",
+      "topic": "Landforms and Culture",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "The naming of Mount Everest as 'Chomolungma' (Mother Goddess of the World) by Tibetans illustrates what broader concept mentioned in the text?",
+      "options": [
+        "The economic importance of mountains for mining.",
+        "The scientific classification of landforms.",
+        "The cultural and sacred value that communities attach to landforms.",
+        "The challenges of living in mountainous terrain."
+      ],
+      "correct": 2,
+      "explanation": "This naming, along with Mount Kailash being sacred, shows that landforms are not just physical features but are integral parts of the culture, religion, and worldview of the people who live near them.",
+      "topic": "Landforms and Culture",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "The chapter contrasts lava plateaus (rich black soil) with other plateaus (rocky soil). What does this imply about the fertility of a landform?",
+      "options": [
+        "All elevated landforms are infertile.",
+        "Fertility is uniform across any single type of landform.",
+        "The geological process that forms a landform can greatly affect its suitability for agriculture.",
+        "Only plains can have fertile soil."
+      ],
+      "correct": 2,
+      "explanation": "The difference between lava plateaus and others shows that one cannot generalize. The specific origin (e.g., volcanic activity) of a landform is a key factor in determining its soil characteristics and fertility.",
+      "topic": "Plateaus",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "Why would river navigation historically be easier and more common in plains than in mountains?",
+      "options": [
+        "Mountain rivers are too cold to travel on.",
+        "Rivers in plains have a gentle slope, while mountain rivers are often steep and rapid.",
+        "There are no boats available in mountain regions.",
+        "People in the plains did not know how to walk."
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that plains have a gentle slope, which makes river navigation easy. In contrast, mountain rivers have steep gradients, creating rapids and waterfalls that would make navigation difficult or impossible.",
+      "topic": "Life in the Plains",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "Based on the information about mountain environments, what is a likely reason that herding is preferred over agriculture in many mountainous regions?",
+      "options": [
+        "There are no seeds available in the mountains.",
+        "The rugged terrain and steep slopes make large-scale farming impractical.",
+        "Mountain animals refuse to eat farmed crops.",
+        "Herding requires less water than agriculture."
+      ],
+      "correct": 1,
+      "explanation": "The text states the mountain terrain is rugged and has steep slopes, meaning regular farming is only possible in some valleys. Herding animals, which can graze on steep slopes, is a more viable occupation in such terrain.",
+      "topic": "Life in the Mountains",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "The chapter mentions that the first civilizations developed around rivers in fertile plains. What is the most logical conclusion from this fact?",
+      "options": [
+        "Mountainous regions are culturally less significant.",
+        "The ability to produce a stable food supply through agriculture is fundamental to developing complex societies.",
+        "Plateaus were the centers of ancient technology and innovation.",
+        "Early humans avoided living near water sources."
+      ],
+      "correct": 1,
+      "explanation": "The fertile plains allowed for successful agriculture, which provides a surplus of food. This stability is a prerequisite for population growth, settlement, and the development of civilization.",
+      "topic": "Landforms and Civilization",
+      "difficulty": "hard"
     }
   ]
 }

@@ -1,20 +1,432 @@
 {
   "chapterInfo": {
     "class": 6,
-    "subject": "mathematics",
+    "subject": "maathematics",
     "chapterNumber": 5,
     "chapterName": "Prime Time",
-    "totalQuestions": 1,
-    "difficulty": "easy"
+    "totalQuestions": 30,
+    "difficulty": "Mixed"
   },
   "questions": [
     {
       "id": 1,
-      "question": "Which number is a prime number?",
-      "options": ["4", "6", "7", "8"],
+      "question": "In the 'Idli-Vada' game described, what word should a player say when the number is a multiple of 3?",
+      "options": [
+        "Vada",
+        "Idli-Vada",
+        "Idli",
+        "Number"
+      ],
       "correct": 2,
-      "explanation": "7 is prime because it has only two factors: 1 and 7",
-      "topic": "Prime Numbers"
+      "explanation": "The rules state that for multiples of 3, the player should say 'idli'.",
+      "topic": "Multiples and Factors",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What is a number called if it has more than two factors?",
+      "options": [
+        "Prime Number",
+        "Composite Number",
+        "Co-prime Number",
+        "Perfect Number"
+      ],
+      "correct": 1,
+      "explanation": "Composite numbers are defined as numbers having more than two factors, such as 4, 6, and 8.",
+      "topic": "Prime and Composite Numbers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "According to the definition in the text, what are the only two factors of any prime number?",
+      "options": [
+        "1 and 2",
+        "2 and the number itself",
+        "0 and 1",
+        "1 and the number itself"
+      ],
+      "correct": 3,
+      "explanation": "Prime numbers are numbers that have only two factors: 1 and the number itself.",
+      "topic": "Prime and Composite Numbers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "How is the number 1 classified in terms of being prime or composite?",
+      "options": [
+        "It is a prime number.",
+        "It is a composite number.",
+        "It is neither prime nor composite.",
+        "It is both prime and composite."
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that the number 1, having only one factor, is neither a prime nor a composite number.",
+      "topic": "Prime and Composite Numbers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "The method of finding prime numbers by crossing out multiples of successive primes in a grid is named after which Greek mathematician?",
+      "options": [
+        "Euclid",
+        "Pythagoras",
+        "Archimedes",
+        "Eratosthenes"
+      ],
+      "correct": 3,
+      "explanation": "This method is called the Sieve of Eratosthenes, named after the mathematician who developed it.",
+      "topic": "Prime and Composite Numbers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What does it mean for two numbers to be co-prime?",
+      "options": [
+        "They are both prime numbers.",
+        "They have no common factors other than 1.",
+        "They are consecutive numbers.",
+        "One number is a multiple of the other."
+      ],
+      "correct": 1,
+      "explanation": "Two numbers are said to be co-prime if they do not share any common factor other than 1.",
+      "topic": "Co-prime Numbers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "According to the divisibility test for 10, a number is divisible by 10 if its last digit is what?",
+      "options": [
+        "0",
+        "5",
+        "2",
+        "1"
+      ],
+      "correct": 0,
+      "explanation": "The pattern for multiples of 10 shows that a number is divisible by 10 if and only if it ends with a '0'.",
+      "topic": "Divisibility Tests",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "What must be the last digit of a number for it to be divisible by 5?",
+      "options": [
+        "Only 5",
+        "Only 0",
+        "Either 0 or 5",
+        "Any even number"
+      ],
+      "correct": 2,
+      "explanation": "The divisibility rule for 5 states that the number must end with either a '0' or a '5'.",
+      "topic": "Divisibility Tests",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is the process of writing a number as a product of its prime factors called?",
+      "options": [
+        "Factoring",
+        "Multiplication",
+        "Prime Factorisation",
+        "Sieving"
+      ],
+      "correct": 2,
+      "explanation": "Writing a number as a product of prime numbers is called its prime factorisation.",
+      "topic": "Prime Factorisation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What are twin primes?",
+      "options": [
+        "Any two prime numbers.",
+        "Prime numbers that are also even.",
+        "Pairs of prime numbers that have a difference of 2.",
+        "Prime numbers that have the same digits."
+      ],
+      "correct": 2,
+      "explanation": "The text defines twin primes as pairs of primes having a difference of 2, such as 3 and 5.",
+      "topic": "Prime and Composite Numbers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "When playing the 'Idli-Vada' game with the numbers 3 and 5, which is the first number that is a multiple of both, requiring the player to say 'idli-vada'?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "30"
+      ],
+      "correct": 2,
+      "explanation": "The first number that is a multiple of both 3 and 5 is their least common multiple, which is 15.",
+      "topic": "Multiples and Factors",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "In the 'Jump Jackpot' game, the treasure is on number 24. Which of the following jump sizes will NOT land on the treasure?",
+      "options": [
+        "3",
+        "8",
+        "9",
+        "12"
+      ],
+      "correct": 2,
+      "explanation": "To land on 24, the jump size must be a factor of 24. The factors are 1, 2, 3, 4, 6, 8, 12, and 24. The number 9 is not a factor of 24.",
+      "topic": "Multiples and Factors",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following numbers is a prime number?",
+      "options": [
+        "51",
+        "37",
+        "26",
+        "9"
+      ],
+      "correct": 1,
+      "explanation": "37 is a prime number because its only factors are 1 and 37. 51 is divisible by 3, 26 is divisible by 2, and 9 is divisible by 3.",
+      "topic": "Prime and Composite Numbers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "A perfect number is one where the sum of its factors equals twice the number. Given that 28 is a perfect number, which number between 1 and 10 is also perfect?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "correct": 1,
+      "explanation": "The factors of 6 are 1, 2, 3, and 6. Their sum is 1+2+3+6 = 12, which is twice the number 6.",
+      "topic": "Multiples and Factors",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "When using the Sieve of Eratosthenes to find primes up to 100, what is the correct step to perform after circling 3 and crossing out all its multiples?",
+      "options": [
+        "Circle 4 and cross out its multiples.",
+        "Circle 5 and cross out its multiples.",
+        "Circle 7 and cross out its multiples.",
+        "Stop, as all primes are found."
+      ],
+      "correct": 1,
+      "explanation": "The process continues by moving to the next uncrossed number, which is 5, circling it, and then crossing out its multiples.",
+      "topic": "Prime and Composite Numbers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "What is the correct prime factorisation of the number 56?",
+      "options": [
+        "4 x 14",
+        "8 x 7",
+        "2 x 2 x 14",
+        "2 x 2 x 2 x 7"
+      ],
+      "correct": 3,
+      "explanation": "To find the prime factorisation, we break the number down into only prime factors. 56 = 8 x 7 = (2 x 2 x 2) x 7.",
+      "topic": "Prime Factorisation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Using prime factorisation, are the numbers 4 and 9 co-prime?",
+      "options": [
+        "No, because 9 is larger than 4.",
+        "Yes, because their prime factorisations (2x2 and 3x3) share no common factors.",
+        "No, because they are not prime numbers.",
+        "Yes, because they are both perfect squares."
+      ],
+      "correct": 1,
+      "explanation": "The prime factorization of 4 is 2x2 and for 9 is 3x3. Since they do not share any prime factors, they are co-prime.",
+      "topic": "Co-prime Numbers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "How can you test if a large number is divisible by 4 without performing long division?",
+      "options": [
+        "Check if the last digit is 4.",
+        "Check if the sum of the digits is divisible by 4.",
+        "Check if the number formed by the last two digits is divisible by 4.",
+        "Check if the number is even."
+      ],
+      "correct": 2,
+      "explanation": "A number is divisible by 4 if the number formed by its last two digits is divisible by 4.",
+      "topic": "Divisibility Tests",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "Anshu wants to arrange 7 figs in a rectangular manner. How many different arrangements are possible?",
+      "options": [
+        "Only one (1x7)",
+        "Two (1x7 and 2x3.5)",
+        "Three (1x7, 7x1, 3x4)",
+        "None, as 7 is an odd number."
+      ],
+      "correct": 0,
+      "explanation": "Since 7 is a prime number, it has only two factors: 1 and 7. This allows for only one rectangular arrangement (1 row of 7 or 7 rows of 1).",
+      "topic": "Multiples and Factors",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "The prime factorisation of a number has one 2, two 3s, and one 11. What is the number?",
+      "options": [
+        "66",
+        "99",
+        "198",
+        "363"
+      ],
+      "correct": 2,
+      "explanation": "To find the number, we multiply its prime factors: 2 x 3 x 3 x 11 = 198.",
+      "topic": "Prime Factorisation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "In the treasure game, Grumpy places treasures on 28 and 70. Jumpy cannot use a jump size of 1. Which of the following jump sizes will allow Jumpy to land on both treasures?",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "10"
+      ],
+      "correct": 2,
+      "explanation": "To get both treasures, the jump size must be a common factor of 28 and 70, other than 1. The common factors are 2, 7, and 14. Of the options given, only 7 works.",
+      "topic": "Multiples and Factors",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "I am a number less than 40. One of my factors is 7. The sum of my digits is 8. Who am I?",
+      "options": [
+        "17",
+        "26",
+        "28",
+        "35"
+      ],
+      "correct": 3,
+      "explanation": "The multiples of 7 less than 40 are 7, 14, 21, 28, 35. Of these, only 35 has digits that sum to 8 (3+5=8).",
+      "topic": "Multiples and Factors",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "In a game, 'idli' is said for multiples of one number and 'vada' for another. The players ended up saying just 'idli' or 'idli-vada', but nobody ever said just 'vada'. If 'idli' was for the number 4, which of the following could have been the 'vada' number?",
+      "options": [
+        "2",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "explanation": "For 'vada' to never be said alone, every multiple of the 'vada' number must also be a multiple of the 'idli' number (4). Of the options, only multiples of 8 are always multiples of 4.",
+      "topic": "Multiples and Factors",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Anshu wrongly concluded 56 and 63 are co-prime based on the factorizations 56=14x4 and 63=21x3. Why was his reasoning flawed?",
+      "options": [
+        "He made a calculation error.",
+        "His chosen factorizations were not unique.",
+        "He did not break the numbers down into their prime factors.",
+        "He should have used division instead of multiplication."
+      ],
+      "correct": 2,
+      "explanation": "Anshu's mistake was that his factors (14, 4, 21, 3) were not all prime. To check for all common factors, one must use the unique prime factorization of each number, which reveals the common factor of 7.",
+      "topic": "Co-prime Numbers",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "The 'co-prime art' section shows that when making thread art on a circle of pegs, the thread will touch every single peg only under a specific condition. What is this condition?",
+      "options": [
+        "The number of pegs is a prime number.",
+        "The thread-gap is an even number.",
+        "The number of pegs and the thread-gap are co-prime.",
+        "The thread-gap is a factor of the number of pegs."
+      ],
+      "correct": 2,
+      "explanation": "The pattern touches every peg if and only if the number of pegs and the thread-gap value are co-prime (share no common factors other than 1).",
+      "topic": "Co-prime Numbers",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "What is the smallest positive number that has three different prime numbers as its factors?",
+      "options": [
+        "15",
+        "30",
+        "42",
+        "105"
+      ],
+      "correct": 1,
+      "explanation": "To find the smallest such number, we must multiply the three smallest distinct prime numbers: 2, 3, and 5. The product is 2 x 3 x 5 = 30.",
+      "topic": "Prime Factorisation",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "The prime factorization of 168 is 2x2x2x3x7. The prime factorization of 12 is 2x2x3. Based on this information, how can you determine if 168 is divisible by 12?",
+      "options": [
+        "It is not possible to tell from factorization alone.",
+        "168 is divisible by 12 because they share the prime factor 2.",
+        "168 is divisible by 12 because the complete prime factorization of 12 is contained within the prime factorization of 168.",
+        "168 is not divisible by 12 because its factorization contains a 7."
+      ],
+      "correct": 2,
+      "explanation": "A number is divisible by another if the prime factorization of the divisor is fully 'included' in the prime factorization of the dividend. Here, 2x2x3 is present in 2x2x2x3x7.",
+      "topic": "Prime Factorisation",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "Leap years are multiples of 4, with an exception for years divisible by 100 but not by 400. Using this rule, which of the following years from the future is NOT a leap year?",
+      "options": [
+        "2028",
+        "2096",
+        "2100",
+        "2400"
+      ],
+      "correct": 2,
+      "explanation": "2100 is a multiple of 4. However, it is also divisible by 100. Since it is not divisible by 400, it falls under the exception and is not a leap year.",
+      "topic": "Divisibility Tests",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "To verify that 14560 is divisible by all numbers in the set {2, 4, 5, 8, 10}, Guna realized he only needed to check for divisibility by two of these numbers. Which two are sufficient?",
+      "options": [
+        "2 and 5",
+        "4 and 5",
+        "8 and 10",
+        "4 and 10"
+      ],
+      "correct": 2,
+      "explanation": "Checking for divisibility by 8 automatically confirms divisibility by 2 and 4. Checking for divisibility by 10 automatically confirms divisibility by 5. Therefore, checking 8 and 10 is enough to confirm all.",
+      "topic": "Divisibility Tests",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "In the Idli-Vada game, two numbers smaller than 10 are chosen. The first time anyone says 'idli-vada' is for a number greater than 50. Which of these pairs could be the chosen numbers?",
+      "options": [
+        "6 and 8",
+        "5 and 9",
+        "7 and 8",
+        "4 and 9"
+      ],
+      "correct": 2,
+      "explanation": "This question asks for a pair of numbers whose Least Common Multiple (LCM) is greater than 50. The LCM of 7 and 8 is 56, which is the first 'idli-vada' number and is greater than 50. The LCMs of the other pairs are all 50 or less.",
+      "topic": "Multiples and Factors",
+      "difficulty": "hard"
     }
   ]
 }

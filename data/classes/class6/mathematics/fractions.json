@@ -1,20 +1,432 @@
 {
   "chapterInfo": {
     "class": 6,
-    "subject": "mathematics",
+    "subject": "science",
     "chapterNumber": 7,
     "chapterName": "Fractions",
-    "totalQuestions": 1,
+    "totalQuestions": 30,
     "difficulty": "easy"
   },
   "questions": [
     {
       "id": 1,
-      "question": "What fraction of this circle is shaded if half is shaded?",
-      "options": ["1/4", "1/2", "3/4", "1/3"],
+      "question": "If one roti is divided equally between two children, how much roti will each child get?",
+      "options": [
+        "One-fourth (1/4)",
+        "One-half (1/2)",
+        "A whole roti",
+        "One-third (1/3)"
+      ],
       "correct": 1,
-      "explanation": "Half means 1/2",
-      "topic": "Basic Fractions"
+      "explanation": "When one whole item is shared equally between two people, each person receives a share of one-half.",
+      "topic": "Equal Shares",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "In the fraction 5/6, what is the number 6 called?",
+      "options": [
+        "Numerator",
+        "Fractional Unit",
+        "Denominator",
+        "Mixed Number"
+      ],
+      "correct": 2,
+      "explanation": "In a fraction, the bottom number is called the denominator, and it indicates the total number of equal parts the whole is divided into.",
+      "topic": "Reading Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is an example of a 'fractional unit' or 'unit fraction'?",
+      "options": [
+        "3/4",
+        "1/8",
+        "2 1/2",
+        "5/5"
+      ],
+      "correct": 1,
+      "explanation": "A fractional unit, or unit fraction, is a fraction where the numerator is 1, representing one part of a whole.",
+      "topic": "Fractional Units",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What happens to the size of a share when one roti is shared among more people?",
+      "options": [
+        "The share becomes larger.",
+        "The share becomes smaller.",
+        "The share size stays the same.",
+        "Each person gets more than one roti."
+      ],
+      "correct": 1,
+      "explanation": "When the same whole is divided among a larger number of people, each individual share becomes smaller.",
+      "topic": "Comparing Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Fractions that represent the same share or number, like 1/2 and 2/4, are called:",
+      "options": [
+        "Mixed fractions",
+        "Unit fractions",
+        "Unequal fractions",
+        "Equivalent fractions"
+      ],
+      "correct": 3,
+      "explanation": "Equivalent fractions are different fractions that name the same amount or represent the same part of a whole.",
+      "topic": "Equivalent Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "A number that contains both a whole number part and a fractional part is known as a:",
+      "options": [
+        "Proper fraction",
+        "Improper fraction",
+        "Mixed fraction",
+        "Unit fraction"
+      ],
+      "correct": 2,
+      "explanation": "A mixed fraction, or mixed number, is composed of a whole number and a fraction that is less than one.",
+      "topic": "Mixed Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "In a fraction that is less than 1, how does the numerator compare to the denominator?",
+      "options": [
+        "The numerator is larger than the denominator.",
+        "The numerator is smaller than the denominator.",
+        "The numerator is equal to the denominator.",
+        "The numerator is double the denominator."
+      ],
+      "correct": 1,
+      "explanation": "For any fraction with a value less than 1, the numerator (the number of parts you have) is smaller than the denominator (the total number of parts in the whole).",
+      "topic": "Comparing Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "What is the result of adding 2/5 and 1/5?",
+      "options": [
+        "3/10",
+        "2/25",
+        "3/5",
+        "1/5"
+      ],
+      "correct": 2,
+      "explanation": "When adding fractions with the same denominator, you add the numerators and keep the denominator the same.",
+      "topic": "Addition of Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Which fraction is greater, 1/5 or 1/9?",
+      "options": [
+        "1/9",
+        "1/5",
+        "They are equal",
+        "It cannot be determined"
+      ],
+      "correct": 1,
+      "explanation": "When comparing unit fractions, the one with the smaller denominator is larger because the whole is divided into fewer, and therefore bigger, pieces.",
+      "topic": "Comparing Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "According to the text, what does the Sanskrit word 'bhinna' mean?",
+      "options": [
+        "Whole",
+        "Equal",
+        "Broken",
+        "Share"
+      ],
+      "correct": 2,
+      "explanation": "The text states that in ancient India, a fraction was called 'bhinna' in Sanskrit, which means 'broken'.",
+      "topic": "History of Fractions",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "If three guavas together weigh 1 kg and are of similar size, what is the approximate weight of each guava?",
+      "options": [
+        "1/2 kg",
+        "3 kg",
+        "1/3 kg",
+        "1 kg"
+      ],
+      "correct": 2,
+      "explanation": "If 1 kg is divided equally among three guavas, each guava would weigh one-third (1/3) of a kg.",
+      "topic": "Fractions as Equal Shares",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "How can the fraction 4/3 be written as a mixed number?",
+      "options": [
+        "1 1/3",
+        "3 1/4",
+        "1 1/4",
+        "4 1/3"
+      ],
+      "correct": 0,
+      "explanation": "4/3 is the same as 3/3 + 1/3. Since 3/3 equals 1 whole, the mixed number is 1 and 1/3.",
+      "topic": "Mixed Fractions",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "What is the first step in Brahmagupta's method for adding fractions with different denominators, like 1/4 and 1/3?",
+      "options": [
+        "Add the numerators directly.",
+        "Find a common numerator.",
+        "Add the denominators.",
+        "Convert them into equivalent fractions with a common denominator."
+      ],
+      "correct": 3,
+      "explanation": "To add or subtract fractions with different denominators, you must first find equivalent fractions that have the same denominator (a common fractional unit).",
+      "topic": "Addition and Subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "If you have 5 times the fractional unit of 1/4 of a roti, what is the resulting fraction?",
+      "options": [
+        "1/20",
+        "4/5",
+        "5/4",
+        "1 1/5"
+      ],
+      "correct": 2,
+      "explanation": "5 times 1/4 means you have five pieces, each of size 1/4. This is represented by the fraction 5/4.",
+      "topic": "Measuring Using Fractional Units",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "Which fraction is the simplest form of 16/20?",
+      "options": [
+        "8/10",
+        "4/5",
+        "16/20",
+        "2/3"
+      ],
+      "correct": 1,
+      "explanation": "To find the simplest form, divide both the numerator and denominator by their highest common factor, which is 4. 16÷4=4 and 20÷4=5.",
+      "topic": "Lowest Terms",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "If Jaya wants to write the mixed number 3 3/4 as a regular fraction, what is the correct result?",
+      "options": [
+        "9/4",
+        "6/4",
+        "12/4",
+        "15/4"
+      ],
+      "correct": 3,
+      "explanation": "3 wholes are equal to 12 quarters (3 x 4/4). Adding the extra 3 quarters gives a total of 15 quarters, or 15/4.",
+      "topic": "Mixed Fractions",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "In which scenario does a child get a larger share of cake: 2 cakes shared among 5 children, or 4 cakes shared among 10 children?",
+      "options": [
+        "2 cakes for 5 children",
+        "4 cakes for 10 children",
+        "The shares are equal in both scenarios",
+        "It depends on the size of the cakes"
+      ],
+      "correct": 2,
+      "explanation": "The fractions are 2/5 and 4/10. Since 2/5 is equivalent to 4/10, the share of cake each child gets is the same in both situations.",
+      "topic": "Equivalent Fractions",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "Meena ate 1/2 of a chikki and her brother ate 1/4 of it. How much did they eat together?",
+      "options": [
+        "2/6",
+        "1/8",
+        "3/4",
+        "1/3"
+      ],
+      "correct": 2,
+      "explanation": "To add 1/2 and 1/4, you need a common denominator. 1/2 is equivalent to 2/4. So, 2/4 + 1/4 = 3/4.",
+      "topic": "Addition of Fractions",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "To compare 4/5 and 7/9, what common denominator can be used?",
+      "options": [
+        "14",
+        "36",
+        "45",
+        "63"
+      ],
+      "correct": 2,
+      "explanation": "A common denominator can be found by finding a common multiple of the two denominators, 5 and 9. The lowest common multiple is 45.",
+      "topic": "Comparing Fractions",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Which of these fractions is equivalent to 2/3?",
+      "options": [
+        "3/2",
+        "4/9",
+        "6/9",
+        "5/6"
+      ],
+      "correct": 2,
+      "explanation": "To find an equivalent fraction, you can multiply the numerator and denominator by the same number. 2 x 3 = 6 and 3 x 3 = 9, so 6/9 is equivalent to 2/3.",
+      "topic": "Equivalent Fractions",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Why is 4/7 greater than 4/8?",
+      "options": [
+        "Because 7 is less than 8.",
+        "Because the numerator 4 is the same, and sharing among fewer people (7) results in a larger share.",
+        "Because 8 is an even number.",
+        "Because you can simplify 4/8 to 1/2."
+      ],
+      "correct": 1,
+      "explanation": "When the numerators are the same, the fraction with the smaller denominator is larger. This is because the same number of pieces are being considered, but the pieces from the whole divided into fewer parts are bigger.",
+      "topic": "Comparing Fractions",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Jeevika takes 10/3 minutes to run a lap, and Namit takes 13/4 minutes. Who is faster and by how much?",
+      "options": [
+        "Jeevika is faster by 1/12 minute.",
+        "Namit is faster by 1/12 minute.",
+        "Jeevika is faster by 1/7 minute.",
+        "Namit is faster by 3/1 minute."
+      ],
+      "correct": 1,
+      "explanation": "Compare 10/3 and 13/4. Convert to a common denominator of 12: 10/3 = 40/12 and 13/4 = 39/12. Namit's time (39/12) is less than Jeevika's (40/12). He is faster by 40/12 - 39/12 = 1/12 minute.",
+      "topic": "Subtraction and Comparison",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "According to Brahmagupta's description, how are fractions reduced to a common denominator?",
+      "options": [
+        "By dividing each numerator by its denominator.",
+        "By multiplying the numerator and denominator of each fraction by the other denominators.",
+        "By finding the average of the denominators.",
+        "By adding all the denominators together."
+      ],
+      "correct": 1,
+      "explanation": "Brahmagupta's method states that to get a common denominator, you multiply the numerator and denominator of each fraction by the denominators of the other fractions.",
+      "topic": "History of Fractions",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Which set of three DIFFERENT fractional units adds up to 1?",
+      "options": [
+        "1/3 + 1/3 + 1/3",
+        "1/2 + 1/4 + 1/4",
+        "1/2 + 1/3 + 1/6",
+        "1/2 + 1/4 + 1/8"
+      ],
+      "correct": 2,
+      "explanation": "1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. The other options either use repeated fractions or do not sum to 1.",
+      "topic": "Addition of Fractions",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "If you want to express 36/60 in its lowest terms, what is the most efficient single step?",
+      "options": [
+        "Divide both numbers by 2.",
+        "Divide both numbers by 6.",
+        "Divide both numbers by 12.",
+        "Divide both numbers by 3."
+      ],
+      "correct": 2,
+      "explanation": "While dividing by 2, 3, or 6 are valid steps, the most efficient way is to divide by the highest common factor, which is 12, to get 3/5 directly.",
+      "topic": "Lowest Terms",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "In which group will a child get more juice? Group 1: 3 glasses shared among 4 children. Group 2: 7 glasses shared among 10 children.",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "The shares are equal.",
+        "Cannot be determined."
+      ],
+      "correct": 0,
+      "explanation": "We must compare 3/4 and 7/10. Using a common denominator of 20, we get 15/20 (for Group 1) and 14/20 (for Group 2). Since 15/20 is greater than 14/20, each child in Group 1 gets more juice.",
+      "topic": "Comparing Fractions",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "The text explains that the way we write fractions globally originated in India. What key feature was later introduced by the Moroccan mathematician Al-Hassar?",
+      "options": [
+        "The concept of a numerator.",
+        "The use of mixed numbers.",
+        "The line segment between the numerator and denominator.",
+        "The idea of equivalent fractions."
+      ],
+      "correct": 2,
+      "explanation": "Ancient Indian texts wrote fractions by placing the numerator above the denominator, but the horizontal line separating them was a later addition by Al-Hassar.",
+      "topic": "History of Fractions",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "To subtract 2/3 from 3/4, why is it necessary to convert them to 9/12 and 8/12?",
+      "options": [
+        "Because subtraction is only possible with even numbers.",
+        "Because the numbers are too large to subtract directly.",
+        "To make the numerators the same.",
+        "To ensure both fractions are measured in the same fractional unit (1/12) before subtracting."
+      ],
+      "correct": 3,
+      "explanation": "Subtraction of fractions requires the parts to be of the same size. Converting to a common denominator ensures you are subtracting parts of the same fractional unit (in this case, twelfths).",
+      "topic": "Subtraction of Fractions",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "How many fractions lie between 0 and 1 on a number line?",
+      "options": [
+        "Zero",
+        "One",
+        "One hundred",
+        "An infinite number"
+      ],
+      "correct": 3,
+      "explanation": "Between any two numbers, including 0 and 1, you can always find another fraction. You can divide the space into smaller and smaller fractional units (halves, thirds, fourths, etc.) endlessly.",
+      "topic": "Number Line",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "A fraction is in its 'lowest terms' when its numerator and denominator...",
+      "options": [
+        "are both prime numbers.",
+        "add up to 100.",
+        "have no common factor other than 1.",
+        "are as large as possible."
+      ],
+      "correct": 2,
+      "explanation": "The definition of a fraction in its simplest or lowest terms is that the numerator and denominator are co-prime, meaning their only common factor is 1.",
+      "topic": "Lowest Terms",
+      "difficulty": "hard"
     }
   ]
 }

@@ -1,20 +1,432 @@
 {
   "chapterInfo": {
     "class": 6,
-    "subject": "mathematics",
+    "subject": "Mathematics",
     "chapterNumber": 8,
     "chapterName": "Playing with Constructions",
-    "totalQuestions": 1,
+    "totalQuestions": 30,
     "difficulty": "easy"
   },
   "questions": [
     {
       "id": 1,
-      "question": "How many sides does a pentagon have?",
-      "options": ["4", "5", "6", "7"],
+      "question": "What is the primary tool, besides a ruler, used for drawing circles and arcs?",
+      "options": [
+        "Protractor",
+        "Set square",
+        "Compass",
+        "Divider"
+      ],
+      "correct": 2,
+      "explanation": "The chapter introduces the compass as the tool for drawing circles and arcs accurately.",
+      "topic": "Geometric Tools",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What is the fixed point from which all points on a circle are at an equal distance?",
+      "options": [
+        "The radius",
+        "The centre",
+        "The circumference",
+        "The diagonal"
+      ],
       "correct": 1,
-      "explanation": "A pentagon has 5 sides",
-      "topic": "Polygons"
+      "explanation": "The point P, kept fixed while drawing, is called the centre of the circle.",
+      "topic": "Properties of a Circle",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the term for the distance between the centre and any point on the circle?",
+      "options": [
+        "Radius",
+        "Diameter",
+        "Arc",
+        "Chord"
+      ],
+      "correct": 0,
+      "explanation": "The text explicitly defines the radius as the distance from the centre to any point on the circle.",
+      "topic": "Properties of a Circle",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Which of these is a defining property of a square's sides?",
+      "options": [
+        "Only opposite sides are equal",
+        "Only two sides are equal",
+        "All the sides are equal",
+        "No sides are equal"
+      ],
+      "correct": 2,
+      "explanation": "A key property of a square (S1) is that all its sides are equal in length.",
+      "topic": "Properties of Squares",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What is the measure of all the angles in a square?",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "correct": 2,
+      "explanation": "According to property S2 for a square, all its angles are 90°.",
+      "topic": "Properties of Squares",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "In a rectangle, what is the relationship between opposite sides?",
+      "options": [
+        "They are perpendicular",
+        "They are equal in length",
+        "They are unequal in length",
+        "One is double the other"
+      ],
+      "correct": 1,
+      "explanation": "Property R1 of a rectangle states that its opposite sides are equal in length.",
+      "topic": "Properties of Rectangles",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What do you call the lines, such as PR and QS, that join the opposite corners of a rectangle PQRS?",
+      "options": [
+        "Sides",
+        "Radii",
+        "Altitudes",
+        "Diagonals"
+      ],
+      "correct": 3,
+      "explanation": "The lines joining opposite corners (vertices) of a rectangle are called its diagonals.",
+      "topic": "Properties of Rectangles",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "According to the textbook, what is a helpful first step to visualize a figure before starting the actual construction?",
+      "options": [
+        "Sharpening the pencil",
+        "Measuring all the tools",
+        "Drawing a rough diagram",
+        "Choosing a starting point"
+      ],
+      "correct": 2,
+      "explanation": "The text suggests that drawing a rough diagram is a wise way to plan your construction.",
+      "topic": "Construction Strategy",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is the measure of all the angles in any rectangle?",
+      "options": [
+        "60°",
+        "90°",
+        "100°",
+        "It varies"
+      ],
+      "correct": 1,
+      "explanation": "Property R2 of a rectangle states that all its angles are 90°.",
+      "topic": "Properties of Rectangles",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What shape is formed by all the points on a paper that are exactly 4 cm away from a single point P?",
+      "options": [
+        "A square with side 4 cm",
+        "A line of 4 cm",
+        "A circle with radius 4 cm",
+        "A triangle with height 4 cm"
+      ],
+      "correct": 2,
+      "explanation": "The collection of all points equidistant from a single central point forms a circle, with the distance as its radius.",
+      "topic": "Properties of a Circle",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "If you are asked to draw the 'Wavy Wave' on a line segment AB of 8 cm, and the first wave is a half-circle on segment AX, what should be the radius of your compass to draw this half-circle?",
+      "options": [
+        "8 cm",
+        "2 cm",
+        "4 cm",
+        "6 cm"
+      ],
+      "correct": 2,
+      "explanation": "For the wave to be a half-circle on a segment, the segment (AX) must be the diameter. If two identical waves are made on the 8 cm line, AX would be 4 cm, making the radius 2 cm. However, the diagram shows one wave over a length labeled '?'. If the entire first half-circle spans 8cm, its radius would be 4cm.",
+      "topic": "Applying Circle Properties",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "If you have a paper square and you rotate it, is it still considered a square?",
+      "options": [
+        "No, it becomes a rhombus",
+        "Yes, because its properties of sides and angles do not change",
+        "No, its angles are no longer 90°",
+        "Yes, but only if rotated by 90°"
+      ],
+      "correct": 1,
+      "explanation": "Rotating a square does not change its side lengths or angles, so it remains a square.",
+      "topic": "Properties of Squares",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "For a square with corners labeled P, Q, R, and S in order, which of the following is NOT a valid name for it?",
+      "options": [
+        "QRSP",
+        "PQRS",
+        "SPQR",
+        "PQSR"
+      ],
+      "correct": 3,
+      "explanation": "A valid name requires travelling around the corners in order. PQSR involves jumping across the square, which is not allowed.",
+      "topic": "Geometric Notation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "How can you accurately transfer the length of a segment AF to mark a point B on another line without using a ruler to measure?",
+      "options": [
+        "By visual estimation",
+        "By using a protractor",
+        "By using a compass to measure AF and then drawing an arc",
+        "By folding the paper"
+      ],
+      "correct": 2,
+      "explanation": "A compass can be set to the length of a segment and then used to mark an equal length elsewhere, a key technique in construction.",
+      "topic": "Construction Techniques",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "To find a point 'A' that is exactly 5 cm away from both point B and point C, what is the most efficient method described in the book?",
+      "options": [
+        "Guessing with a ruler",
+        "Drawing a single circle from B and measuring from C",
+        "Drawing intersecting arcs of 5 cm radius from both B and C",
+        "Drawing perpendicular lines from B and C"
+      ],
+      "correct": 2,
+      "explanation": "The intersection of two arcs (or circles) from points B and C gives the precise location that is at the specified radius from both.",
+      "topic": "Equidistant Points",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "To construct a rectangle that can be divided into two identical squares, what must be the relationship between the longer side (length) and the shorter side (width)?",
+      "options": [
+        "The length must be equal to the width",
+        "The length must be triple the width",
+        "The length must be half the width",
+        "The length must be double the width"
+      ],
+      "correct": 3,
+      "explanation": "If a rectangle is made of two identical squares side-by-side, its length will be the sum of two sides of a square, while its width is one side. Thus, the length is double the width.",
+      "topic": "Applying Square Properties",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "When constructing a rectangle with side DC = 5 cm and diagonal DB = 7 cm, how do you locate point B?",
+      "options": [
+        "Draw a 7 cm line anywhere from D",
+        "Measure 7 cm up from C",
+        "Find the intersection of a perpendicular line at C and an arc of radius 7 cm from D",
+        "Find the intersection of an arc from D and an arc from C"
+      ],
+      "correct": 2,
+      "explanation": "Point B must satisfy two conditions: it must lie on the line perpendicular to DC at C (to form a 90° angle) and be 7 cm away from D (the diagonal length). The intersection of these two loci gives the point.",
+      "topic": "Complex Constructions",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "After drawing the base PQ of a square, what is the critical next step according to the construction method shown?",
+      "options": [
+        "Draw the opposite side RS",
+        "Draw a diagonal from P",
+        "Construct a perpendicular line at P or Q",
+        "Measure the angle at P"
+      ],
+      "correct": 2,
+      "explanation": "To ensure a 90° angle, which is essential for a square, the next step is to construct a line perpendicular to the base at one of its ends.",
+      "topic": "Constructing Squares",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "In the exploration where point X moves on side AD and Y on side BC of a rectangle, what shape is the 4-sided figure ABYX when length XY is equal to the length of AB?",
+      "options": [
+        "A smaller rectangle",
+        "A parallelogram",
+        "A square",
+        "A trapezium"
+      ],
+      "correct": 0,
+      "explanation": "If XY is equal to AB, and X and Y are placed such that XY is parallel to AB (e.g., AX=BY), the resulting figure ABYX will also be a rectangle.",
+      "topic": "Exploring Rectangles",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "The book asks you to construct a square inside a rectangle of 8 cm by 4 cm, sharing the same center. What is the side length of the LARGEST possible square you can fit?",
+      "options": [
+        "8 cm",
+        "6 cm",
+        "4 cm",
+        "2 cm"
+      ],
+      "correct": 2,
+      "explanation": "The maximum size of the square is limited by the shorter side of the rectangle. A square with a side larger than 4 cm would not fit inside.",
+      "topic": "Geometric Reasoning",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "If you construct a rectangle where a diagonal divides the corner angles into 45° and 45°, what specific shape have you actually created?",
+      "options": [
+        "A rhombus",
+        "A wide rectangle",
+        "A square",
+        "A kite"
+      ],
+      "correct": 2,
+      "explanation": "In a general rectangle, the diagonal does not split the 90° angle equally. The only case where it splits into 45°/45° is when the rectangle's sides are equal, which means it is a square.",
+      "topic": "Properties of Diagonals",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Why is it sufficient to draw only arcs instead of full circles when finding an equidistant point like 'A' in the 'House' construction?",
+      "options": [
+        "It saves ink and time",
+        "Full circles would be too confusing to look at",
+        "Only the point of intersection of the circles is needed, which is found on the arcs",
+        "The compass cannot draw a full circle accurately"
+      ],
+      "correct": 2,
+      "explanation": "The goal is to find the single point where the conditions from both centers are met. This occurs at the intersection. The rest of the circles are irrelevant to finding this specific point.",
+      "topic": "Construction Efficiency",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "The text asks if a 4-sided figure with all equal sides can exist that is NOT a square. If such a figure (a rhombus) exists, what property of a square must it be missing?",
+      "options": [
+        "It must not have equal sides",
+        "It must not have four sides",
+        "It must not have all its angles equal to 90°",
+        "It must not have parallel opposite sides"
+      ],
+      "correct": 2,
+      "explanation": "A square is defined by two properties: all sides equal (S1) and all angles 90° (S2). To be different from a square but have equal sides, it must fail the second property, meaning its angles are not 90°.",
+      "topic": "Classifying Quadrilaterals",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Under what condition will the diagonal of a rectangle divide the opposite angles into two equal parts?",
+      "options": [
+        "When the rectangle is very long",
+        "This is never possible",
+        "When the rectangle's length is double its width",
+        "When all four sides of the rectangle are equal"
+      ],
+      "correct": 3,
+      "explanation": "This is a key property of a square. In a square (which is a special rectangle), the diagonals bisect the 90° angles into two 45° angles.",
+      "topic": "Properties of Diagonals",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "In the 'Breaking Rectangles' section, a rectangle is built from two identical squares. If the shorter side, AF, has a length of 'x', what is the length of the longer side, AC?",
+      "options": [
+        "x",
+        "x²",
+        "2x",
+        "x/2"
+      ],
+      "correct": 2,
+      "explanation": "The figure shows the rectangle ACDF is composed of squares ABEF and BCDE. The longer side AC is made of AB + BC. Since ABEF is a square, AB = AF = x. Since the squares are identical, BC = AB = x. Therefore, AC = x + x = 2x.",
+      "topic": "Deductive Reasoning",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "When constructing a rectangle where a diagonal splits an angle into 60° and 30°, the first step says to draw base AB with an 'arbitrary length'. Why is the exact length of the first line not important?",
+      "options": [
+        "Because you can erase it later",
+        "Because all rectangles have the same side lengths",
+        "Because the angles (60°, 30°, 90°) define the proportions and shape, not the absolute size",
+        "Because the length will be determined by the diagonal automatically"
+      ],
+      "correct": 2,
+      "explanation": "The specific angles determine the shape (the ratio of the sides). Any rectangle with this property will be a scaled version of another. Starting with any size will produce a proportionally correct figure.",
+      "topic": "Geometric Proportions",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Why is using a compass to find an equidistant point considered more 'efficient' than using a ruler and trial-and-error?",
+      "options": [
+        "A compass is faster to handle",
+        "A compass eliminates guesswork by precisely defining all possible points at a given distance",
+        "Rulers are often inaccurate",
+        "Trial-and-error is not a valid mathematical method"
+      ],
+      "correct": 1,
+      "explanation": "Trial-and-error involves guessing and checking. A compass provides a locus of all possible points simultaneously, allowing a definitive intersection to be found without guessing.",
+      "topic": "Construction Strategy",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "What is the fundamental geometric principle that allows the use of two intersecting circles to find a point equidistant from their centers?",
+      "options": [
+        "The Pythagorean theorem",
+        "The principle of symmetry",
+        "A point on the intersection must satisfy the distance (radius) condition for BOTH circles simultaneously",
+        "The fact that all circles have 360 degrees"
+      ],
+      "correct": 2,
+      "explanation": "A point on Circle 1 is at radius R1 from Center 1. A point on Circle 2 is at radius R2 from Center 2. A point on their intersection satisfies both of these conditions at the same time.",
+      "topic": "Loci and Intersections",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "When constructing a rectangle from a given side (DC) and a diagonal (DB), the method relies on locating point B. This point must satisfy two conditions. What are they?",
+      "options": [
+        "It must be 7 cm from C and on the line DC",
+        "It must be on a line perpendicular to DC at C, and be a specific distance from D",
+        "It must be 5 cm from D and 7 cm from C",
+        "It must be on a line parallel to DC and 7 cm away"
+      ],
+      "correct": 1,
+      "explanation": "To form a rectangle, angle DCB must be 90°, so B lies on the perpendicular at C. The diagonal length DB must be the specified distance. Finding the intersection of these two constraints locates the point B precisely.",
+      "topic": "Logical Deduction in Construction",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "To construct the 'Eyes' artwork symmetrically, the hint mentions placing the compass tip at points A and B. For the eye to be symmetrical, where must A and B be located relative to each other?",
+      "options": [
+        "A and B must be the same point",
+        "A must be directly above or below B on a central line",
+        "A and B can be anywhere as long as the radius is the same",
+        "A must be to the left of B"
+      ],
+      "correct": 1,
+      "explanation": "For the upper and lower curves to be mirror images of each other, the centers from which they are drawn (A and B) must lie on a line of symmetry that is perpendicular to the main axis of the eye.",
+      "topic": "Symmetry in Construction",
+      "difficulty": "hard"
     }
   ]
 }

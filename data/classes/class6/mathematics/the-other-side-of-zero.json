@@ -1,20 +1,432 @@
 {
   "chapterInfo": {
     "class": 6,
-    "subject": "mathematics",
+    "subject": "maths",
     "chapterNumber": 10,
     "chapterName": "The Other Side of Zero",
-    "totalQuestions": 1,
+    "totalQuestions": 30,
     "difficulty": "easy"
   },
   "questions": [
     {
       "id": 1,
-      "question": "Which is greater: -5 or -2?",
-      "options": ["-5", "-2", "Both are equal", "Cannot compare"],
+      "question": "In Bela's Building of Fun, what floor number is used for the 'Welcome Hall' at the ground level?",
+      "options": [
+        "Floor +1",
+        "Floor -1",
+        "Floor 0",
+        "Floor G"
+      ],
+      "correct": 2,
+      "explanation": "The ground floor is called Floor 0, which serves as the reference point for all other floors.",
+      "topic": "Introduction to Integers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "What is a number with a '+' sign in front of it called?",
+      "options": [
+        "A negative number",
+        "A positive number",
+        "A neutral number",
+        "An inverse number"
+      ],
       "correct": 1,
-      "explanation": "-2 is greater than -5 because it's closer to 0 on the number line",
-      "topic": "Negative Numbers"
+      "explanation": "A number with a '+' sign is defined as a positive number, representing values above zero.",
+      "topic": "Positive and Negative Numbers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following best describes integers?",
+      "options": [
+        "Only positive whole numbers",
+        "Positive and negative fractions",
+        "Positive and negative whole numbers, including zero",
+        "Only the numbers 0 and 1"
+      ],
+      "correct": 2,
+      "explanation": "Integers are the set of all positive and negative whole numbers, along with zero.",
+      "topic": "Definition of Integers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What is the additive inverse of +4?",
+      "options": [
+        "+4",
+        "0",
+        "-4",
+        "+8"
+      ],
+      "correct": 2,
+      "explanation": "The additive inverse of a number is the number that, when added to it, results in zero. So, (+4) + (-4) = 0.",
+      "topic": "Additive Inverse",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "On the number line, where are negative numbers located in relation to zero?",
+      "options": [
+        "To the right of zero",
+        "To the left of zero",
+        "At the same position as zero",
+        "Above zero"
+      ],
+      "correct": 1,
+      "explanation": "On a standard horizontal number line, negative numbers are always to the left of zero.",
+      "topic": "Number Line",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "In banking terms, what is a deposit into an account called?",
+      "options": [
+        "A debit",
+        "An inverse",
+        "A negative",
+        "A credit"
+      ],
+      "correct": 3,
+      "explanation": "A deposit adds money to your account and is shown as a 'credit', which can be thought of as a positive number.",
+      "topic": "Integers in Real Life",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "In the token model, what is a 'zero pair'?",
+      "options": [
+        "Two positive tokens",
+        "Two negative tokens",
+        "One positive token and one negative token",
+        "Any token with the number 0 on it"
+      ],
+      "correct": 2,
+      "explanation": "A 'zero pair' consists of one positive and one negative token, which cancel each other out because their combined value is zero.",
+      "topic": "Token Model for Integers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Which statement about the number zero is correct?",
+      "options": [
+        "Zero is a positive number.",
+        "Zero is a negative number.",
+        "Zero is neither positive nor negative.",
+        "Zero is both positive and negative."
+      ],
+      "correct": 2,
+      "explanation": "Zero is a neutral integer and is not classified as either positive or negative.",
+      "topic": "Properties of Zero",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "If you are on Floor +2 and press the '+' button three times, which floor do you reach?",
+      "options": [
+        "Floor +3",
+        "Floor +5",
+        "Floor -1",
+        "Floor 0"
+      ],
+      "correct": 1,
+      "explanation": "Starting at +2 and going up 3 floors is an addition: (+2) + (+3) = +5.",
+      "topic": "Addition of Integers",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "In geography, what is the reference point for measuring the height of mountains and the depth of oceans?",
+      "options": [
+        "The highest mountain peak",
+        "The ground level",
+        "Sea level",
+        "The Earth's core"
+      ],
+      "correct": 2,
+      "explanation": "Sea level is used as the zero reference point (0m) to measure heights above (positive) and depths below (negative).",
+      "topic": "Integers in Real Life",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Gurmit is in the Toy Store (Floor -1). He mistakenly presses '+' twice, then presses '-' three times. What is his final position relative to the Toy Store?",
+      "options": [
+        "One floor up",
+        "One floor down",
+        "Two floors up",
+        "He is back at the Toy Store"
+      ],
+      "correct": 1,
+      "explanation": "The combined button presses are (+2) + (-3) = -1. This means he ends up one floor down from where he started.",
+      "topic": "Addition of Integers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Which of these comparisons is correct based on the floor levels in a building?",
+      "options": [
+        "-3 > -4",
+        "-3 < -4",
+        "-3 = -4",
+        "+3 < -4"
+      ],
+      "correct": 0,
+      "explanation": "Floor -3 is higher than Floor -4. Therefore, -3 is greater than -4.",
+      "topic": "Comparing Integers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "You want to go from the Art Centre (Floor +2) to the Cinema (Floor -3). What is the movement needed, expressed as a subtraction problem?",
+      "options": [
+        "(+2) - (-3) = +5",
+        "(-3) - (+2) = -5",
+        "(+2) - (+3) = -1",
+        "(-3) - (-2) = -1"
+      ],
+      "correct": 1,
+      "explanation": "The movement needed is calculated as Target Floor - Starting Floor. So, the expression is (-3) - (+2), which equals -5 (five floors down).",
+      "topic": "Subtraction of Integers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "According to Brahmagupta's rules, how do you add a positive and a negative number?",
+      "options": [
+        "Always add the numbers and keep the positive sign.",
+        "Subtract the smaller number (without sign) from the greater number (without sign) and take the sign of the greater number.",
+        "Always add the numbers and keep the negative sign.",
+        "Subtract the greater number from the smaller number and take the sign of the smaller number."
+      ],
+      "correct": 1,
+      "explanation": "Brahmagupta's rule states you find the difference of their absolute values and apply the sign of the number with the larger absolute value. For example, (-5) + 3 = -2.",
+      "topic": "History of Integers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "To calculate (+5) - (+6) using tokens, you start with 5 positive tokens. What must you do next?",
+      "options": [
+        "Remove 5 positive tokens.",
+        "Add 6 negative tokens.",
+        "Add one 'zero pair' (a positive and a negative token).",
+        "Add 6 positive tokens."
+      ],
+      "correct": 2,
+      "explanation": "Since you don't have enough positive tokens to remove 6, you must add a 'zero pair'. This gives you 6 positive and 1 negative token, allowing you to remove the 6 positive tokens and be left with -1.",
+      "topic": "Token Model for Integers",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "The expression 'Target Floor - Starting Floor = Movement needed' shows that subtraction is the same as...",
+      "options": [
+        "doubling the starting floor.",
+        "finding the inverse of the target floor.",
+        "finding the missing number to be added.",
+        "always resulting in a negative number."
+      ],
+      "correct": 2,
+      "explanation": "The equation can be rewritten as 'Starting Floor + Movement needed = Target Floor', which means subtraction is used to find the missing addend (the movement).",
+      "topic": "Relationship between Addition and Subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "You start with a bank balance of ₹20. You have credits of ₹30 and debits of ₹40 and ₹50. What is your final balance?",
+      "options": [
+        "₹-40",
+        "₹-20",
+        "₹0",
+        "₹140"
+      ],
+      "correct": 0,
+      "explanation": "Calculation: 20 + 30 - 40 - 50 = 50 - 90 = -40. Your final balance is -₹40.",
+      "topic": "Integers in Real Life",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "The expression (+2000) - (-200) is equivalent to which addition expression?",
+      "options": [
+        "(+2000) + (-200)",
+        "(-2000) + (+200)",
+        "(+2000) + (+200)",
+        "(-2000) + (-200)"
+      ],
+      "correct": 2,
+      "explanation": "Subtracting a negative number is the same as adding its positive inverse. Therefore, (+2000) - (-200) = (+2000) + (+200).",
+      "topic": "Converting Subtraction to Addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "Looking at the geographical cross-section chart, what is the height difference between point A (+1500m) and point D (-1250m)?",
+      "options": [
+        "250m",
+        "1500m",
+        "1250m",
+        "2750m"
+      ],
+      "correct": 3,
+      "explanation": "The difference is calculated by subtraction: (+1500) - (-1250) = 1500 + 1250 = 2750m.",
+      "topic": "Applications of Integer Subtraction",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "On a cold day in Leh, the temperature at 2:00 p.m. is +14°C and the temperature at 2:00 a.m. is -4°C. How much did the temperature drop?",
+      "options": [
+        "10°C",
+        "18°C",
+        "14°C",
+        "-18°C"
+      ],
+      "correct": 1,
+      "explanation": "The change is the final temperature minus the initial temperature: (-4) - (+14) = -18. The temperature dropped by 18°C.",
+      "topic": "Integers in Real Life",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Why can subtracting an integer be thought of as adding its inverse? For example, why is (+7) - (+5) the same as (+7) + (-5)?",
+      "options": [
+        "Because moving 5 steps backward is the same as adding a movement of -5.",
+        "Because multiplication and division are inverse operations.",
+        "Because all subtractions must result in a smaller number.",
+        "Because the number 5 is a prime number."
+      ],
+      "correct": 0,
+      "explanation": "On a number line or lift, subtracting a positive number like 5 means moving 5 steps in the negative (backward) direction. This is functionally identical to adding a negative movement of -5.",
+      "topic": "Conceptual Understanding of Subtraction",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "The ancient Chinese used red and black rods to represent numbers. How does this system relate to the token model described in the chapter?",
+      "options": [
+        "It is identical; red rods were positive and black rods were negative.",
+        "It is the opposite; red rods were negative and black rods were positive.",
+        "It is a similar concept of using two distinct types of objects to represent positive and negative quantities.",
+        "It has no relation, as the rods were used for an abacus."
+      ],
+      "correct": 2,
+      "explanation": "The chapter mentions positive and negative numbers were represented using red and black rods, much like the book uses red (positive) and green (negative) tokens. The core idea of using dual-colored objects to represent opposites is the key similarity.",
+      "topic": "History of Integers",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "In the hollow integer grid puzzle, the 'border sum' is the sum of numbers in the top row, bottom row, left column, and right column. If the top row is -10, ?, -5 and the border sum must be -2, what must the missing number in the right column be to complete the sum with -5 and a bottom-right number of 3?",
+      "options": [
+        "0",
+        "2",
+        "-4",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "The right column must add up to the border sum of -2. The expression is ? + (-5) + 3 = -2. This simplifies to ? - 2 = -2. The missing number must be 0.",
+      "topic": "Integer Puzzles",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Brahmagupta's work in 628 CE was revolutionary because it was the first general treatment of positive numbers, negative numbers, and zero 'on an equal footing'. What does this imply?",
+      "options": [
+        "He proved all numbers were equal to each other.",
+        "He treated them all as valid numbers with consistent rules for arithmetic operations like addition and subtraction.",
+        "He only focused on how numbers were used in accounting.",
+        "He invented the number zero for the first time."
+      ],
+      "correct": 1,
+      "explanation": "Being on an 'equal footing' meant that negative numbers and zero weren't just strange ideas but were treated as legitimate numbers with clear, defined rules for how they interact with positive numbers, which was a major conceptual leap.",
+      "topic": "History of Integers",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "Why might a bank find it worthwhile to allow a customer to have a temporary negative balance?",
+      "options": [
+        "Because banks are required by law to give unlimited money.",
+        "To provide a service that helps customers cover essential payments, while potentially earning interest or fees.",
+        "Because negative money doesn't actually exist.",
+        "To erase the customer's debt automatically."
+      ],
+      "correct": 1,
+      "explanation": "Allowing a negative balance (overdraft) can be a useful service for a customer in need, and the bank often charges interest or a fee for this service, making it a source of revenue.",
+      "topic": "Critical Thinking on Applications",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "To solve (-3) - (+5) using tokens, you start with 3 negative tokens. How many zero pairs must you add to complete the subtraction?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "You need to take away 5 positive tokens, but you have none. You must add enough zero pairs to get 5 positive tokens. Therefore, you need to add 5 zero pairs.",
+      "topic": "Advanced Token Model",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Consider the sequence: 12, 6, 1, -3, -6, ... What is the pattern of change between consecutive numbers?",
+      "options": [
+        "Subtracting 6 each time.",
+        "The amount subtracted increases by one each time (-6, -5, -4...).",
+        "The amount subtracted decreases by one each time (-6, -5, -4...).",
+        "The amount added decreases by one each time."
+      ],
+      "correct": 1,
+      "explanation": "The differences are: 6-12=-6; 1-6=-5; -3-1=-4; -6-(-3)=-3. The number being added (or the movement) is increasing by 1 each time: -6, -5, -4, -3. The next movement would be -2, making the next number -8.",
+      "topic": "Number Patterns",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "Which of these statements is ALWAYS true?",
+      "options": [
+        "(positive) + (negative) is always negative.",
+        "(negative) - (negative) is always zero.",
+        "(positive) - (negative) is always positive.",
+        "(negative) + (negative) is always positive."
+      ],
+      "correct": 2,
+      "explanation": "Subtracting a negative is the same as adding a positive. A positive plus a positive will always be positive. The other options can be either positive, negative, or zero depending on the specific numbers.",
+      "topic": "Properties of Integer Operations",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "The text states that the concept of a number ray starting at 0 and going right is incomplete. How do integers complete this picture?",
+      "options": [
+        "By adding fractions between the whole numbers.",
+        "By extending the ray infinitely to the left of 0 to create a full number line.",
+        "By curving the ray into a circle.",
+        "By proving that numbers only exist to the right of 0."
+      ],
+      "correct": 1,
+      "explanation": "The number 'ray' only accounts for 0 and positive numbers. The introduction of negative numbers extends this ray to the left, transforming it into a complete 'number line' that goes infinitely in both directions.",
+      "topic": "Number Line",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "If you are on the mineshaft level -90m and need to reach +40m, your movement can be calculated as (+40) - (-90). How can you visualize this movement on a number line?",
+      "options": [
+        "A movement of 50m to the left.",
+        "A movement of 130m to the right.",
+        "A movement of 90m to the right, then 40m to the left.",
+        "A movement of 130m to the left."
+      ],
+      "correct": 1,
+      "explanation": "(+40) - (-90) equals +130. This represents a total movement of 130m in the positive direction (upwards or to the right on a number line). You move 90m to get to 0, and then another 40m to get to +40.",
+      "topic": "Visualizing Operations",
+      "difficulty": "hard"
     }
   ]
 }

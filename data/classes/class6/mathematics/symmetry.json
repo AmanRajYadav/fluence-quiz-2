@@ -1,20 +1,432 @@
 {
   "chapterInfo": {
     "class": 6,
-    "subject": "mathematics",
+    "subject": "Mathematics",
     "chapterNumber": 9,
     "chapterName": "Symmetry",
-    "totalQuestions": 1,
-    "difficulty": "easy"
+    "totalQuestions": 30,
+    "difficulty": "Mixed"
   },
   "questions": [
     {
       "id": 1,
-      "question": "A shape that looks exactly the same when folded along a line has:",
-      "options": ["No symmetry", "Line symmetry", "Point symmetry", "Rotational symmetry"],
+      "difficulty": "easy",
+      "question": "What is a line that cuts a figure into two parts that exactly overlap when folded along it called?",
+      "options": [
+        "A dividing line",
+        "A line of symmetry",
+        "A central line",
+        "A mirror line"
+      ],
       "correct": 1,
-      "explanation": "Line symmetry means the shape looks the same when folded along the line",
-      "topic": "Line Symmetry"
+      "explanation": "A line of symmetry is defined as a line that divides a figure into two identical halves that perfectly overlap when folded.",
+      "topic": "Line of Symmetry"
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "What is the fixed point about which an object is rotated in rotational symmetry called?",
+      "options": [
+        "The pivot point",
+        "The origin",
+        "The centre of rotation",
+        "The axis point"
+      ],
+      "correct": 2,
+      "explanation": "The specific point that remains fixed while the rest of the figure rotates around it is called the centre of rotation.",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "According to the text, which of the following figures is described as not being symmetrical?",
+      "options": [
+        "Butterfly",
+        "Rangoli",
+        "Pinwheel",
+        "Clouds"
+      ],
+      "correct": 3,
+      "explanation": "The text explicitly states that clouds do not have a repetitive pattern and are therefore not symmetrical, unlike the other figures.",
+      "topic": "Introduction to Symmetry"
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "When a figure is folded along a line of symmetry, the two resulting parts are called...",
+      "options": [
+        "Twin halves",
+        "Similar halves",
+        "Duplicate halves",
+        "Mirror halves"
+      ],
+      "correct": 3,
+      "explanation": "If one half of a figure perfectly covers the other half upon folding, they are referred to as mirror halves.",
+      "topic": "Line of Symmetry"
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "What happens when any figure is rotated by a full 360 degrees?",
+      "options": [
+        "It becomes inverted.",
+        "It changes its shape.",
+        "It comes back to its original position.",
+        "It becomes larger."
+      ],
+      "correct": 2,
+      "explanation": "A full 360-degree turn completes a full circle, so any figure will always return to its original starting position.",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A figure that possesses a line of symmetry is also said to have which type of symmetry?",
+      "options": [
+        "Rotational symmetry",
+        "Reflection symmetry",
+        "Point symmetry",
+        "Translational symmetry"
+      ],
+      "correct": 1,
+      "explanation": "Reflection symmetry is another term for line symmetry, as one half of the figure is a reflection of the other across the line of symmetry.",
+      "topic": "Line of Symmetry"
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "question": "The activity of creating symmetric figures by spilling ink on a folded paper is called...",
+      "options": [
+        "Paper Staining",
+        "Blot Art",
+        "Ink Blot Devils",
+        "Symmetry Painting"
+      ],
+      "correct": 2,
+      "explanation": "The textbook describes this classic activity for creating symmetrical patterns and calls it 'Ink Blot Devils'.",
+      "topic": "Generating Symmetrical Figures"
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "question": "A figure has rotational symmetry if it looks the same after a rotation by an angle strictly between...",
+      "options": [
+        "0 and 90 degrees",
+        "0 and 180 degrees",
+        "0 and 360 degrees",
+        "90 and 270 degrees"
+      ],
+      "correct": 2,
+      "explanation": "The definition of rotational symmetry requires the figure to match its original position at an angle greater than 0 but less than a full 360-degree turn.",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "question": "What is another name for a line of symmetry mentioned in the summary?",
+      "options": [
+        "Axis of rotation",
+        "Axis of symmetry",
+        "Line of reflection",
+        "Midpoint line"
+      ],
+      "correct": 1,
+      "explanation": "The summary at the end of the chapter explicitly states that an 'axis of symmetry' is another name for a line of symmetry.",
+      "topic": "Line of Symmetry"
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "question": "Based on the exploration with the square, can a figure have multiple lines of symmetry?",
+      "options": [
+        "No, a figure can only have one.",
+        "Yes, any figure can have multiple lines.",
+        "Yes, figures like a square have multiple lines of symmetry.",
+        "Only circles can have multiple lines."
+      ],
+      "correct": 2,
+      "explanation": "The text demonstrates through paper folding that a square has four distinct lines of symmetry, proving that figures can have more than one.",
+      "topic": "Line of Symmetry"
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "How many lines of symmetry does a square have, as demonstrated by the paper folding activity?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "correct": 2,
+      "explanation": "A square has four lines of symmetry: two that connect the midpoints of opposite sides, and two along its diagonals.",
+      "topic": "Properties of Shapes"
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "What are the angles of rotational symmetry for a square?",
+      "options": [
+        "180°, 360°",
+        "90°, 270°, 360°",
+        "120°, 240°, 360°",
+        "90°, 180°, 270°, 360°"
+      ],
+      "correct": 3,
+      "explanation": "A square looks the same after a quarter turn (90°), a half turn (180°), a three-quarter turn (270°), and a full turn (360°).",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "According to the text, is the diagonal of a rectangle (that is not a square) a line of symmetry?",
+      "options": [
+        "Yes, always.",
+        "No, folding along the diagonal does not make the halves overlap.",
+        "Only if the rectangle is very long.",
+        "Yes, but only one of the diagonals."
+      ],
+      "correct": 1,
+      "explanation": "The chapter specifically instructs the student to test this by folding a rectangular paper, which shows that the two halves do not overlap perfectly.",
+      "topic": "Properties of Shapes"
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The paper windmill shown in the book has rotational symmetry. What is its smallest angle of rotation?",
+      "options": [
+        "45°",
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "correct": 1,
+      "explanation": "The windmill has four blades. It looks exactly the same after a quarter turn, which is 360° / 4 = 90°.",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "A triangle with three equal sides is called an equilateral triangle. How many lines of symmetry does it have?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": 3,
+      "explanation": "An equilateral triangle is symmetrical along the lines drawn from each vertex to the midpoint of the opposite side, giving it 3 lines of symmetry.",
+      "topic": "Properties of Shapes"
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "question": "To give a figure with 3 radial arms rotational symmetry, what must be the angle between each adjacent arm?",
+      "options": [
+        "90°",
+        "100°",
+        "120°",
+        "180°"
+      ],
+      "correct": 2,
+      "explanation": "For the figure to be the same after rotation, the total 360 degrees of a full circle must be divided equally among the 3 arms: 360° / 3 = 120°.",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "question": "Which of these objects mentioned in the text has rotational symmetry but no lines of symmetry?",
+      "options": [
+        "A square",
+        "The Taj Mahal facade",
+        "A paper windmill",
+        "An equilateral triangle"
+      ],
+      "correct": 2,
+      "explanation": "The text specifically points out that the paper windmill looks symmetrical but has no line of symmetry, as folding it does not create mirror halves. It does, however, have rotational symmetry.",
+      "topic": "Symmetry Types"
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "question": "If you take a circular piece of paper, what part of it acts as a line of symmetry?",
+      "options": [
+        "Any chord",
+        "Any radius",
+        "Any diameter",
+        "Only the horizontal diameter"
+      ],
+      "correct": 2,
+      "explanation": "The chapter states that for a circle, 'Every diameter is a line of symmetry!'.",
+      "topic": "Properties of Shapes"
+    },
+    {
+      "id": 19,
+      "difficulty": "medium",
+      "question": "If you fold a square paper in half vertically and then punch one hole through the folded paper, how many holes will you see when you unfold it?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "The fold is a line of symmetry. Punching one hole through the two layers will create a symmetrical pattern of two holes when unfolded.",
+      "topic": "Generating Symmetrical Figures"
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "A hexagon with equal sides and angles is a regular hexagon. How many lines of symmetry does it have?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "explanation": "A regular hexagon has 6 lines of symmetry: 3 connecting opposite vertices and 3 connecting the midpoints of opposite sides.",
+      "topic": "Properties of Shapes"
+    },
+    {
+      "id": 21,
+      "difficulty": "hard",
+      "question": "Why is a diagonal of a standard rectangle (not a square) NOT a line of symmetry?",
+      "options": [
+        "The diagonal is too long.",
+        "The corners do not align when folded.",
+        "A rectangle can't have diagonal lines.",
+        "The area of the two halves is different."
+      ],
+      "correct": 1,
+      "explanation": "When folded along a diagonal, the vertices of the opposite corners do not meet, meaning the two triangular halves do not overlap completely.",
+      "topic": "Analysis of Symmetry"
+    },
+    {
+      "id": 22,
+      "difficulty": "hard",
+      "question": "If a figure's smallest angle of rotational symmetry is 60°, what are its other angles of symmetry?",
+      "options": [
+        "180°, 360°",
+        "120°, 180°, 240°, 300°, 360°",
+        "90°, 120°, 180°",
+        "It has no other angles."
+      ],
+      "correct": 1,
+      "explanation": "All other angles of symmetry must be multiples of the smallest angle. So, the angles are 60°, 120° (60*2), 180° (60*3), 240° (60*4), 300° (60*5), and 360° (60*6).",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 23,
+      "difficulty": "hard",
+      "question": "The book asks: 'Is it possible to draw a triangle with exactly two lines of symmetry?' What is the correct conclusion?",
+      "options": [
+        "Yes, a right-angled isosceles triangle.",
+        "Yes, any scalene triangle.",
+        "No, a triangle can only have 0, 1, or 3 lines of symmetry.",
+        "Yes, if it is a very thin triangle."
+      ],
+      "correct": 2,
+      "explanation": "A triangle with one line of symmetry is isosceles. If it had a second line of symmetry, it would force the third side to also be equal, making it equilateral, which has three lines of symmetry. Therefore, exactly two is impossible.",
+      "topic": "Analysis of Shapes"
+    },
+    {
+      "id": 24,
+      "difficulty": "hard",
+      "question": "To create a figure with 5 radial arms that has rotational symmetry, what must be the angle between any two adjacent arms?",
+      "options": [
+        "60°",
+        "72°",
+        "90°",
+        "50°"
+      ],
+      "correct": 1,
+      "explanation": "For the figure to have 5-fold rotational symmetry, the 360° of a full circle must be divided equally into 5 parts: 360° / 5 = 72°.",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 25,
+      "difficulty": "hard",
+      "question": "A figure has both reflectional symmetry (a line of symmetry) and rotational symmetry. Which of these shapes fits the description?",
+      "options": [
+        "A scalene triangle",
+        "An isosceles triangle",
+        "A parallelogram that is not a rectangle",
+        "A regular pentagon"
+      ],
+      "correct": 3,
+      "explanation": "A regular pentagon has 5 lines of symmetry and also rotational symmetry with an angle of 72°. An isosceles triangle has a line of symmetry but no rotational symmetry.",
+      "topic": "Symmetry Types"
+    },
+    {
+      "id": 26,
+      "difficulty": "hard",
+      "question": "A figure has only one line of symmetry. Can this figure have rotational symmetry?",
+      "options": [
+        "Yes, always",
+        "Yes, if it's a circle",
+        "No, because having only one line of symmetry prevents it from matching up after a partial rotation.",
+        "Only if the line is vertical"
+      ],
+      "correct": 2,
+      "explanation": "If a figure has only one line of symmetry (like an isosceles triangle or a kite), it won't look the same after any rotation less than 360°. Therefore, it does not have rotational symmetry.",
+      "topic": "Analysis of Symmetry"
+    },
+    {
+      "id": 27,
+      "difficulty": "hard",
+      "question": "Why can a circle be described as having infinite angles of rotational symmetry?",
+      "options": [
+        "Because it's perfectly round.",
+        "Because no matter what angle you rotate it by, it always looks the same.",
+        "Because it has no corners.",
+        "All of the above."
+      ],
+      "correct": 3,
+      "explanation": "A circle's perfect shape means there is no feature (like a corner or a specific side) to distinguish its orientation. Therefore, any angle of rotation, no matter how small, will result in the circle coinciding with its original position.",
+      "topic": "Properties of Shapes"
+    },
+    {
+      "id": 28,
+      "difficulty": "hard",
+      "question": "A square sheet is folded along both its diagonals to form a small triangle. A single hole is punched in this triangle. How many holes will appear on the unfolded square?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 3,
+      "explanation": "Folding along two diagonals means the paper is layered 8 times in some areas. Punching a single hole through all layers will result in 8 symmetrically placed holes when unfolded.",
+      "topic": "Generating Symmetrical Figures"
+    },
+    {
+      "id": 29,
+      "difficulty": "hard",
+      "question": "A regular pentagon (5 equal sides) has 5 lines of symmetry. What is its smallest angle of rotational symmetry?",
+      "options": [
+        "60°",
+        "90°",
+        "72°",
+        "36°"
+      ],
+      "correct": 2,
+      "explanation": "The order of rotational symmetry for a regular polygon is equal to its number of sides. The smallest angle is 360° divided by the order of rotation: 360° / 5 = 72°.",
+      "topic": "Rotational Symmetry"
+    },
+    {
+      "id": 30,
+      "difficulty": "hard",
+      "question": "Can a quadrilateral have rotational symmetry but no reflection symmetry?",
+      "options": [
+        "No, it's impossible.",
+        "Yes, a square is an example.",
+        "Yes, a parallelogram (that isn't a rectangle or rhombus) is an example.",
+        "Yes, a kite is an example."
+      ],
+      "correct": 2,
+      "explanation": "A parallelogram has rotational symmetry of 180°, but unless it's a rectangle or rhombus, it has no lines of symmetry. A kite has reflection symmetry but no rotational symmetry.",
+      "topic": "Symmetry Types"
     }
   ]
 }
