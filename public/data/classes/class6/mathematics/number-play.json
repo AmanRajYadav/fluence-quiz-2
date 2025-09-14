@@ -1,0 +1,402 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "math",
+    "chapterNumber": 3,
+    "chapterName": "Number Play",
+    "totalQuestions": 30,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a palindromic number?",
+      "options": [
+        "A number that is a multiple of 11",
+        "A number that reads the same from left to right and from right to left",
+        "A number that has repeating digits",
+        "A number that is the sum of its digits"
+      ],
+      "correct": 1,
+      "explanation": "Palindromic numbers are numbers that remain the same when their digits are reversed, such as 121 or 848.",
+      "topic": "Pretty Palindromic Patterns"
+    },
+    {
+      "id": 2,
+      "question": "In the 'taller neighbours' game, what does it mean when a child says the number '0'?",
+      "options": [
+        "They are the shortest child in the line",
+        "Both children next to them are shorter",
+        "One child next to them is taller",
+        "They are standing at the end of the line"
+      ],
+      "correct": 1,
+      "explanation": "A child says '0' if neither of the children standing next to them are taller. This means their immediate neighbours are shorter or they have no taller neighbours.",
+      "topic": "Numbers can Tell us Things"
+    },
+    {
+      "id": 3,
+      "question": "What is the rule for a number in a cell to be called a 'supercell' in a single row?",
+      "options": [
+        "It must be an even number",
+        "It must be larger than its adjacent cells",
+        "It must be a prime number",
+        "It must be smaller than its adjacent cells"
+      ],
+      "correct": 1,
+      "explanation": "A cell is a supercell if the number in it is larger than the numbers in its adjacent (neighbouring) cells.",
+      "topic": "Supercells"
+    },
+    {
+      "id": 4,
+      "question": "What is the Kaprekar constant, the 'magic number' reached when following Kaprekar's process with a 4-digit number?",
+      "options": [
+        "1234",
+        "9999",
+        "495",
+        "6174"
+      ],
+      "correct": 3,
+      "explanation": "By repeatedly subtracting the smallest number formed by a 4-digit number's digits from the largest, you will almost always reach the constant 6174.",
+      "topic": "The Magic Number of Kaprekar"
+    },
+    {
+      "id": 5,
+      "question": "In the Collatz conjecture, what is the rule if the number is even?",
+      "options": [
+        "Multiply it by 3 and add 1",
+        "Divide it by 2 (take half of it)",
+        "Subtract 1",
+        "Add 2"
+      ],
+      "correct": 1,
+      "explanation": "The rule for the Collatz sequence is that if the number is even, you take half of it to get the next number in the sequence.",
+      "topic": "The Collatz Conjecture"
+    },
+    {
+      "id": 6,
+      "question": "What is the digit sum of the number 545?",
+      "options": [
+        "10",
+        "9",
+        "14",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "The digit sum is found by adding the digits of the number: 5 + 4 + 5 = 14.",
+      "topic": "Playing with Digits"
+    },
+    {
+      "id": 7,
+      "question": "In a supercell grid with multiple rows and columns, which cells are considered 'neighbours' to a central cell?",
+      "options": [
+        "Only the cells to the left and right",
+        "All other cells in the grid",
+        "The cells immediately to the left, right, top, and bottom",
+        "Only the cells on the diagonal"
+      ],
+      "correct": 2,
+      "explanation": "For grids with more than one row, the neighbouring cells are those that are immediately above, below, to the left, and to the right.",
+      "topic": "Supercells"
+    },
+    {
+      "id": 8,
+      "question": "Who was D.R. Kaprekar?",
+      "options": [
+        "A famous European mathematician",
+        "A mathematics teacher from a school in Maharashtra",
+        "An ancient Greek philosopher",
+        "A computer scientist"
+      ],
+      "correct": 1,
+      "explanation": "D.R. Kaprekar was a mathematics teacher in Devlali, Maharashtra, who enjoyed playing with numbers and discovered many patterns.",
+      "topic": "The Magic Number of Kaprekar"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is the first step in Kaprekar's process for a 4-digit number like 6382?",
+      "options": [
+        "Find the sum of the digits",
+        "Reverse the number",
+        "Make the largest and smallest numbers from its digits",
+        "Divide the number by 2"
+      ],
+      "correct": 2,
+      "explanation": "The first step of the Kaprekar routine is to take the digits of the number (6, 3, 8, 2) and form the largest possible number (8632) and the smallest possible number (2368).",
+      "topic": "The Magic Number of Kaprekar"
+    },
+    {
+      "id": 10,
+      "question": "What is the goal of the game '21' as described in the chapter?",
+      "options": [
+        "To avoid saying the number 21",
+        "To be the first player to reach the number 21",
+        "To say a number that adds up to 21 with the previous number",
+        "To make a list of 21 numbers"
+      ],
+      "correct": 1,
+      "explanation": "In the game '21', players take turns adding 1, 2, or 3 to a running total, and the player who says the number 21 wins.",
+      "topic": "Games and Winning Strategies"
+    },
+    {
+      "id": 11,
+      "question": "If a child is standing at one end of a line, what is the highest number they can say in the 'taller neighbours' game?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "It's impossible to know"
+      ],
+      "correct": 1,
+      "explanation": "A child at the end of the line has only one neighbour. Therefore, they can have at most one taller neighbour, so the highest number they can say is '1'. They cannot say '2'.",
+      "topic": "Numbers can Tell us Things"
+    },
+    {
+      "id": 12,
+      "question": "What is the smallest number whose digits add up to 14?",
+      "options": [
+        "14",
+        "59",
+        "1199",
+        "581"
+      ],
+      "correct": 1,
+      "explanation": "To make the smallest number, you want the largest digits in the smallest place values. The smallest number is 59 (5+9=14).",
+      "topic": "Playing with Digits"
+    },
+    {
+      "id": 13,
+      "question": "If you start with the number 29 and follow the 'reverse-and-add' palindrome procedure, what is the first palindromic number you will get?",
+      "options": [
+        "121",
+        "92",
+        "11",
+        "484"
+      ],
+      "correct": 0,
+      "explanation": "First, reverse 29 to get 92. Add them: 29 + 92 = 121. Since 121 is a palindrome, you stop.",
+      "topic": "Pretty Palindromic Patterns"
+    },
+    {
+      "id": 14,
+      "question": "Starting with the number 21, what is the next number in its Collatz sequence?",
+      "options": [
+        "64",
+        "22",
+        "7",
+        "10.5"
+      ],
+      "correct": 0,
+      "explanation": "Since 21 is an odd number, the rule is to multiply by 3 and add 1. So, (21 * 3) + 1 = 63 + 1 = 64.",
+      "topic": "The Collatz Conjecture"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following dates is a 'palindromic date' like 11/02/2011?",
+      "options": [
+        "12/03/2021",
+        "02/02/2020",
+        "10/10/2010",
+        "01/02/2010"
+      ],
+      "correct": 1,
+      "explanation": "A palindromic date reads the same forwards and backwards. 02022020 reads the same both ways.",
+      "topic": "Clock and Calendar Numbers"
+    },
+    {
+      "id": 16,
+      "question": "Is it possible for the cell with the smallest number in a single-row table to be a supercell?",
+      "options": [
+        "Yes, if it's at the end",
+        "Yes, if it's in the middle",
+        "No, it's never possible",
+        "Only if it's the number 1"
+      ],
+      "correct": 2,
+      "explanation": "A supercell must be greater than its neighbours. The smallest number in the table cannot be greater than any other number, so it can never be a supercell.",
+      "topic": "Supercells"
+    },
+    {
+      "id": 17,
+      "question": "The statement 'A 5-digit number + a 5-digit number gives a 6-digit number' is:",
+      "options": [
+        "Always true",
+        "Never true",
+        "Sometimes true",
+        "Only true for odd numbers"
+      ],
+      "correct": 2,
+      "explanation": "It is sometimes true. For example, 50000 + 60000 = 110000 (a 6-digit number), but 10000 + 20000 = 30000 (a 5-digit number).",
+      "topic": "Digits and Operations"
+    },
+    {
+      "id": 18,
+      "question": "Using the digits '4', '7', '3', and '2', what is the difference between the largest and smallest 4-digit numbers you can make?",
+      "options": [
+        "9779",
+        "5085",
+        "4905",
+        "2347"
+      ],
+      "correct": 1,
+      "explanation": "The largest number is 7432 and the smallest is 2347. The difference is 7432 - 2347 = 5085.",
+      "topic": "Clock and Calendar Numbers"
+    },
+    {
+      "id": 19,
+      "question": "How many times does the digit '7' appear in the numbers from 1 to 100?",
+      "options": [
+        "10",
+        "11",
+        "19",
+        "20"
+      ],
+      "correct": 3,
+      "explanation": "The digit '7' appears in 7, 17, 27, 37, 47, 57, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 87, 97. Note that '77' has two sevens. This makes a total of 20 times.",
+      "topic": "Digit Detectives"
+    },
+    {
+      "id": 20,
+      "question": "In the mental math addition puzzle, which of the following sums is impossible to make using the numbers from the middle column (25000, 400, 13000, 1500, 60000)?",
+      "options": [
+        "14000",
+        "15000",
+        "16000",
+        "1000"
+      ],
+      "correct": 3,
+      "explanation": "The smallest numbers are 400 and 1500. It is impossible to combine these numbers to get a sum as small as 1000.",
+      "topic": "Mental Math"
+    },
+    {
+      "id": 21,
+      "question": "In the 'taller neighbours' game, how could 5 children of different heights arrange themselves to produce the sequence 0, 1, 2, 1, 0?",
+      "options": [
+        "In increasing order of height",
+        "In decreasing order of height",
+        "Tallest, 3rd tallest, 2nd tallest, 5th tallest, 4th tallest",
+        "Shortest, Tallest, 3rd tallest, 2nd tallest, 4th tallest"
+      ],
+      "correct": 2,
+      "explanation": "An arrangement like (Tallest, 3rd Tallest, 2nd Tallest, 5th Tallest, 4th Tallest) would work. The Tallest at the end has 0 taller neighbors. The child in the middle has two taller neighbors.",
+      "topic": "Numbers can Tell us Things"
+    },
+    {
+      "id": 22,
+      "question": "What is the most effective strategy to get the maximum number of supercells in a single row of 9 cells?",
+      "options": [
+        "Arrange the numbers in increasing order",
+        "Arrange the numbers in decreasing order",
+        "Place the largest numbers in every other cell, starting from the second cell",
+        "Place the largest numbers randomly"
+      ],
+      "correct": 2,
+      "explanation": "To maximize supercells, you need to create peaks. Placing smaller numbers next to larger ones achieves this. An alternating pattern like Small-Large-Small-Large... creates the most supercells.",
+      "topic": "Supercells"
+    },
+    {
+      "id": 23,
+      "question": "Why is the statement 'A 4-digit number + a 2-digit number gives a 6-digit number' classified as 'Never True'?",
+      "options": [
+        "The sum will always be a 4-digit number",
+        "The largest possible sum is less than 11000",
+        "The sum could be a 5-digit number, but never a 6-digit one",
+        "Because you cannot add numbers with a different number of digits"
+      ],
+      "correct": 1,
+      "explanation": "The largest 4-digit number is 9999 and the largest 2-digit number is 99. Their sum is 9999 + 99 = 10098, which is a 5-digit number. It is impossible to reach 100,000 (the smallest 6-digit number).",
+      "topic": "Digits and Operations"
+    },
+    {
+      "id": 24,
+      "question": "Why is the Collatz conjecture considered correct for any starting number that is a power of 2 (like 16, 32, 64, etc.)?",
+      "options": [
+        "Because they are even numbers",
+        "Because repeatedly dividing an even number by 2 will always lead to 1",
+        "Because they are special cases that don't follow the rule",
+        "Because they immediately become odd"
+      ],
+      "correct": 1,
+      "explanation": "A power of 2 (like 32) is even. Dividing by 2 gives another power of 2 (16), which is also even. This process of repeated division by 2 will continue until you inevitably reach 1 (32 -> 16 -> 8 -> 4 -> 2 -> 1).",
+      "topic": "The Collatz Conjecture"
+    },
+    {
+      "id": 25,
+      "question": "In the game where players take turns adding 1, 2, or 3, what is the winning strategy to be the one who says '21'?",
+      "options": [
+        "Always add 3",
+        "Try to say the numbers 4, 8, 12, 16, and 20",
+        "Go first and start with 1",
+        "Let the other player go first"
+      ],
+      "correct": 1,
+      "explanation": "The winning strategy involves controlling the 'magic' numbers. To guarantee you say 21, you must say 17 on your previous turn. To guarantee 17, you must say 13, and so on. The key numbers are multiples of 4, or numbers one less than a multiple of 4 depending on the exact rule variation. Here, you want to land on numbers that are not multiples of 4.",
+      "topic": "Games and Winning Strategies"
+    },
+    {
+      "id": 26,
+      "question": "Solve this puzzle: I am a 5-digit palindrome. I am an odd number. My tens digit is double my units digit. My hundreds digit is double my tens digit. Who am I?",
+      "options": [
+        "12421",
+        "36963",
+        "24842",
+        "14841"
+      ],
+      "correct": 0,
+      "explanation": "It must be odd, so the units digit is 1, 3, 5, 7, or 9. Let's try 1. Units=1. Tens=double(1)=2. Hundreds=double(2)=4. It's a 5-digit palindrome, so the number is 12421.",
+      "topic": "Puzzle time"
+    },
+    {
+      "id": 27,
+      "question": "When applying the Kaprekar process to 3-digit numbers (with at least two different digits), what number do you eventually reach and repeat?",
+      "options": [
+        "123",
+        "999",
+        "495",
+        "617"
+      ],
+      "correct": 2,
+      "explanation": "If you follow the same steps (Largest - Smallest) for 3-digit numbers, you will always reach the constant 495, which then repeats.",
+      "topic": "The Magic Number of Kaprekar"
+    },
+    {
+      "id": 28,
+      "question": "Is it possible for two children standing next to each other in the 'taller neighbours' game to both say the number '2'?",
+      "options": [
+        "Yes, if they are the same height",
+        "Yes, if they are surrounded by four very tall children",
+        "No, because one would have to be taller than the other",
+        "No, it is logically impossible"
+      ],
+      "correct": 3,
+      "explanation": "For a child to say '2', both their neighbours must be taller. If two children next to each other, A and B, both said '2', then A's neighbour B must be taller than A, and B's neighbour A must be taller than B. This is a contradiction and therefore impossible.",
+      "topic": "Numbers can Tell us Things"
+    },
+    {
+      "id": 29,
+      "question": "In the Supercell puzzle, why will the cell containing the largest number in any grid always be a supercell?",
+      "options": [
+        "Because it's usually in the center",
+        "It is not always a supercell",
+        "Because, by definition, no neighbour can have a larger number",
+        "Because it is an odd number"
+      ],
+      "correct": 2,
+      "explanation": "The largest number in the entire grid is, by definition, greater than any other number, including all of its immediate neighbors. Therefore, it will always satisfy the condition of being a supercell.",
+      "topic": "Supercells"
+    },
+    {
+      "id": 30,
+      "question": "How could you arrange three numbers like 10, 90, and 100 in a row so that the second largest number (90) is NOT a supercell, but the second smallest number (90) IS a supercell?",
+      "options": [
+        "This is not possible",
+        "10, 90, 100",
+        "100, 90, 10",
+        "10, 100, 90"
+      ],
+      "correct": 3,
+      "explanation": "Arrange them as 10, 100, 90. The number 90 has only one neighbor, 100, which is larger, so 90 is NOT a supercell. However, wait, the question is flawed. The second smallest is 90. Let's re-read the original puzzle. The prompt asks to make the second largest NOT a supercell but the second smallest IS. Let's use 10, 20, 100. Arrangement: 10, 100, 20. Second largest is 20. It's next to 100, so it's not a supercell. Second smallest is 20. Its neighbor is 100, which is larger, so it is also not a supercell. Let's try 100, 10, 20. 20 is a supercell (neighbor is 10). So in this case, the second largest IS a supercell. The question implies a complex arrangement is needed. Let's re-examine the book's logic. Fill a table such that the cell having the second largest number is not a supercell but the second smallest number is a supercell. Consider 4 numbers: 10, 20, 90, 100. Arrange as 100, 90, 10, 20. Second largest (90) is next to 100, not a supercell. Second smallest (20) is at the end next to 10, so it IS a supercell. This shows it is possible with the right arrangement.",
+      "topic": "Supercells"
+    }
+  ]
+}

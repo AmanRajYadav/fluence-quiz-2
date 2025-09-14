@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 1,
+    "chapterName": "Locating Places on Earth",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which instrument is used to find directions?",
+      "options": ["Compass", "Thermometer", "Barometer", "Scale"],
+      "correct": 0,
+      "explanation": "A compass is used to find directions using magnetic north",
+      "topic": "Navigation"
+    }
+  ]
+}

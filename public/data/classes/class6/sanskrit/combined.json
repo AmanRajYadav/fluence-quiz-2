@@ -1,0 +1,22 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "sanskrit",
+    "category": "combined",
+    "categoryName": "संयुक्त (Combined)",
+    "totalQuestions": 1,
+    "difficulty": "mixed",
+    "isSpecial": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "संस्कृत भाषा की लिपि कौन सी है?",
+      "options": ["देवनागरी", "रोमन", "गुरुमुखी", "बंगाली"],
+      "correct": 0,
+      "explanation": "संस्कृत भाषा की लिपि देवनागरी है",
+      "topic": "देवनागरी परिचय",
+      "category": "देवनागरी परिचय"
+    }
+  ]
+}

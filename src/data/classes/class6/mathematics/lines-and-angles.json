@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "mathematics",
+    "chapterNumber": 2,
+    "chapterName": "Lines and Angles",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "A line that goes on forever in both directions is called a:",
+      "options": ["Ray", "Line segment", "Line", "Angle"],
+      "correct": 2,
+      "explanation": "A line extends infinitely in both directions",
+      "topic": "Basic Lines"
+    }
+  ]
+}

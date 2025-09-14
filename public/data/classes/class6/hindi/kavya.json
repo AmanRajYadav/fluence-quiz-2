@@ -1,0 +1,20 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "hindi",
+    "category": "kavya",
+    "categoryName": "काव्य (Poetry)",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "कविता में तुक मिलाने को क्या कहते हैं?",
+      "options": ["छंद", "लय", "तुकांत", "गेयता"],
+      "correct": 2,
+      "explanation": "कविता में तुक मिलाने को तुकांत कहते हैं",
+      "topic": "काव्य के तत्व"
+    }
+  ]
+}

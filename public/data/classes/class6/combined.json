@@ -1,0 +1,72 @@
+{
+  "subjectInfo": {
+    "class": 6,
+    "subject": "combined",
+    "subjectName": "Combined (All Subjects)",
+    "totalQuestions": 6,
+    "difficulty": "mixed",
+    "isSpecial": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What comes next in the pattern: 2, 4, 6, 8, ?",
+      "options": ["9", "10", "11", "12"],
+      "correct": 1,
+      "explanation": "This is an even number pattern, so 10 comes next",
+      "topic": "Patterns in Mathematics",
+      "subject": "Mathematics",
+      "subjectIcon": "🔢"
+    },
+    {
+      "id": 2,
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Mercury", "Venus", "Earth", "Mars"],
+      "correct": 0,
+      "explanation": "Mercury is the closest planet to the Sun",
+      "topic": "Solar System",
+      "subject": "Science",
+      "subjectIcon": "🔬"
+    },
+    {
+      "id": 3,
+      "question": "How many continents are there on Earth?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 2,
+      "explanation": "There are 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia",
+      "topic": "Geography",
+      "subject": "Social Science",
+      "subjectIcon": "🌍"
+    },
+    {
+      "id": 4,
+      "question": "What is the plural form of 'child'?",
+      "options": ["Children", "Childs", "Childes", "Child"],
+      "correct": 0,
+      "explanation": "The plural of 'child' is 'children' - it's an irregular plural",
+      "topic": "Grammar",
+      "subject": "English",
+      "subjectIcon": "📖"
+    },
+    {
+      "id": 5,
+      "question": "'पुस्तक' का बहुवचन क्या है?",
+      "options": ["पुस्तकें", "पुस्तकों", "पुस्तक", "पुस्तकएं"],
+      "correct": 0,
+      "explanation": "'पुस्तक' का बहुवचन 'पुस्तकें' होता है",
+      "topic": "व्याकरण",
+      "subject": "Hindi",
+      "subjectIcon": "🇮🇳"
+    },
+    {
+      "id": 6,
+      "question": "संस्कृत भाषा की लिपि कौन सी है?",
+      "options": ["देवनागरी", "रोमन", "गुरुमुखी", "बंगाली"],
+      "correct": 0,
+      "explanation": "संस्कृत भाषा की लिपि देवनागरी है",
+      "topic": "लिपि परिचय",
+      "subject": "Sanskrit",
+      "subjectIcon": "🕉️"
+    }
+  ]
+}

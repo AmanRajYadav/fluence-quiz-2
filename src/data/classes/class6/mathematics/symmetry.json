@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "mathematics",
+    "chapterNumber": 9,
+    "chapterName": "Symmetry",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "A shape that looks exactly the same when folded along a line has:",
+      "options": ["No symmetry", "Line symmetry", "Point symmetry", "Rotational symmetry"],
+      "correct": 1,
+      "explanation": "Line symmetry means the shape looks the same when folded along the line",
+      "topic": "Line Symmetry"
+    }
+  ]
+}

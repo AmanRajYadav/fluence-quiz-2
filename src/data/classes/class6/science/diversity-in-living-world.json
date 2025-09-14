@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 2,
+    "chapterName": "Diversity in the Living World",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of these is a living thing?",
+      "options": ["Rock", "Tree", "Water", "Air"],
+      "correct": 1,
+      "explanation": "A tree is a living thing as it grows, reproduces, and responds to its environment",
+      "topic": "Living and Non-living"
+    }
+  ]
+}

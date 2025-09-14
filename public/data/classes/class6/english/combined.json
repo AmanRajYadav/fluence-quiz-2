@@ -1,0 +1,22 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "english",
+    "category": "combined",
+    "categoryName": "Combined",
+    "totalQuestions": 1,
+    "difficulty": "mixed",
+    "isSpecial": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the plural form of 'child'?",
+      "options": ["Children", "Childs", "Childes", "Child"],
+      "correct": 0,
+      "explanation": "The plural of 'child' is 'children' - it's an irregular plural",
+      "topic": "Grammar",
+      "category": "Grammar"
+    }
+  ]
+}

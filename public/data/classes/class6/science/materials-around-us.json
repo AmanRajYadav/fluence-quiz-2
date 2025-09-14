@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 6,
+    "chapterName": "Materials Around Us",
+    "totalQuestions": 30,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is any substance used to create an object called?",
+      "options": [
+        "A thing",
+        "An item",
+        "A material",
+        "Matter"
+      ],
+      "correct": 2,
+      "explanation": "Any substance that is used to create an object is referred to as a material.",
+      "topic": "Introduction to Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which term describes materials that have a shiny surface?",
+      "options": [
+        "Opaque",
+        "Lustrous",
+        "Hard",
+        "Soluble"
+      ],
+      "correct": 1,
+      "explanation": "Materials that typically have shiny surfaces are said to have a lustrous appearance.",
+      "topic": "Properties of Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "Materials through which you cannot see at all are called what?",
+      "options": [
+        "Transparent",
+        "Translucent",
+        "Lustrous",
+        "Opaque"
+      ],
+      "correct": 3,
+      "explanation": "Materials through which you are not able to see at all are called opaque. Examples include wood and metals.",
+      "topic": "Properties of Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What happens to a substance that is soluble when mixed with water?",
+      "options": [
+        "It floats on top.",
+        "It sinks to the bottom.",
+        "It completely disappears or dissolves.",
+        "It changes color."
+      ],
+      "correct": 2,
+      "explanation": "Soluble materials completely disappear or dissolve when mixed in water.",
+      "topic": "Properties of Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What is the method of arranging objects into groups based on common properties called?",
+      "options": [
+        "Collection",
+        "Classification",
+        "Combination",
+        "Separation"
+      ],
+      "correct": 1,
+      "explanation": "The method of arranging objects into groups is called classification.",
+      "topic": "Grouping Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "According to the definition in the chapter, what is matter?",
+      "options": [
+        "Anything that is hard and shiny.",
+        "Anything that is visible to the eye.",
+        "Anything that occupies space and has mass.",
+        "Anything that can be dissolved in water."
+      ],
+      "correct": 2,
+      "explanation": "Anything that occupies space and has mass is called matter.",
+      "topic": "Matter, Mass, and Volume",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "Which of these is an example of a transparent material?",
+      "options": [
+        "A wooden board",
+        "Frosted glass",
+        "Butter paper",
+        "Air"
+      ],
+      "correct": 3,
+      "explanation": "Materials through which things can be seen clearly are called transparent. Air, water, and glass are examples.",
+      "topic": "Properties of Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Materials that are difficult to compress or scratch are known as what?",
+      "options": [
+        "Soft",
+        "Hard",
+        "Lustrous",
+        "Opaque"
+      ],
+      "correct": 1,
+      "explanation": "Materials which are difficult to compress or scratch are called hard.",
+      "topic": "Properties of Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "Which of these substances is mentioned as being insoluble in water?",
+      "options": [
+        "Sugar",
+        "Salt",
+        "Sand",
+        "Lemon juice"
+      ],
+      "correct": 2,
+      "explanation": "Sand is an example of a material that does not mix with water and is therefore insoluble.",
+      "topic": "Properties of Materials",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What property of a material does its volume represent?",
+      "options": [
+        "Its shininess",
+        "How heavy it is",
+        "The space it occupies",
+        "How hard it is"
+      ],
+      "correct": 2,
+      "explanation": "The space occupied by matter is its volume.",
+      "topic": "Matter, Mass, and Volume",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Why is it not a good idea to make a tumbler for holding water out of cloth?",
+      "options": [
+        "Cloth is not lustrous enough.",
+        "Cloth is too hard to shape.",
+        "Cloth cannot hold water.",
+        "Cloth is too heavy."
+      ],
+      "correct": 2,
+      "explanation": "A tumbler needs to be made of a material capable of holding water, which cloth is not. This shows we choose materials based on their properties for a specific purpose.",
+      "topic": "Application of Material Properties",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "A freshly cut piece of iron has lustre, but it becomes dull over time. What is the most likely reason for this?",
+      "options": [
+        "It becomes softer.",
+        "It gets polished by dust.",
+        "The effect of air and moisture on its surface.",
+        "It loses its mass."
+      ],
+      "correct": 2,
+      "explanation": "Some metals lose their lustre and look dull due to the effect of air and moisture on them.",
+      "topic": "Properties of Materials",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "If you are looking through a material and can see things, but they appear blurry and hazy, the material is likely what?",
+      "options": [
+        "Opaque",
+        "Hard",
+        "Transparent",
+        "Translucent"
+      ],
+      "correct": 3,
+      "explanation": "The materials through which objects can be seen, but not clearly, are known as translucent. Frosted glass is an example.",
+      "topic": "Properties of Materials",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "Why are different materials used for making cricket balls and tennis balls?",
+      "options": [
+        "To make them look different colors.",
+        "Because specific materials give them properties needed for each sport.",
+        "Because some materials are cheaper than others.",
+        "To make one ball soluble and the other insoluble."
+      ],
+      "correct": 1,
+      "explanation": "Balls for specific sports are made of specific materials to give them desired properties, such as how high they bounce, their texture, and hardness.",
+      "topic": "Application of Material Properties",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "In the hide and seek game described, who is easiest to find?",
+      "options": [
+        "Ghulan behind a wall (A)",
+        "Sheeta behind a tree (B)",
+        "Sara behind a frosted glass door (C)",
+        "They are all equally hard to find."
+      ],
+      "correct": 2,
+      "explanation": "Sara (C) is hiding behind a frosted glass door, which is translucent. This means she can be seen, but not clearly. Ghulan and Sheeta are behind opaque objects.",
+      "topic": "Application of Material Properties",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "The text explains that grocers keep all spices in one corner and pulses in another. This is a real-world example of what?",
+      "options": [
+        "Lustre",
+        "Solubility",
+        "Classification",
+        "Hardness"
+      ],
+      "correct": 2,
+      "explanation": "Organizing items in a shop, like a grocer placing similar items together, is an application of classification to make things orderly and easy to find.",
+      "topic": "Grouping Materials",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Which gas, essential for the survival of aquatic plants and animals, is mentioned as being soluble in water?",
+      "options": [
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "correct": 2,
+      "explanation": "Oxygen gas dissolves in water and is very important for the survival of animals and plants that live in water.",
+      "topic": "Properties of Materials",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "A student puts their bag on a chair and finds there is no space to sit. This demonstrates that the bag has which property?",
+      "options": [
+        "Lustre",
+        "Mass",
+        "Solubility",
+        "Volume"
+      ],
+      "correct": 3,
+      "explanation": "The bag occupies the space on the chair, preventing the student from sitting. This shows that the bag, like all matter, has volume (occupies space).",
+      "topic": "Matter, Mass, and Volume",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "What was the baked clay used by the Sindhu-Sarasvati Civilisation called?",
+      "options": [
+        "Ceramic",
+        "Terracotta",
+        "Porcelain",
+        "Earthenware"
+      ],
+      "correct": 1,
+      "explanation": "The clay used for making pots was baked in kilns, and this baked clay is called 'terracotta'.",
+      "topic": "Historical Context",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "A pen is given as an example of an object made from different materials. What could these materials be?",
+      "options": [
+        "Only plastic",
+        "Only metal",
+        "Plastic, metal, and ink",
+        "Wood, glass, and rubber"
+      ],
+      "correct": 2,
+      "explanation": "An object can be made from different materials. A pen, for example, may be made of plastic, metal, and ink.",
+      "topic": "Introduction to Materials",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "The text states that hardness is a 'relative' property, using rubber, sponge, and iron as an example. What does this imply?",
+      "options": [
+        "A material is either hard or soft, with no in-between.",
+        "A material can be harder than one material but softer than another.",
+        "Only metals can be truly hard.",
+        "Hardness depends on the person testing it."
+      ],
+      "correct": 1,
+      "explanation": "The property of hardness is relative. For example, rubber is harder than a sponge but softer than iron, showing that a material's hardness is judged in comparison to others.",
+      "topic": "Properties of Materials",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Why is the ability of water to dissolve a large number of materials important for our bodies?",
+      "options": [
+        "It makes our bodies heavier.",
+        "It helps our bodies function properly.",
+        "It makes water opaque inside us.",
+        "It allows us to float in pools."
+      ],
+      "correct": 1,
+      "explanation": "Water plays an important role in the functioning of our body because it can dissolve a large number of materials, which is crucial for various biological processes.",
+      "topic": "Application of Material Properties",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "In the ancient Indian Ayurvedic system, the property 'guru' (heavy) is the opposite of 'laghu' (light). This pair of properties corresponds to what modern scientific concept?",
+      "options": [
+        "Volume",
+        "Lustre",
+        "Mass",
+        "Hardness"
+      ],
+      "correct": 2,
+      "explanation": "The Ayurvedic properties 'guru' (heavy) and 'laghu' (light in weight) directly relate to the scientific concept of mass, which determines how heavy or light an object is.",
+      "topic": "Historical and Scientific Concepts",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "According to SI unit conventions mentioned in the text, how should a mass of 'seven kilograms' be written?",
+      "options": [
+        "7 kgs.",
+        "7kgs",
+        "7 kg",
+        "7 kg."
+      ],
+      "correct": 2,
+      "explanation": "The correct way to write it is '7 kg'. There should be a space between the number and the unit 'kg', and the unit should not be pluralized with an 's' or followed by a period (unless at the end of a sentence).",
+      "topic": "Scientific Notation",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "Air is considered matter, yet it is transparent. How does this compare to a wooden door?",
+      "options": [
+        "Both are transparent.",
+        "Air is transparent, and the wooden door is translucent.",
+        "Air is transparent, and the wooden door is opaque.",
+        "Air is opaque, and the wooden door is transparent."
+      ],
+      "correct": 2,
+      "explanation": "Air is transparent, allowing us to see through it. A wooden door is opaque, meaning we cannot see through it. Both are forms of matter because they have mass and volume.",
+      "topic": "Matter and its Properties",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "To prepare a homemade Oral Rehydration Solution (ORS), you dissolve sugar and salt in water. What essential property of both sugar and salt makes this possible?",
+      "options": [
+        "They are both hard solids.",
+        "They both have lustre.",
+        "They are both opaque.",
+        "They are both soluble in water."
+      ],
+      "correct": 3,
+      "explanation": "Making ORS involves mixing sugar and salt in water until they disappear, which demonstrates their property of being soluble in water.",
+      "topic": "Application of Material Properties",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "A girl finds she cannot pour a full jug of water into a smaller water bottle completely because it overflows. This demonstrates that...",
+      "options": [
+        "The water is too heavy for the bottle.",
+        "The volume of the water is greater than the capacity of the bottle.",
+        "The bottle is made of an insoluble material.",
+        "The water is opaque."
+      ],
+      "correct": 1,
+      "explanation": "The overflow happens because the space occupied by the water (its volume) is more than the space available inside the bottle (its capacity).",
+      "topic": "Matter, Mass, and Volume",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "The saying 'All that glitters is not gold' is used in the chapter to make a point about lustre. What is that point?",
+      "options": [
+        "Only gold has lustre.",
+        "All lustrous materials are metals.",
+        "Not all materials that shine are metals; some are just polished.",
+        "Lustre is an imaginary property."
+      ],
+      "correct": 2,
+      "explanation": "The chapter uses this saying to explain that while metals are typically lustrous, some non-metal surfaces can be made shiny by polishing or coating, so not everything that shines is a metal.",
+      "topic": "Properties of Materials",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "If you have two identical glass tumblers, one half-filled with water and the other completely filled, what can you conclude?",
+      "options": [
+        "The water in both tumblers has the same mass.",
+        "The completely filled tumbler contains a greater volume of water.",
+        "The half-filled tumbler contains more matter.",
+        "Water is insoluble in glass."
+      ],
+      "correct": 1,
+      "explanation": "Since the tumblers are identical, the one that is completely filled holds more water and thus a greater volume of water than the one that is half-filled.",
+      "topic": "Matter, Mass, and Volume",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Why is classifying materials considered useful?",
+      "options": [
+        "It makes the materials heavier.",
+        "It changes the color of the materials.",
+        "It helps in studying and observing patterns in their properties.",
+        "It makes all materials soluble."
+      ],
+      "correct": 2,
+      "explanation": "Grouping or classification is useful because it helps us to systematically study materials and observe patterns in their properties.",
+      "topic": "Grouping Materials",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 7,
+    "chapterName": "Temperature and its Measurement",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which instrument is used to measure temperature?",
+      "options": ["Barometer", "Thermometer", "Compass", "Scale"],
+      "correct": 1,
+      "explanation": "A thermometer is used to measure temperature",
+      "topic": "Temperature Measurement"
+    }
+  ]
+}

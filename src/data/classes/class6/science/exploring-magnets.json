@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 4,
+    "chapterName": "Exploring Magnets",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What happens when you bring two north poles of magnets together?",
+      "options": ["They attract", "They repel", "Nothing happens", "They break"],
+      "correct": 1,
+      "explanation": "Like poles of magnets repel each other",
+      "topic": "Magnetic Poles"
+    }
+  ]
+}

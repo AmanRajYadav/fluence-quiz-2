@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 10,
+    "chapterName": "Living Creatures: Exploring their Characteristics",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of these is a characteristic of all living things?",
+      "options": ["Flying", "Swimming", "Growth", "Singing"],
+      "correct": 2,
+      "explanation": "Growth is a characteristic shown by all living things",
+      "topic": "Characteristics of Life"
+    }
+  ]
+}

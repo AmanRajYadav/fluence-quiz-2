@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 10,
+    "chapterName": "Grassroots Democracy — Part 1: Governance",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Democracy means:",
+      "options": ["Rule by one person", "Rule by the people", "Rule by the army", "Rule by the rich"],
+      "correct": 1,
+      "explanation": "Democracy means government by the people, where citizens have the power to choose their leaders",
+      "topic": "Democracy"
+    }
+  ]
+}

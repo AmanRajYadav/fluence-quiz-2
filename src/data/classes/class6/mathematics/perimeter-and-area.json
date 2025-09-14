@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "mathematics",
+    "chapterNumber": 6,
+    "chapterName": "Perimeter and Area",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the perimeter of a square with side 5 cm?",
+      "options": ["10 cm", "15 cm", "20 cm", "25 cm"],
+      "correct": 2,
+      "explanation": "Perimeter of square = 4 × side = 4 × 5 = 20 cm",
+      "topic": "Perimeter"
+    }
+  ]
+}

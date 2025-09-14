@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 6,
+    "chapterName": "Materials Around Us",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which material is transparent?",
+      "options": ["Wood", "Glass", "Metal", "Stone"],
+      "correct": 1,
+      "explanation": "Glass is transparent as light can pass through it clearly",
+      "topic": "Properties of Materials"
+    }
+  ]
+}

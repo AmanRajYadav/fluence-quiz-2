@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 5,
+    "chapterName": "India, that is Bharat",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the ancient name of India mentioned in our scriptures?",
+      "options": ["Hindustan", "Bharat", "Aryavarta", "Jambudvipa"],
+      "correct": 1,
+      "explanation": "Bharat is the ancient name of India mentioned in our scriptures and is also the official name",
+      "topic": "Names of India"
+    }
+  ]
+}

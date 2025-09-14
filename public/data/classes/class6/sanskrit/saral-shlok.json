@@ -1,0 +1,20 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "sanskrit",
+    "category": "saral-shlok",
+    "categoryName": "सरल श्लोक",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "'वसुधैव कुटुम्बकम्' का अर्थ क्या है?",
+      "options": ["पूरी पृथ्वी एक परिवार है", "घर ही संसार है", "परिवार सबसे बड़ा है", "संसार में सभी समान हैं"],
+      "correct": 0,
+      "explanation": "'वसुधैव कुटुम्बकम्' का अर्थ है 'पूरी पृथ्वी एक परिवार है'",
+      "topic": "प्रसिद्ध श्लोक"
+    }
+  ]
+}

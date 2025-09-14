@@ -1,0 +1,21 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterName": "All Chapters",
+    "totalQuestions": 1,
+    "difficulty": "mixed",
+    "isSpecial": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Science helps us understand the world around us through:",
+      "options": ["Observation", "Guessing", "Magic", "Stories"],
+      "correct": 0,
+      "explanation": "Science is based on careful observation and experimentation",
+      "topic": "Scientific Method",
+      "chapter": "Chapter 1"
+    }
+  ]
+}

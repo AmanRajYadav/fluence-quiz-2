@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 3,
+    "chapterName": "Landforms and Life",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is the highest mountain peak in the world?",
+      "options": ["K2", "Mount Everest", "Kanchenjunga", "Makalu"],
+      "correct": 1,
+      "explanation": "Mount Everest is the highest mountain peak in the world at 8,848 meters",
+      "topic": "Mountains"
+    }
+  ]
+}

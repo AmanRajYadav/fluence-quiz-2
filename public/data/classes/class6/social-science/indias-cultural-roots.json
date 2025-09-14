@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 7,
+    "chapterName": "India's Cultural Roots",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of these is considered one of the oldest scriptures in the world?",
+      "options": ["Ramayana", "Mahabharata", "Vedas", "Puranas"],
+      "correct": 2,
+      "explanation": "The Vedas are among the oldest scriptures in the world and form the foundation of Hindu philosophy",
+      "topic": "Ancient Scriptures"
+    }
+  ]
+}

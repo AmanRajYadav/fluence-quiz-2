@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 9,
+    "chapterName": "Methods of Separation in Everyday Life",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which method is used to separate tea leaves from tea?",
+      "options": ["Filtering", "Evaporation", "Magnetism", "Distillation"],
+      "correct": 0,
+      "explanation": "Filtering is used to separate tea leaves from liquid tea",
+      "topic": "Separation Methods"
+    }
+  ]
+}

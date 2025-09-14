@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterNumber": 8,
+    "chapterName": "Unity in Diversity",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "The phrase 'Unity in Diversity' means:",
+      "options": ["All people are the same", "Different people living together peacefully", "Only one culture exists", "Separation of communities"],
+      "correct": 1,
+      "explanation": "Unity in Diversity means people from different backgrounds, cultures, and religions living together peacefully",
+      "topic": "Cultural Harmony"
+    }
+  ]
+}

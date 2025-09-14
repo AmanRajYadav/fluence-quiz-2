@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "mathematics",
+    "chapterNumber": 4,
+    "chapterName": "Data Handling and Presentation",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "In a pictograph, if 🌟 = 10 students, how many students does 🌟🌟🌟 represent?",
+      "options": ["3", "10", "30", "13"],
+      "correct": 2,
+      "explanation": "3 stars × 10 students per star = 30 students",
+      "topic": "Pictographs"
+    }
+  ]
+}

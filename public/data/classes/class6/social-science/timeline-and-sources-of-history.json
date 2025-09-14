@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "history",
+    "chapterNumber": 4,
+    "chapterName": "Timeline and Sources of History",
+    "totalQuestions": 30,
+    "difficulty": "mixed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the study of the human past called?",
+      "options": [
+        "Geology",
+        "History",
+        "Anthropology",
+        "Biology"
+      ],
+      "correct": 1,
+      "explanation": "History is defined as the study of the human past.",
+      "topic": "Introduction to History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Who are the specialists that study the remains of ancient plants, animals, and humans in the form of fossils?",
+      "options": [
+        "Geologists",
+        "Archaeologists",
+        "Palaeontologists",
+        "Anthropologists"
+      ],
+      "correct": 2,
+      "explanation": "Palaeontologists are experts who study fossils to understand life from millions of years ago.",
+      "topic": "Sources of History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What does the abbreviation BCE stand for in historical dating?",
+      "options": [
+        "Before Christian Era",
+        "Before Common Era",
+        "Before Century End",
+        "Before Calendar Era"
+      ],
+      "correct": 1,
+      "explanation": "BCE stands for 'Before Common Era' and is used to denote the years before the conventional date for the birth of Jesus.",
+      "topic": "Measuring Time",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What is a period of one hundred years called?",
+      "options": [
+        "A decade",
+        "A millennium",
+        "An era",
+        "A century"
+      ],
+      "correct": 3,
+      "explanation": "A century is a period of 100 years. For example, the 21st century runs from 2001 to 2100.",
+      "topic": "Measuring Time",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Who studies past human societies and cultures, from ancient times to the present?",
+      "options": [
+        "Geologists",
+        "Palaeontologists",
+        "Anthropologists",
+        "Historians"
+      ],
+      "correct": 2,
+      "explanation": "Anthropologists study human societies and cultures across different time periods.",
+      "topic": "Sources of History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What were early humans who relied on hunting and collecting edible plants for survival called?",
+      "options": [
+        "Farmers and settlers",
+        "Hunters and gatherers",
+        "Artisans and traders",
+        "Chieftains and leaders"
+      ],
+      "correct": 1,
+      "explanation": "Early humans were mainly hunters and gatherers, meaning they hunted animals and collected plants for food.",
+      "topic": "The Beginnings of Human History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "According to the text, which metal was the first to be used for making durable tools, after stone?",
+      "options": [
+        "Iron",
+        "Bronze",
+        "Copper",
+        "Gold"
+      ],
+      "correct": 2,
+      "explanation": "The text states that copper was the first metal used, followed later by iron, to make durable tools.",
+      "topic": "The Beginnings of Human History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "What is a small settlement or a small village called?",
+      "options": [
+        "A city",
+        "A hamlet",
+        "A civilization",
+        "A camp"
+      ],
+      "correct": 1,
+      "explanation": "A hamlet is defined in the text as a small settlement or small village.",
+      "topic": "The Beginnings of Human History",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is the name of the calendar now commonly used worldwide?",
+      "options": [
+        "The Julian Calendar",
+        "The Lunar Calendar",
+        "The Gregorian Calendar",
+        "The Pañchānga Calendar"
+      ],
+      "correct": 2,
+      "explanation": "The Gregorian calendar is the calendar system that is commonly used across the world today.",
+      "topic": "Measuring Time",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "What is a period of one thousand years called?",
+      "options": [
+        "A century",
+        "A decade",
+        "An epoch",
+        "A millennium"
+      ],
+      "correct": 3,
+      "explanation": "A millennium is a period of 1,000 years.",
+      "topic": "Measuring Time",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "According to the timeline of life on Earth, which appeared first?",
+      "options": [
+        "Dinosaurs",
+        "Flowers and bees",
+        "Homo sapiens",
+        "Bacteria"
+      ],
+      "correct": 3,
+      "explanation": "The timeline shows that bacteria appeared billions of years ago, long before dinosaurs, flowers, or Homo sapiens.",
+      "topic": "Evolution Timeline",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Why is it important for historians to consult multiple sources of information?",
+      "options": [
+        "To make their books longer.",
+        "To only use sources that they agree with.",
+        "To see if sources confirm or contradict each other.",
+        "To find the oldest source available."
+      ],
+      "correct": 2,
+      "explanation": "Historians consult many sources to cross-reference information, checking if the sources confirm each other or present contradictory facts, which helps in creating a more accurate picture of the past.",
+      "topic": "Sources of History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "What major climate change event ended around 12,000 years ago, leading to the beginning of agriculture?",
+      "options": [
+        "A volcanic winter",
+        "A global flood",
+        "The last Ice Age",
+        "A meteor impact"
+      ],
+      "correct": 2,
+      "explanation": "The end of the last Ice Age around 12,000 years ago warmed the climate, which improved living conditions and allowed humans to start settling and cultivating crops.",
+      "topic": "The Beginnings of Human History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "What was a primary advantage for early agricultural communities to settle near rivers?",
+      "options": [
+        "It was easier to build boats.",
+        "The sound of water was relaxing.",
+        "There was access to water and more fertile soil.",
+        "It provided better defense against animals."
+      ],
+      "correct": 2,
+      "explanation": "Early communities settled near rivers because of the ready availability of water and because the soil there was more fertile, making it easier to grow crops.",
+      "topic": "The Beginnings of Human History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "To which broad category of historical sources do items like tools, pottery, and the remains of houses belong?",
+      "options": [
+        "Oral Sources",
+        "Literary Sources",
+        "Artistic Sources",
+        "Archaeological Sources"
+      ],
+      "correct": 3,
+      "explanation": "Tools, pottery, and remains of habitations are physical objects from the past found through digging (excavations), which are part of Archaeological Sources.",
+      "topic": "Sources of History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Which specialist would be most interested in studying an ancient inscription on a copper plate?",
+      "options": [
+        "A geologist",
+        "An epigraphist",
+        "A palaeontologist",
+        "An anthropologist"
+      ],
+      "correct": 1,
+      "explanation": "Epigraphists are experts who study ancient inscriptions, which can be found on materials like copper plates.",
+      "topic": "Sources of History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "What modern scientific field can provide new insights into the past by studying the genetics of ancient people?",
+      "options": [
+        "Chemistry",
+        "Geology",
+        "Genetics",
+        "Astronomy"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that studies of the genetics of ancient people have provided fresh insights, supplementing traditional historical sources.",
+      "topic": "Sources of History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "The timeline of historical events shows the beginning of agriculture occurring around 8000 BCE. Which event happened *before* this?",
+      "options": [
+        "The beginning of copper metallurgy",
+        "The birth of the Buddha",
+        "The end of the last Ice Age",
+        "The Indus-Sarasvati civilisation"
+      ],
+      "correct": 2,
+      "explanation": "According to the timeline on page 63, the last Ice Age ended around 12,000 BCE, which is before the beginning of agriculture at 8000 BCE.",
+      "topic": "Timeline of History",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "What is the central point from which the Gregorian calendar counts years forward and backward?",
+      "options": [
+        "The founding of Rome",
+        "The start of the first Ice Age",
+        "The conventional year of Jesus Christ's birth",
+        "The invention of writing"
+      ],
+      "correct": 2,
+      "explanation": "The text states that the conventional year for Jesus Christ's birth has generally been taken to be the starting point for the Gregorian calendar.",
+      "topic": "Measuring Time",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Besides the Gregorian calendar, what other types of calendars are mentioned as being used for festivals in India?",
+      "options": [
+        "Mayan and Aztec calendars",
+        "Egyptian and Roman calendars",
+        "Hindu, Muslim, Jewish, and Chinese calendars",
+        "Only the national calendar of India"
+      ],
+      "correct": 2,
+      "explanation": "The text mentions that side by side with the Gregorian calendar, Hindu, Muslim, Jewish, and Chinese calendars are used for calculating dates of festivals.",
+      "topic": "Measuring Time",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Using the rule provided in the text (add dates and subtract 1), how many years passed between the birth of the Buddha in 560 BCE and the year 2024 CE?",
+      "options": [
+        "2584 years",
+        "2583 years",
+        "2585 years",
+        "1464 years"
+      ],
+      "correct": 1,
+      "explanation": "To calculate the time between a BCE and a CE date, you add them and subtract 1 because there is no 'year zero'. So, 560 + 2024 - 1 = 2583 years.",
+      "topic": "Measuring Time",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "The text suggests that depictions of gender roles in illustrations of early human life might not be accurate. Why?",
+      "options": [
+        "Because early humans did not have defined roles.",
+        "Because illustrations are always fictional.",
+        "Because we have limited information, and roles may have been more flexible than shown.",
+        "Because men and women lived in separate communities."
+      ],
+      "correct": 2,
+      "explanation": "The text explicitly states that these roles are not necessarily accurate because we have limited information, and women might have painted, and men might have cooked or cared for children.",
+      "topic": "Interpreting History",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "To which century does the year 201 BCE belong?",
+      "options": [
+        "The 2nd century BCE",
+        "The 1st century BCE",
+        "The 3rd century BCE",
+        "The 2nd century CE"
+      ],
+      "correct": 2,
+      "explanation": "The centuries BCE are counted backward. The 3rd century BCE runs from 300 BCE to 201 BCE. Therefore, 201 BCE is part of the 3rd century BCE.",
+      "topic": "Measuring Time",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "What does the practice of 'collective sowing and harvesting' in early agricultural communities imply about their society?",
+      "options": [
+        "They had a strong sense of individual ownership.",
+        "Everyone was forced to work by a powerful king.",
+        "They lacked a sense of individual land ownership.",
+        "They traded all their crops with other villages."
+      ],
+      "correct": 2,
+      "explanation": "The text states that there was no sense of individual ownership and that lands were collectively sowed and harvested, implying a communal approach to resources.",
+      "topic": "The Beginnings of Human History",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "What is the key difference between how an archaeologist and a palaeontologist study the past?",
+      "options": [
+        "Archaeologists study buildings, while palaeontologists only study animal bones.",
+        "Archaeologists focus on human-made objects and remains, while palaeontologists study the fossils of any life form from millions of years ago.",
+        "Archaeologists dig underground, while palaeontologists study things on the surface.",
+        "There is no difference; the terms are interchangeable."
+      ],
+      "correct": 1,
+      "explanation": "Archaeologists study the past by digging up remains like tools, pots, and houses left by people. Palaeontologists study the fossilized remains of plants, animals, and humans from much older geological periods.",
+      "topic": "Sources of History",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "The quote by E.H. Carr states that history is an 'unending dialogue between the present and the past.' What is the best interpretation of this statement?",
+      "options": [
+        "Historians talk to ghosts from the past.",
+        "Our current society's values and questions shape how we interpret past events.",
+        "History is just a collection of old conversations.",
+        "The past and present are completely separate and do not influence each other."
+      ],
+      "correct": 1,
+      "explanation": "This quote suggests a dynamic relationship where our present perspective influences how we study and understand the past, and that understanding of the past helps us make sense of the present.",
+      "topic": "Introduction to History",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "How did the development of pottery represent a significant technological advance for early human societies?",
+      "options": [
+        "It allowed for the creation of art for the first time.",
+        "It provided durable containers for storing food and water.",
+        "It was the first use of fire for a purpose other than warmth.",
+        "It replaced the need for metal tools."
+      ],
+      "correct": 1,
+      "explanation": "Pottery was a new technology for making pots and other clay objects, which would have been crucial for storing surplus food and water, contributing to the growth of settlements.",
+      "topic": "The Beginnings of Human History",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "A 'pañchānga' is described as an Indian book of tables with astronomical data. What does this suggest about the culture that produced it?",
+      "options": [
+        "They were not interested in farming.",
+        "They relied only on oral traditions.",
+        "They had an advanced understanding of astronomy.",
+        "They did not have a concept of time."
+      ],
+      "correct": 2,
+      "explanation": "The ability to precisely predict solar and lunar eclipses and list astronomical data indicates a sophisticated and advanced knowledge of astronomy.",
+      "topic": "Measuring Time",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "If a historian finds a travelogue from a foreign visitor and a local historical text that both describe the same king, what two main categories of sources are they comparing?",
+      "options": [
+        "Oral Sources and Artistic Sources",
+        "Archaeological Sources and Oral Sources",
+        "Literary Sources (Foreign Accounts) and Literary Sources (Indian Literature)",
+        "Artistic Sources and Archaeological Sources"
+      ],
+      "correct": 2,
+      "explanation": "A travelogue from a visitor falls under Foreign Accounts, and a local historical text falls under Indian Literature. Both are sub-categories of the main category 'Literary Sources'.",
+      "topic": "Sources of History",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Which of these century years was a leap year according to the rule provided?",
+      "options": [
+        "1800",
+        "1900",
+        "2000",
+        "1700"
+      ],
+      "correct": 2,
+      "explanation": "The text states that century years (like 1800, 1900, 2000) are only leap years if they are multiples of 400. Of the options provided, only 2000 is divisible by 400.",
+      "topic": "Measuring Time",
+      "difficulty": "hard"
+    }
+  ]
+}

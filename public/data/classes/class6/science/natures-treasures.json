@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 11,
+    "chapterName": "Nature's Treasures",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which is a renewable natural resource?",
+      "options": ["Coal", "Sunlight", "Petroleum", "Natural gas"],
+      "correct": 1,
+      "explanation": "Sunlight is a renewable resource as it is continuously available from the sun",
+      "topic": "Natural Resources"
+    }
+  ]
+}

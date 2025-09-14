@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "Social Science",
+    "chapterNumber": 13,
+    "chapterName": "The Value of Work",
+    "totalQuestions": 30,
+    "difficulty": "Mixed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is an activity that involves money or is performed in exchange for money called?",
+      "options": [
+        "A non-economic activity",
+        "A community service",
+        "An economic activity",
+        "A voluntary act"
+      ],
+      "correct": 2,
+      "explanation": "Economic activities are defined as those that involve money or are performed in exchange for money or money's worth.",
+      "topic": "Types of Activities",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "In the story, what is Geeta Aunty's profession?",
+      "options": [
+        "Doctor",
+        "Pilot in the Indian Air Force",
+        "Software Engineer",
+        "Shopkeeper"
+      ],
+      "correct": 1,
+      "explanation": "The text states that Geeta Aunty is a pilot in the Indian Air Force and is the pride of the whole town.",
+      "topic": "Professions in the Story",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is a fixed, regular payment, usually paid monthly by an employer, called?",
+      "options": [
+        "Fee",
+        "Wage",
+        "Salary",
+        "Payment in kind"
+      ],
+      "correct": 2,
+      "explanation": "A salary is defined as a fixed regular payment, generally paid monthly, from an employer to an employee.",
+      "topic": "Types of Payment",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "An activity performed out of feelings like love, care, and respect, without generating income, is known as what?",
+      "options": [
+        "An economic activity",
+        "A non-economic activity",
+        "A professional service",
+        "Value addition"
+      ],
+      "correct": 1,
+      "explanation": "Non-economic activities are those that do not generate income but are done out of feelings like love, care, and respect.",
+      "topic": "Types of Activities",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "According to the chapter, what does the term 'Sevā' mean?",
+      "options": [
+        "Paid service",
+        "Selfless service",
+        "Professional service",
+        "Daily wage"
+      ],
+      "correct": 1,
+      "explanation": "The chapter defines 'Sevā' as selfless service, often seen in places like temples, gurudwaras, mosques, and churches.",
+      "topic": "Non-Economic Activities",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What is the term for a non-cash payment received for work performed, like the mangoes Sahil received?",
+      "options": [
+        "Salary",
+        "Fee",
+        "Wage",
+        "Payment in kind"
+      ],
+      "correct": 3,
+      "explanation": "Payment in kind is a non-cash payment received for the work performed, such as the mangoes the farm labourer Sahil received.",
+      "topic": "Types of Payment",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What national initiative is mentioned as an example of collective community participation for cleanliness?",
+      "options": [
+        "Van Mahotsav",
+        "Langar",
+        "Swachh Bharat Abhiyan",
+        "Youth Development Programme"
+      ],
+      "correct": 2,
+      "explanation": "The Swachh Bharat Abhiyan is described as an initiative based on the collective efforts of all Indian citizens to keep our surroundings clean.",
+      "topic": "Community Participation",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Who in the story works as a software engineer?",
+      "options": [
+        "Kabir's grandfather",
+        "Anu's brother, Rohan",
+        "Kavya's uncle",
+        "Rajesh"
+      ],
+      "correct": 1,
+      "explanation": "The text mentions that Anu's elder brother, Rohan, is a software engineer who works in a company that makes computer applications.",
+      "topic": "Professions in the Story",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is a 'langar' as described in the chapter?",
+      "options": [
+        "A community festival",
+        "A tree plantation drive",
+        "A community kitchen at a gurudwara serving free food",
+        "A paid catering service"
+      ],
+      "correct": 2,
+      "explanation": "Langars are described as community kitchens at gurudwaras that serve food to every visitor for free, as an act of sevā.",
+      "topic": "Non-Economic Activities",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "The process of transforming something to increase its monetary worth, like turning wood into a chair, is called:",
+      "options": [
+        "Payment in kind",
+        "Non-economic activity",
+        "Value addition",
+        "Sevā"
+      ],
+      "correct": 2,
+      "explanation": "Value addition is the process of adding value at each stage of transforming something into another form, increasing its monetary value.",
+      "topic": "Value Addition",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "Kabir's grandfather, who retired from the Border Security Force, now teaches neighbourhood kids for free. His teaching is an example of:",
+      "options": [
+        "An economic activity because he is a retired professional.",
+        "A non-economic activity motivated by a desire to help.",
+        "A business to earn extra income.",
+        "A professional service for which he charges a fee."
+      ],
+      "correct": 1,
+      "explanation": "Since he teaches voluntarily and for free, it is a non-economic activity, done out of a desire to contribute to the community.",
+      "topic": "Types of Activities",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "A lawyer arguing a case for a client and earning a payment for her services is an example of receiving a:",
+      "options": [
+        "Salary",
+        "Wage",
+        "Payment in kind",
+        "Fee"
+      ],
+      "correct": 3,
+      "explanation": "A fee is a payment made to a person or organization in exchange for professional advice or services, like those of a lawyer.",
+      "topic": "Types of Payment",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "Anu's parents run a shop selling garments. This is considered an economic activity because:",
+      "options": [
+        "They enjoy doing it.",
+        "It involves the exchange of goods for money.",
+        "It is a family tradition.",
+        "It helps the community."
+      ],
+      "correct": 1,
+      "explanation": "Running a shop is an economic activity because it involves selling goods (garments) in exchange for money.",
+      "topic": "Types of Activities",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following activities performed by characters in the story is a non-economic activity?",
+      "options": [
+        "Geeta Aunty flying a plane for the Air Force.",
+        "Kavya's aunt working at the village post office.",
+        "Rohan volunteering to teach computer skills on weekends.",
+        "Rajesh making and selling a chair."
+      ],
+      "correct": 2,
+      "explanation": "Rohan's job as a software engineer is economic, but his weekend volunteering is non-economic as it's done for free to help others.",
+      "topic": "Identifying Activity Types",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "If a farmer grows vegetables for his own family's consumption, it is a non-economic activity. When does it become an economic activity?",
+      "options": [
+        "When he uses a tractor.",
+        "When he sells the produce in the market.",
+        "When his family helps him in the garden.",
+        "When he donates the vegetables."
+      ],
+      "correct": 1,
+      "explanation": "The activity becomes economic when it involves an exchange for money, such as selling the produce in a market.",
+      "topic": "Distinguishing Activity Types",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Rajesh the carpenter buys wood for ₹600 and sells the finished chair for ₹1,000. What does the ₹400 difference represent?",
+      "options": [
+        "The cost of the special tools he used.",
+        "The profit shared with the wood seller.",
+        "The value added through his skill, time, and effort.",
+        "A non-economic benefit."
+      ],
+      "correct": 2,
+      "explanation": "The ₹400 is the monetary value of Rajesh's skill, time, and effort, which is the value he has added to the wood by turning it into a chair.",
+      "topic": "Value Addition",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "Van Mahotsav, the festival of forests, is described as a non-economic activity. Its main value lies in:",
+      "options": [
+        "Selling the planted trees for profit.",
+        "Generating income for the community.",
+        "Promoting awareness about conservation and bringing people together.",
+        "Providing jobs to professional gardeners."
+      ],
+      "correct": 2,
+      "explanation": "Van Mahotsav's value is in promoting awareness about tree conservation and fostering community participation, not in generating money.",
+      "topic": "Community Participation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "Kavya's aunt performs two economic activities. What are they?",
+      "options": [
+        "Working at the post office and household chores.",
+        "Working at the post office and conducting online classes for a fee.",
+        "Making jalebis and visiting the mango orchard.",
+        "Conducting online classes and helping Kavya."
+      ],
+      "correct": 1,
+      "explanation": "She receives a salary for her job at the post office and charges a fee for her online classes. Both are economic activities.",
+      "topic": "Identifying Activity Types",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "Sahil, the farm labourer, earns a daily wage. How is this different from the salary Rohan, the software engineer, receives?",
+      "options": [
+        "A wage is a non-cash payment, while a salary is cash.",
+        "A wage is typically paid for a shorter period (like daily), while a salary is a fixed monthly payment.",
+        "A wage is an economic payment, while a salary is non-economic.",
+        "There is no difference; they are the same."
+      ],
+      "correct": 1,
+      "explanation": "The text defines a wage as payment for a specific period of time (like daily or weekly), whereas a salary is a fixed regular payment (usually monthly).",
+      "topic": "Types of Payment",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Which statement best describes the connection between economic and non-economic activities in the chapter?",
+      "options": [
+        "People can only engage in one type of activity.",
+        "Economic activities are more valuable than non-economic ones.",
+        "Many people engage in both types of activities, contributing to the economy and society.",
+        "Non-economic activities always lead to economic ones."
+      ],
+      "correct": 2,
+      "explanation": "Characters like Rohan and Anu's mother perform paid work (economic) and also volunteer their time (non-economic), showing that people can do both.",
+      "topic": "Synthesizing Concepts",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "Why is teaching by Kabir's grandfather considered different from teaching at a school, even if the subject is the same?",
+      "options": [
+        "His teaching is less valuable because it's free.",
+        "School teachers use books, while he doesn't.",
+        "The core difference lies in the motivation: one is voluntary service (non-economic), the other is a profession for a salary (economic).",
+        "His teaching is an economic activity because he is an expert."
+      ],
+      "correct": 2,
+      "explanation": "The key distinction is not the quality or subject, but the purpose. His teaching is a non-economic act of service, while school teaching is an economic activity for which one is paid a salary.",
+      "topic": "Critical Thinking",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "The chapter highlights that non-economic activities 'enhance the overall quality of life'. Which example best illustrates this?",
+      "options": [
+        "Rajesh earning ₹400 by adding value to wood.",
+        "Parents cooking for their family and helping with schoolwork.",
+        "A truck driver transporting goods for a company.",
+        "Kavya's aunt earning a fee from online classes."
+      ],
+      "correct": 1,
+      "explanation": "Activities like parents caring for their family, done out of love, directly contribute to personal well-being and a better quality of life without a monetary exchange.",
+      "topic": "Analysis of Value",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "The construction of the new highway is an economic activity. What is a significant indirect social benefit highlighted in Kavya's story?",
+      "options": [
+        "It provides salaries to workers like her uncle.",
+        "It uses large machines like excavators.",
+        "It promises to strengthen family bonds by making travel easier and more frequent.",
+        "It is being built near the village of Kamlapur."
+      ],
+      "correct": 2,
+      "explanation": "While providing jobs is a direct economic benefit, the story highlights Kavya's happiness that the reduced travel time will allow her to visit her aunt more often, a clear social and personal benefit.",
+      "topic": "Analyzing Impacts",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "Both Rohan (volunteering computer skills) and the Swachh Bharat Abhiyan volunteers contribute to society. What is the primary difference in the scale of their non-economic activities?",
+      "options": [
+        "Rohan's activity is more important.",
+        "Rohan's is an individual/small group effort, while Swachh Bharat is a large-scale national community initiative.",
+        "Rohan's activity involves technology, while the other does not.",
+        "There is no real difference in their contribution."
+      ],
+      "correct": 1,
+      "explanation": "Rohan's volunteering is a personal, local contribution, whereas the Swachh Bharat Abhiyan is presented as a collective effort involving people across the nation.",
+      "topic": "Comparing Concepts",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "The text states 'economic activities also add value at each stage of the process'. If a farmer sells cotton to a mill, which then sells thread to a tailor, who sells a shirt, which activity creates the final value for the consumer?",
+      "options": [
+        "Only the farmer growing the cotton.",
+        "Only the mill making the thread.",
+        "Only the tailor sewing the shirt.",
+        "All activities—the farmer, mill, and tailor—add value at their stage."
+      ],
+      "correct": 3,
+      "explanation": "This question applies the concept of value addition. Each step in the production chain—from raw material to finished product—adds monetary value to the item.",
+      "topic": "Value Addition",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "Why can we say that Kavya's aunt is an entrepreneur in her own right, besides being an employee?",
+      "options": [
+        "Because she works at the post office.",
+        "Because she makes delicious jalebis.",
+        "Because she independently initiated and runs online classes for a fee, a separate economic venture.",
+        "Because she lives in the village of Kamlapur."
+      ],
+      "correct": 2,
+      "explanation": "While her post office job makes her an employee, her initiative to conduct online classes for a fee is a form of self-employment or entrepreneurship, creating a new service and income stream.",
+      "topic": "Critical Thinking",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "The chapter discusses langars and Van Mahotsav as non-economic activities. What underlying value do these two different activities share?",
+      "options": [
+        "They both involve food.",
+        "They are both government-run programs.",
+        "They both rely on community participation and selfless contribution for social welfare.",
+        "They are both mandatory for all citizens."
+      ],
+      "correct": 2,
+      "explanation": "Both serving food at a langar and planting trees during Van Mahotsav are examples of people coming together voluntarily to contribute to the well-being of society and the environment.",
+      "topic": "Synthesizing Concepts",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "If Rajesh the carpenter decides to teach his skills to local youth for free, how would this new activity be classified?",
+      "options": [
+        "As value addition, because his skills are valuable.",
+        "As an economic activity, because carpentry is his profession.",
+        "As a non-economic activity, because it is done voluntarily without exchange for money.",
+        "As receiving a 'payment in kind' from the community."
+      ],
+      "correct": 2,
+      "explanation": "Even though carpentry is his economic profession, the act of teaching it for free would be a non-economic contribution, similar to Rohan teaching computer skills.",
+      "topic": "Applying Concepts",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "The quote by Swami Vivekananda, 'do it as worship', suggests an attitude towards work. How does this relate to the chapter's theme?",
+      "options": [
+        "It means only religious work is valuable.",
+        "It implies that all work, whether economic or non-economic, holds value and should be done with dedication.",
+        "It suggests that one should not expect payment for work.",
+        "It means work is only for financial gain."
+      ],
+      "correct": 1,
+      "explanation": "The quote advocates for devotion and respect for any work one does. This aligns with the chapter's message that both paid (economic) and unpaid (non-economic) work are valuable and contribute to life and society.",
+      "topic": "Analysis of Theme",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "Considering all the examples, what is the most significant difference between the value created by economic activities and non-economic activities?",
+      "options": [
+        "Economic activities create measurable monetary value, while non-economic activities create intangible social and personal value.",
+        "Economic activities are performed by men, while non-economic activities are performed by women.",
+        "Economic value is more important for a nation's growth than non-economic value.",
+        "There is no difference in the value they create."
+      ],
+      "correct": 0,
+      "explanation": "The chapter's central theme is this distinction: economic activities like business and employment create financial wealth and value addition, while non-economic activities like volunteering and family care create value in the form of well-being, community strength, and personal satisfaction.",
+      "topic": "Synthesizing Concepts",
+      "difficulty": "hard"
+    }
+  ]
+}

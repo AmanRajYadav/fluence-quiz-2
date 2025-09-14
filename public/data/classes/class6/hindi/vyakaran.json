@@ -1,0 +1,20 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "hindi",
+    "category": "vyakaran",
+    "categoryName": "व्याकरण (Grammar)",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "'पुस्तक' का बहुवचन क्या है?",
+      "options": ["पुस्तकें", "पुस्तकों", "पुस्तक", "पुस्तकएं"],
+      "correct": 0,
+      "explanation": "'पुस्तक' का बहुवचन 'पुस्तकें' होता है",
+      "topic": "बहुवचन"
+    }
+  ]
+}

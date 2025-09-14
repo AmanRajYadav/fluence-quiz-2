@@ -1,0 +1,132 @@
+name: Deploy Fluence Quiz App
+
+# Trigger the workflow on push to main branch and when JSON files are modified
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'public/data/**/*.json'
+      - 'src/data/**/*.json'
+      - 'src/**'
+      - 'public/**'
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'public/data/**/*.json'
+      - 'src/data/**/*.json'
+
+# Allow manual trigger
+  workflow_dispatch:
+
+# Set permissions for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Validate JSON files
+        run: |
+          echo "🔍 Validating JSON files..."
+          # Check if JSON files are valid
+          find public/data -name "*.json" -type f -exec echo "Validating {}" \; -exec cat {} \; -exec echo "" \;
+          find src/data -name "*.json" -type f -exec echo "Validating {}" \; -exec cat {} \; -exec echo "" \; 2>/dev/null || true
+          
+          # Basic JSON validation
+          for file in $(find public/data -name "*.json" -type f); do
+            echo "Checking $file"
+            if ! cat "$file" | jq empty; then
+              echo "❌ Invalid JSON in $file"
+              exit 1
+            else
+              echo "✅ $file is valid"
+            fi
+          done
+          
+      - name: Build application
+        run: |
+          echo "🏗️ Building Fluence Quiz App..."
+          npm run build
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
+      - name: Post deployment notification
+        run: |
+          echo "🚀 Fluence Quiz App deployed successfully!"
+          echo "📱 App URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "🎯 Students can now access updated quiz content"
+
+  # Validate quiz content structure
+  validate-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Validate Quiz Structure
+        run: |
+          echo "📚 Validating quiz content structure..."
+          
+          # Check required fields in quiz JSON files
+          for file in $(find public/data/classes -name "*.json" -type f); do
+            echo "📖 Checking quiz structure in $file"
+            
+            # Check if file has required chapterInfo
+            if ! cat "$file" | jq '.chapterInfo' > /dev/null 2>&1; then
+              echo "⚠️ Warning: $file missing chapterInfo"
+            fi
+            
+            # Check if questions array exists
+            if ! cat "$file" | jq '.questions' > /dev/null 2>&1; then
+              echo "⚠️ Warning: $file missing questions array"
+            else
+              question_count=$(cat "$file" | jq '.questions | length')
+              echo "✅ $file contains $question_count questions"
+            fi
+          done
+          
+          echo "🎯 Content validation complete!"

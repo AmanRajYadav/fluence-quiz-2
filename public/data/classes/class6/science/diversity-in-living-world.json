@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 2,
+    "chapterName": "Diversity in the Living World",
+    "totalQuestions": 30,
+    "difficulty": "Mixed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the variety of plants and animals found in a particular region called?",
+      "options": [
+        "Habitat",
+        "Biodiversity",
+        "Adaptation",
+        "Ecosystem"
+      ],
+      "correct": 1,
+      "explanation": "The variety of plants and animals found in a particular region contributes to the biodiversity of that region. [cite: 116]",
+      "topic": "Introduction to Biodiversity",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following describes a herb?",
+      "options": [
+        "Tall with a hard, thick, woody stem",
+        "Medium height with many woody stems from the ground",
+        "Small with a soft and green stem",
+        "Needs support to climb"
+      ],
+      "correct": 2,
+      "explanation": "Herbs are typically small plants with soft and green stems, like a tomato plant. [cite: 187-188]",
+      "topic": "Classification of Plants",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the pattern of veins on a leaf called?",
+      "options": [
+        "Root system",
+        "Stem structure",
+        "Venation",
+        "Cotyledon"
+      ],
+      "correct": 2,
+      "explanation": "The pattern of veins on the leaf is called venation. [cite: 196]",
+      "topic": "Plant Characteristics",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "Which type of root system consists of one main root with smaller side roots?",
+      "options": [
+        "Fibrous root",
+        "Taproot",
+        "Creeper root",
+        "Climber root"
+      ],
+      "correct": 1,
+      "explanation": "A taproot system consists of one main root, called the taproot, and smaller side roots arising from it. [cite: 227-228]",
+      "topic": "Plant Characteristics",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "Animals that live on land are said to be in which type of habitat?",
+      "options": [
+        "Aquatic habitat",
+        "Arboreal habitat",
+        "Terrestrial habitat",
+        "Amphibious habitat"
+      ],
+      "correct": 2,
+      "explanation": "The plants and animals that live on land are said to live in terrestrial habitats. [cite: 431]",
+      "topic": "Habitats",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What are plants with seeds having two cotyledons called?",
+      "options": [
+        "Monocots",
+        "Herbs",
+        "Dicots",
+        "Shrubs"
+      ],
+      "correct": 2,
+      "explanation": "Plants that have seeds with two parts, or cotyledons, are called dicotyledons (dicots). [cite: 281-282]",
+      "topic": "Classification of Plants",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What are the special features that enable plants and animals to survive in a particular region called?",
+      "options": [
+        "Habitats",
+        "Movements",
+        "Venations",
+        "Adaptations"
+      ],
+      "correct": 3,
+      "explanation": "The special features that enable plants and animals to survive in a particular region are called adaptations. [cite: 411]",
+      "topic": "Adaptations",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "Animals that can live both in water and on land are called what?",
+      "options": [
+        "Aquatic",
+        "Terrestrial",
+        "Amphibians",
+        "Mammals"
+      ],
+      "correct": 2,
+      "explanation": "Some animals, such as frogs, can live in water as well as on land. These are called amphibians. [cite: 440]",
+      "topic": "Classification of Animals",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is the place where a plant or animal lives called?",
+      "options": [
+        "Adaptation",
+        "Habitat",
+        "Region",
+        "Community"
+      ],
+      "correct": 1,
+      "explanation": "The place where plants and animals live is called their habitat. [cite: 413]",
+      "topic": "Habitats",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "Which body parts do fish use for movement in water?",
+      "options": [
+        "Legs",
+        "Wings",
+        "Fins",
+        "Hooves"
+      ],
+      "correct": 2,
+      "explanation": "Fishes have fins for movement in water. [cite: 339]",
+      "topic": "Animal Movement",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "A plant is observed to have leaves with parallel venation. What type of root system is it most likely to have?",
+      "options": [
+        "Taproot",
+        "A deep single root",
+        "Fibrous roots",
+        "No roots"
+      ],
+      "correct": 2,
+      "explanation": "Generally, plants with parallel venation, like lemongrass and wheat, have fibrous roots. [cite: 263, 265]",
+      "topic": "Plant Characteristics",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Why are deodar trees, found in mountainous regions, often conical in shape with sloping branches?",
+      "options": [
+        "To get more sunlight",
+        "To let snow slide off easily",
+        "To attract more birds",
+        "To resist strong winds better"
+      ],
+      "correct": 1,
+      "explanation": "The conical shape and sloping branches of deodar trees are adaptations that allow snow to slide off easily, helping them survive in snowy conditions. [cite: 372-373]",
+      "topic": "Adaptations",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "What is the primary purpose of a camel's hump?",
+      "options": [
+        "To store water",
+        "To regulate body temperature",
+        "To store food",
+        "To help it balance"
+      ],
+      "correct": 2,
+      "explanation": "Camels store food in their humps, which helps them survive during periods of food scarcity. [cite: 390-391]",
+      "topic": "Adaptations",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "If you observe a leaf with a net-like pattern of veins, what type of root system would you expect the plant to have?",
+      "options": [
+        "Fibrous roots",
+        "Shallow roots",
+        "Taproot",
+        "No roots"
+      ],
+      "correct": 2,
+      "explanation": "Plants with reticulate venation (a net-like pattern) generally have taproots. [cite: 263]",
+      "topic": "Plant Characteristics",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "What is the main difference between the stem of a tree and the stem of a shrub?",
+      "options": [
+        "Tree stems are green, shrub stems are brown",
+        "Tree stems are soft, shrub stems are hard",
+        "Trees have one main thick, woody stem; shrubs have many thinner woody stems",
+        "Trees have no branches, shrubs have many branches"
+      ],
+      "correct": 2,
+      "explanation": "Trees have a single hard, thick, brown, and woody stem, while shrubs have many hard but thinner woody stems that branch near the ground. [cite: 176, 184-185]",
+      "topic": "Classification of Plants",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Why do cactus plants in the desert have thick and fleshy stems?",
+      "options": [
+        "To protect them from animals",
+        "To anchor them in the sand",
+        "To store water",
+        "To absorb more sunlight"
+      ],
+      "correct": 2,
+      "explanation": "The fleshy stems of plants found in the desert can store water, which is an adaptation to help them tolerate hot and dry conditions. [cite: 371]",
+      "topic": "Adaptations",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "The population of animals like the Bengal Tiger has declined mainly due to what reason?",
+      "options": [
+        "Lack of food",
+        "Climate change",
+        "Loss of natural habitats from human activities",
+        "Disease"
+      ],
+      "correct": 2,
+      "explanation": "The population of the Bengal Tiger, Cheetah, and Great Indian Bustard has declined in India due to loss of natural habitats caused by human activities. [cite: 446]",
+      "topic": "Biodiversity Conservation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "What is the significance of sacred groves in conservation?",
+      "options": [
+        "They are government-run national parks.",
+        "They are forests planted for commercial use.",
+        "They are patches of forest protected by the local community.",
+        "They are gardens for growing medicinal plants only."
+      ],
+      "correct": 2,
+      "explanation": "Sacred groves are undisturbed patches of forests protected by the local community, which act as a community-protected treasure of biodiversity. [cite: 457, 462]",
+      "topic": "Biodiversity Conservation",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "How are animals like monkeys and birds interdependent with plants like trees?",
+      "options": [
+        "The animals eat the tree leaves, harming the tree.",
+        "The trees provide food and shelter, and the animals help spread seeds.",
+        "The animals protect the trees from insects.",
+        "The trees use the sounds made by animals for growth."
+      ],
+      "correct": 1,
+      "explanation": "Trees provide food and shelter to some birds and other animals, and animals help in spreading seeds after eating fruits, showing their interdependence. [cite: 123]",
+      "topic": "Interdependence",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "Why is grouping various plants and animals important?",
+      "options": [
+        "To give them all unique names",
+        "To count them accurately",
+        "To make it easier to study them based on similarities and differences",
+        "To decide which ones are more beautiful"
+      ],
+      "correct": 2,
+      "explanation": "Grouping makes it easier to understand and study plants and animals on the basis of their similarities and differences. [cite: 151]",
+      "topic": "Classification",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "A student finds a chickpea seed, which is a dicot. What can the student infer about the plant it grows into?",
+      "options": [
+        "It will have parallel venation and fibrous roots.",
+        "It will have reticulate venation and a taproot.",
+        "It will have parallel venation and a taproot.",
+        "It will have reticulate venation and fibrous roots."
+      ],
+      "correct": 1,
+      "explanation": "Dicot plants, like chickpea, typically have reticulate venation in their leaves and a taproot system. [cite: 285]",
+      "topic": "Plant Characteristics",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "The 'Save Silent Valley' movement was a successful effort to preserve a forest. What does this story primarily teach us about biodiversity?",
+      "options": [
+        "Only scientists can save forests.",
+        "Building dams always improves the environment.",
+        "Human activities like building large dams can damage rich biodiversity.",
+        "Biodiversity is only found in valleys."
+      ],
+      "correct": 2,
+      "explanation": "The movement was against a hydroelectric dam to preserve the forest's rich biodiversity, illustrating how human activities can threaten habitats. [cite: 329, 331, 444]",
+      "topic": "Biodiversity Conservation",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "A wheat plant has parallel venation in its leaves. What can you predict about its seeds and roots?",
+      "options": [
+        "Dicot seed and taproot",
+        "Dicot seed and fibrous roots",
+        "Monocot seed and taproot",
+        "Monocot seed and fibrous roots"
+      ],
+      "correct": 3,
+      "explanation": "Wheat is an example of a plant with fibrous roots and parallel venation; these are characteristics of monocot plants. [cite: 265, 285]",
+      "topic": "Plant Characteristics",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "How do the different features of a hot desert camel (one hump, long legs) versus a cold desert camel (two humps, long hair) demonstrate the principle of adaptation?",
+      "options": [
+        "It shows that all camels are the same.",
+        "It shows that animals randomly develop features.",
+        "It shows that specific features develop to help animals survive in their distinct habitats.",
+        "It shows that cold deserts are easier to live in than hot deserts."
+      ],
+      "correct": 2,
+      "explanation": "The differences, like the number of humps for food storage and leg length for terrain, are specific adaptations that help each type of camel survive in its unique desert environment (hot vs. cold). [cite: 383-394]",
+      "topic": "Adaptations",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "A student observes a plant and notes that its branches start very close to the ground, and it has hard, but not very thick, stems. How should the student classify this plant?",
+      "options": [
+        "As a herb, because it has branches.",
+        "As a tree, because the stems are hard.",
+        "As a creeper, because it is low to the ground.",
+        "As a shrub, based on the branching pattern and stem type."
+      ],
+      "correct": 3,
+      "explanation": "Shrubs are defined as plants that have many hard but not thick woody stems that start branching very close to the ground. [cite: 184-185]",
+      "topic": "Classification of Plants",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "Why is the work of scientists like Janaki Ammal and Salim Ali, who document plant and animal diversity, crucial for conservation?",
+      "options": [
+        "It helps in naming new species, which is the main goal.",
+        "It provides the foundational knowledge needed to identify areas of high diversity and monitor threats.",
+        "It proves which species are superior to others.",
+        "It is only useful for writing books."
+      ],
+      "correct": 1,
+      "explanation": "Documenting biodiversity (Janaki Ammal) and habitats (Salim Ali) allows for the identification of important regions and species that need protection, forming the basis for conservation actions. [cite: 323, 424-425]",
+      "topic": "Role of Scientists in Conservation",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "What is the most likely consequence if a specific habitat, like a forest, is completely destroyed?",
+      "options": [
+        "The animals will immediately find a new, better habitat.",
+        "The plants will regrow even stronger than before.",
+        "It will lead to a loss of homes and resources, causing a loss of biodiversity.",
+        "It will not affect the animals and plants living there."
+      ],
+      "correct": 2,
+      "explanation": "Damage to habitats of plants and animals results in the loss of their homes, food, and other resources, which ultimately leads to the loss of biodiversity. [cite: 444, 515]",
+      "topic": "Biodiversity Conservation",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "In the flowchart exercise (Fig. 546-558), 'A' represents a plant with leaves and reticulate venation. 'B' represents a plant with leaves but not reticulate venation. Which is a correct example pair for A and B?",
+      "options": [
+        "A: Grass, B: Hibiscus",
+        "A: Mango tree, B: Banana plant",
+        "A: Wheat, B: Rose plant",
+        "A: Banana plant, B: Neem tree"
+      ],
+      "correct": 1,
+      "explanation": "'A' must be a dicot with reticulate venation (like a Mango tree). 'B' must be a monocot with parallel venation (like a Banana plant). [cite: 204, 206, 178, 285]",
+      "topic": "Classification of Plants",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "A radish is a type of root. By examining a radish, which is thick and singular, one can classify it as a taproot. What can you infer about the leaves of the radish plant?",
+      "options": [
+        "They would have parallel venation.",
+        "They would have reticulate venation.",
+        "They would have no venation.",
+        "They would be similar to grass leaves."
+      ],
+      "correct": 1,
+      "explanation": "Since a radish is a taproot, the plant is a dicot. Dicot plants typically exhibit reticulate venation in their leaves. [cite: 532-533, 508]",
+      "topic": "Plant Characteristics",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "The Cheetah Reintroduction Project was initiated in 2022. What fundamental problem in biodiversity is this project trying to address?",
+      "options": [
+        "That cheetahs are not fast enough.",
+        "The decline and loss of a species from its natural habitat.",
+        "That there are too many deer in the forests.",
+        "The need for more animals in zoos."
+      ],
+      "correct": 1,
+      "explanation": "This project aims to restore the population of the Cheetah, which had declined due to the loss of its natural habitat, thus addressing the problem of biodiversity loss. [cite: 446, 449]",
+      "topic": "Biodiversity Conservation",
+      "difficulty": "hard"
+    }
+  ]
+}

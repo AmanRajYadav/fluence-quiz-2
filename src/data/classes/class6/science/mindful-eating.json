@@ -1,0 +1,20 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 3,
+    "chapterName": "Mindful Eating: A Path to a Healthy Body",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which nutrient gives us energy?",
+      "options": ["Vitamins", "Carbohydrates", "Minerals", "Water"],
+      "correct": 1,
+      "explanation": "Carbohydrates are the main source of energy for our body",
+      "topic": "Nutrition"
+    }
+  ]
+}

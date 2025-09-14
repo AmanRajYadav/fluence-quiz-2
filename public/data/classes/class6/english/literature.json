@@ -1,0 +1,20 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "english",
+    "category": "literature",
+    "categoryName": "Literature",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+      "correct": 0,
+      "explanation": "William Shakespeare wrote the famous play 'Romeo and Juliet'",
+      "topic": "Famous Authors"
+    }
+  ]
+}

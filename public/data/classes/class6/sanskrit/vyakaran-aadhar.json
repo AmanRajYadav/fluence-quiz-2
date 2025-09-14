@@ -1,0 +1,20 @@
+{
+  "categoryInfo": {
+    "class": 6,
+    "subject": "sanskrit",
+    "category": "vyakaran-aadhar",
+    "categoryName": "व्याकरण आधार",
+    "totalQuestions": 1,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "संस्कृत में स्वर कितने होते हैं?",
+      "options": ["11", "12", "13", "14"],
+      "correct": 2,
+      "explanation": "संस्कृत में 13 स्वर होते हैं: अ, आ, इ, ई, उ, ऊ, ऋ, ॠ, ऌ, ॡ, ए, ऐ, ओ, औ",
+      "topic": "स्वर व्यंजन"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "science",
+    "chapterNumber": 6,
+    "chapterName": "Perimeter and Area",
+    "totalQuestions": 30,
+    "difficulty": "easy"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the definition of the perimeter of a closed plane figure?",
+      "options": [
+        "The space inside the figure",
+        "The distance covered along its boundary in one round",
+        "The number of corners it has",
+        "The length of its longest side"
+      ],
+      "correct": 1,
+      "explanation": "The perimeter of any closed plane figure is the distance covered along its boundary when you go around it once.",
+      "topic": "Perimeter Basics",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "question": "How is the perimeter of a polygon calculated?",
+      "options": [
+        "By multiplying the lengths of all its sides",
+        "By averaging the lengths of all its sides",
+        "By finding the sum of the lengths of all its sides",
+        "By dividing the length by the width"
+      ],
+      "correct": 2,
+      "explanation": "For a polygon, the perimeter is the sum of the lengths of all its sides.",
+      "topic": "Perimeter Basics",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "question": "What is the formula for the perimeter of a rectangle?",
+      "options": [
+        "length × breadth",
+        "2 × (length + breadth)",
+        "length + breadth",
+        "4 × length"
+      ],
+      "correct": 1,
+      "explanation": "The perimeter of a rectangle is calculated as 2 times the sum of its length and breadth.",
+      "topic": "Perimeter of Rectangles",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "question": "What is the formula for the perimeter of a square?",
+      "options": [
+        "2 × side",
+        "side × side",
+        "side + side",
+        "4 × length of a side"
+      ],
+      "correct": 3,
+      "explanation": "Since all four sides of a square are equal, its perimeter is 4 times the length of one side.",
+      "topic": "Perimeter of Squares",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "question": "What defines a regular polygon?",
+      "options": [
+        "A polygon with four sides",
+        "A polygon where only opposite sides are equal",
+        "A polygon that has all sides and all angles equal",
+        "A polygon with curved edges"
+      ],
+      "correct": 2,
+      "explanation": "Regular polygons are closed figures that have all sides and all angles equal, like an equilateral triangle or a square.",
+      "topic": "Regular Polygons",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "question": "What is the term for the amount of region enclosed by a closed figure?",
+      "options": [
+        "Perimeter",
+        "Boundary",
+        "Volume",
+        "Area"
+      ],
+      "correct": 3,
+      "explanation": "The amount of region enclosed by a closed figure is called its area.",
+      "topic": "Area Basics",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "question": "What is the formula for the area of a rectangle?",
+      "options": [
+        "2 × (length + width)",
+        "length × width",
+        "length + width",
+        "4 × length"
+      ],
+      "correct": 1,
+      "explanation": "The area of a rectangle is its length times its width.",
+      "topic": "Area of Rectangles",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "question": "How do you calculate the area of a square?",
+      "options": [
+        "4 × side",
+        "2 × side",
+        "side × side",
+        "side + side + side + side"
+      ],
+      "correct": 2,
+      "explanation": "The area of a square is the length of any one of its sides multiplied by itself.",
+      "topic": "Area of Squares",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "question": "What is the formula for the perimeter of an equilateral triangle?",
+      "options": [
+        "2 × length of a side",
+        "3 × length of a side",
+        "sum of any two sides",
+        "length × breadth"
+      ],
+      "correct": 1,
+      "explanation": "An equilateral triangle has three equal sides, so its perimeter is 3 times the length of one side.",
+      "topic": "Perimeter of Triangles",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "question": "According to the text, what is a key property of the sides of a rectangle?",
+      "options": [
+        "All sides are equal",
+        "Adjacent sides are equal",
+        "Opposite sides are always equal",
+        "No sides are equal"
+      ],
+      "correct": 2,
+      "explanation": "A fundamental property of a rectangle is that its opposite sides are always equal in length.",
+      "topic": "Properties of Rectangles",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "question": "A rectangle has a length of 12 cm and a breadth of 8 cm. What is its perimeter?",
+      "options": [
+        "20 cm",
+        "96 cm",
+        "40 cm",
+        "60 cm"
+      ],
+      "correct": 2,
+      "explanation": "Perimeter = 2 × (length + breadth) = 2 × (12 cm + 8 cm) = 2 × 20 cm = 40 cm.",
+      "topic": "Perimeter of Rectangles",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "question": "Debojeet puts colored tape around a square photo frame with a side of 1 m. What length of tape does he need?",
+      "options": [
+        "1 m",
+        "2 m",
+        "4 m",
+        "1 sq m"
+      ],
+      "correct": 2,
+      "explanation": "The length of tape needed is the perimeter of the square. Perimeter = 4 × side = 4 × 1 m = 4 m.",
+      "topic": "Perimeter of Squares",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "question": "If the perimeter of a square is 20 cm, what is the length of one side?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "10 cm",
+        "80 cm"
+      ],
+      "correct": 1,
+      "explanation": "Side = Perimeter / 4 = 20 cm / 4 = 5 cm.",
+      "topic": "Perimeter of Squares",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "question": "A floor is 5 m long and 4 m wide. A square carpet with sides of 3 m is laid on it. What is the area of the floor that is NOT carpeted?",
+      "options": [
+        "20 sq m",
+        "9 sq m",
+        "11 sq m",
+        "3 sq m"
+      ],
+      "correct": 2,
+      "explanation": "Area of floor = 5m × 4m = 20 sq m. Area of carpet = 3m × 3m = 9 sq m. Uncarpeted area = 20 sq m - 9 sq m = 11 sq m.",
+      "topic": "Area of Rectangles and Squares",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "question": "A piece of string is 36 cm long. If it is used to form a square, what will be the length of each side?",
+      "options": [
+        "6 cm",
+        "12 cm",
+        "9 cm",
+        "36 cm"
+      ],
+      "correct": 2,
+      "explanation": "The length of the string is the perimeter of the square. Side = Perimeter / 4 = 36 cm / 4 = 9 cm.",
+      "topic": "Perimeter of Squares",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "question": "Akshi runs on an outer rectangular track (70 m by 40 m). How much distance does she cover in one round?",
+      "options": [
+        "110 m",
+        "220 m",
+        "2800 sq m",
+        "180 m"
+      ],
+      "correct": 1,
+      "explanation": "Distance in one round is the perimeter. Perimeter = 2 × (70 m + 40 m) = 2 × 110 m = 220 m.",
+      "topic": "Perimeter of Rectangles",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "question": "The area of a rectangular garden is 300 sq m. If it is 25 m long, what is its width?",
+      "options": [
+        "10 m",
+        "12 m",
+        "15 m",
+        "20 m"
+      ],
+      "correct": 1,
+      "explanation": "Width = Area / Length = 300 sq m / 25 m = 12 m.",
+      "topic": "Area of Rectangles",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "question": "What is the perimeter of a triangle with side lengths of 4 cm, 5 cm, and 7 cm?",
+      "options": [
+        "11 cm",
+        "12 cm",
+        "140 sq cm",
+        "16 cm"
+      ],
+      "correct": 3,
+      "explanation": "Perimeter = sum of sides = 4 cm + 5 cm + 7 cm = 16 cm.",
+      "topic": "Perimeter of Triangles",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "question": "A farmer wants to fence his rectangular field (230 m by 160 m) with 3 rounds of rope. What is the total length of rope needed?",
+      "options": [
+        "780 m",
+        "390 m",
+        "2340 m",
+        "1170 m"
+      ],
+      "correct": 2,
+      "explanation": "Perimeter = 2 × (230m + 160m) = 2 × 390m = 780m. Total rope = 3 rounds × 780m = 2340m.",
+      "topic": "Perimeter application",
+      "difficulty": "medium"
+    },
+    {
+      "id": 20,
+      "question": "What is the cost of tiling a rectangular plot of land (500 m by 200 m) at the rate of ₹8 per hundred sq m?",
+      "options": [
+        "₹8000",
+        "₹80,000",
+        "₹100,000",
+        "₹800"
+      ],
+      "correct": 0,
+      "explanation": "Area = 500m × 200m = 100,000 sq m. Number of 'hundred sq m' units = 100,000 / 100 = 1000. Cost = 1000 × ₹8 = ₹8000.",
+      "topic": "Area application",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "question": "A wire is bent to form a rectangle with sides 5 cm and 3 cm. If the wire is straightened and bent to form a square, what is the length of the square's side?",
+      "options": [
+        "4 cm",
+        "8 cm",
+        "16 cm",
+        "5 cm"
+      ],
+      "correct": 0,
+      "explanation": "The length of the wire is the perimeter of the rectangle: 2×(5+3) = 16 cm. This perimeter is used for the square. Side of square = 16 cm / 4 = 4 cm.",
+      "topic": "Perimeter application",
+      "difficulty": "hard"
+    },
+    {
+      "id": 22,
+      "question": "Akshi runs 5 rounds on a 70m x 40m track. Toshi runs 7 rounds on a 60m x 30m track. Who ran a longer distance?",
+      "options": [
+        "Akshi",
+        "Toshi",
+        "They ran the same distance",
+        "Cannot be determined"
+      ],
+      "correct": 1,
+      "explanation": "Akshi's distance: 5 × [2×(70+40)] = 5 × 220 = 1100 m. Toshi's distance: 7 × [2×(60+30)] = 7 × 180 = 1260 m. Toshi ran longer.",
+      "topic": "Multi-step problem",
+      "difficulty": "hard"
+    },
+    {
+      "id": 23,
+      "question": "A square piece of paper is folded in half and cut into two rectangles. Which statement is always true?",
+      "options": [
+        "The area of each rectangle is half the area of the square.",
+        "The perimeter of the square is equal to the perimeter of one rectangle.",
+        "The perimeter of the square is greater than the combined perimeters of the two rectangles.",
+        "The area of the square is equal to the perimeter of one rectangle."
+      ],
+      "correct": 0,
+      "explanation": "When you cut the square in half, you create two new shapes, each with exactly half the area of the original square.",
+      "topic": "Area and Perimeter relationships",
+      "difficulty": "hard"
+    },
+    {
+      "id": 24,
+      "question": "You have to make as many rectangles as possible with an area of 24 square units. Which rectangle would have the greatest perimeter?",
+      "options": [
+        "6 units × 4 units",
+        "8 units × 3 units",
+        "12 units × 2 units",
+        "24 units × 1 unit"
+      ],
+      "correct": 3,
+      "explanation": "For a fixed area, the longest and thinnest rectangle (24x1) will have the greatest perimeter (50 units), while the one closest to a square (6x4) will have the least (20 units).",
+      "topic": "Area and Perimeter relationships",
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "question": "In the tangram puzzle, if Shape C and Shape E can exactly cover Shape D, what is the relationship between their areas?",
+      "options": [
+        "Area of D = Area of C + Area of E",
+        "Area of D = Area of C - Area of E",
+        "Area of D is smaller than Area of C",
+        "All three have the same area"
+      ],
+      "correct": 0,
+      "explanation": "If two shapes perfectly cover a third shape without overlap, the area of the third shape is the sum of the areas of the two smaller shapes.",
+      "topic": "Tangrams and Area",
+      "difficulty": "hard"
+    },
+    {
+      "id": 26,
+      "question": "A rectangle is cut along its diagonal. What can you say about the two triangles formed?",
+      "options": [
+        "One triangle has a larger area than the other",
+        "They have the same area",
+        "They have the same perimeter but different areas",
+        "Their areas added together are more than the rectangle's area"
+      ],
+      "correct": 1,
+      "explanation": "Cutting a rectangle along its diagonal creates two triangles that are identical in size and shape, so they have the same area, each being half the area of the original rectangle.",
+      "topic": "Area of Triangles",
+      "difficulty": "hard"
+    },
+    {
+      "id": 27,
+      "question": "Using 9 unit squares, what is the smallest perimeter possible for a single connected figure?",
+      "options": [
+        "20 units",
+        "18 units",
+        "12 units",
+        "9 units"
+      ],
+      "correct": 2,
+      "explanation": "To minimize perimeter for a fixed area, you should arrange the squares to be as compact as possible, like a 3x3 square. This shape has a perimeter of 12 units.",
+      "topic": "Area and Perimeter relationships",
+      "difficulty": "hard"
+    },
+    {
+      "id": 28,
+      "question": "In Charan's house plan, the Master Bedroom is a 15 ft x 15 ft square. The Small Bedroom has an area of 180 sq ft and one side is 15 ft. What is the missing dimension of the Small Bedroom?",
+      "options": [
+        "10 ft",
+        "12 ft",
+        "15 ft",
+        "18 ft"
+      ],
+      "correct": 1,
+      "explanation": "Area = length × width. So, width = Area / length = 180 sq ft / 15 ft = 12 ft.",
+      "topic": "Area application",
+      "difficulty": "hard"
+    },
+    {
+      "id": 29,
+      "question": "Why are squares, rather than circles, generally used as the unit for measuring area?",
+      "options": [
+        "Squares are more colorful",
+        "Circles are harder to draw",
+        "Squares can be packed tightly without gaps, while circles leave gaps",
+        "Squares have a larger perimeter than circles"
+      ],
+      "correct": 2,
+      "explanation": "The text explains that squares are used because they can fill a space completely without any gaps, ensuring an accurate and consistent measurement of the region.",
+      "topic": "Area Concepts",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "question": "If you have a figure with a perimeter of 24 units and you attach a new square to it so that the new square touches along one full side, what happens to the perimeter?",
+      "options": [
+        "It decreases by 2 units",
+        "It stays the same",
+        "It increases by 2 units",
+        "It increases by 4 units"
+      ],
+      "correct": 2,
+      "explanation": "When you attach a square, you add 3 new sides to the perimeter but cover up 1 old side. The net change is adding 3 and subtracting 1, which results in an increase of 2 units.",
+      "topic": "Perimeter Analysis",
+      "difficulty": "hard"
+    }
+  ]
+}

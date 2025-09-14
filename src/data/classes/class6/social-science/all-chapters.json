@@ -1,0 +1,21 @@
+{
+  "chapterInfo": {
+    "class": 6,
+    "subject": "social-science",
+    "chapterName": "All Chapters",
+    "totalQuestions": 1,
+    "difficulty": "mixed",
+    "isSpecial": true
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which instrument is used to find directions?",
+      "options": ["Compass", "Thermometer", "Barometer", "Scale"],
+      "correct": 0,
+      "explanation": "A compass is used to find directions using magnetic north",
+      "topic": "Navigation",
+      "chapter": "Chapter 1"
+    }
+  ]
+}
