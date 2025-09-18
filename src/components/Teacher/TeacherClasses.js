@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { STUDENTS, getAllStudents } from '../../config/students';
+import { getAllStudents } from '../../config/students';
 
 // Mock data manager for class management
 const mockDataManager = {
@@ -82,6 +82,7 @@ const TeacherClasses = () => {
   const [classes, setClasses] = useState([]);
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [selectedClass, setSelectedClass] = useState(null);
+  // eslint-disable-next-line no-unused-vars
   const [teacherProfile, setTeacherProfile] = useState(null);
 
   useEffect(() => {

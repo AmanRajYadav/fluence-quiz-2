@@ -1,11 +1,12 @@
 // src/components/Teacher/TeacherDashboard.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import RoleSwitcher from '../Navigation/RoleSwitcher';
-import { STUDENTS, getAllStudents } from '../../config/students';
+import { getAllStudents } from '../../config/students';
 
 // Subjects data
+// eslint-disable-next-line no-unused-vars
 const SUBJECTS = {
   MATHEMATICS: { id: 'mathematics', name: 'Mathematics', icon: '🔢', color: 'bg-gradient-to-r from-blue-500 to-cyan-500' },
   SCIENCE: { id: 'science', name: 'Science', icon: '🔬', color: 'bg-gradient-to-r from-green-500 to-teal-500' },
@@ -76,19 +77,17 @@ const mockDataManager = {
 const TeacherDashboard = () => {
   const navigate = useNavigate();
   const [teacherProfile, setTeacherProfile] = useState(null);
+  // eslint-disable-next-line no-unused-vars
   const [students, setStudents] = useState([]);
   const [classes, setClasses] = useState([]);
   const [selectedTimeframe, setSelectedTimeframe] = useState('week');
+  // eslint-disable-next-line no-unused-vars
   const [selectedSubject, setSelectedSubject] = useState('all');
   const [showCreateClass, setShowCreateClass] = useState(false);
   const [showEditProfile, setShowEditProfile] = useState(false);
   const [analytics, setAnalytics] = useState({});
 
-  useEffect(() => {
-    loadTeacherData();
-  }, []);
-
-  const loadTeacherData = () => {
+  const loadTeacherData = useCallback(() => {
     const profile = mockDataManager.getUserProfile();
     
     if (profile.role !== 'teacher') {
@@ -108,7 +107,11 @@ const TeacherDashboard = () => {
     
     // Generate mock analytics data (in real app, this would come from backend)
     generateAnalytics(teacherStudents);
-  };
+  }, [navigate]);
+
+  useEffect(() => {
+    loadTeacherData();
+  }, [loadTeacherData]);
 
   const generateAnalytics = (studentsList) => {
     // Generate real analytics from actual student data

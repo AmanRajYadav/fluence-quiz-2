@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import RoleSwitcher from '../Navigation/RoleSwitcher';
-import { STUDENTS, COURSES, getStudentByName, getStudentCourse, getCourseById, initializeAllStudentProgress } from '../../config/students';
-import { WORLDS, STAGES, TROPHY_MILESTONES, GIFT_LEVELS, LEVEL_DETAILS, getWorldByLevel, getStageByLevel, getAvailableTrophies, getNextTrophy, isGiftLevel, getLevelProgress } from '../../config/courseStructure';
+import { getStudentByName, getCourseById } from '../../config/students';
+import { WORLDS, STAGES, getAvailableTrophies, getNextTrophy, isGiftLevel, getLevelProgress } from '../../config/courseStructure';
 
 // Mock data manager for enhanced course progress
 const mockDataManager = {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Trophy, ArrowLeft, RotateCcw } from 'lucide-react';
 import { useCurriculum } from '../contexts/CurriculumContext';
@@ -87,6 +87,215 @@ const SinglePlayerQuiz = () => {
   const [showResult, setShowResult] = useState(false);
   const [lives, setLives] = useState(3);
 
+  const loadQuestions = useCallback(async (classParam, subjectParam, chapterParam) => {
+    try {
+      console.log('Loading questions for SinglePlayer:', { classParam, subjectParam, chapterParam });
+      setGameState('loading');
+
+      let questionsToUse = [];
+
+      // First try to use questions from curriculum context (if already loaded)
+      if (curriculumQuestions && curriculumQuestions.length > 0) {
+        console.log('Using questions from curriculum context:', curriculumQuestions.length);
+        questionsToUse = curriculumQuestions;
+      } else {
+        // Try to fetch questions using CurriculumService (same as MultiplayerQuiz)
+        try {
+          console.log('Fetching questions from curriculum service...');
+          const fetchedQuestions = await CurriculumService.fetchQuestions(
+            classParam,
+            subjectParam,
+            chapterParam
+          );
+
+          if (fetchedQuestions && fetchedQuestions.length > 0) {
+            console.log('Successfully fetched questions:', fetchedQuestions.length);
+            questionsToUse = fetchedQuestions;
+            setCurriculumQuestions(fetchedQuestions); // Store in context
+          }
+        } catch (error) {
+          console.error('CurriculumService.fetchQuestions failed:', error);
+        }
+
+        // If still no questions, try hardcoded fallback
+        if (questionsToUse.length === 0) {
+          console.log('Trying hardcoded questions fallback...');
+          const hardcodedQuestions = CurriculumService.getHardcodedQuestions(
+            classParam,
+            subjectParam,
+            chapterParam
+          );
+
+          if (hardcodedQuestions && hardcodedQuestions.length > 0) {
+            console.log('Using hardcoded questions:', hardcodedQuestions.length);
+            questionsToUse = hardcodedQuestions;
+            setCurriculumQuestions(hardcodedQuestions);
+          }
+        }
+
+        // Enhanced fallback with multiple path attempts
+        if (questionsToUse.length === 0) {
+          console.log('Testing multiple fetch paths...');
+
+          // Try paths matching your exact directory structure
+          const possiblePaths = [
+            `/data/classes/${classParam}/${subjectParam}/${chapterParam}.json`,
+            `/data/classes/${classParam}/${subjectParam}/all-chapters.json`,
+            `/data/classes/${classParam}/combined.json`,
+            `./data/classes/${classParam}/${subjectParam}/${chapterParam}.json`,
+            `./data/classes/${classParam}/${subjectParam}/all-chapters.json`,
+            `./data/classes/${classParam}/combined.json`
+          ];
+
+          console.log('Testing paths for:', {
+            classParam,    // should be "class6"
+            subjectParam,  // should be "mathematics", "english", etc.
+            chapterParam   // should be "patterns-in-mathematics", etc.
+          });
+
+          // Debug: Log what we expect vs what we're trying
+          console.log('Expected file structure based on your directory:');
+          console.log(`Main path: /data/classes/${classParam}/${subjectParam}/${chapterParam}.json`);
+          console.log(`Fallback: /data/classes/${classParam}/${subjectParam}/all-chapters.json`);
+          console.log(`Combined: /data/classes/${classParam}/combined.json`);
+
+          // Test specific files we know exist from your screenshots
+          if (classParam === 'class6' && subjectParam === 'mathematics') {
+            const knownFiles = [
+              'patterns-in-mathematics.json',
+              'number-play.json',
+              'all-chapters.json',
+              'fractions.json',
+              'lines-and-angles.json'
+            ];
+
+            console.log('Known math files in your directory:', knownFiles);
+
+            // Try the specific file we know exists (patterns-in-mathematics.json is 9 KB)
+            if (chapterParam === 'patterns-in-mathematics') {
+              possiblePaths.unshift(`/data/classes/class6/mathematics/patterns-in-mathematics.json`);
+            }
+          }
+
+          for (const path of possiblePaths) {
+            try {
+              console.log(`Trying path: ${path}`);
+              const response = await fetch(path);
+
+              if (response.ok) {
+                const contentType = response.headers.get('content-type');
+                console.log(`Response content-type: ${contentType}`);
+
+                if (contentType && contentType.includes('application/json')) {
+                  const data = await response.json();
+                  console.log('Direct fetch success from path:', path, data);
+
+                  const processedQuestions = CurriculumService.normalizeQuestions(data);
+                  console.log('Processed questions:', processedQuestions.length);
+
+                  if (processedQuestions.length > 0) {
+                    questionsToUse = processedQuestions;
+                    setCurriculumQuestions(processedQuestions);
+                    break; // Exit loop on success
+                  }
+                } else {
+                  console.log(`Path ${path} returned non-JSON content (likely 404 HTML)`);
+                }
+              } else {
+                console.log(`Path ${path} returned status: ${response.status}`);
+              }
+            } catch (error) {
+              console.log(`Path ${path} failed:`, error.message);
+            }
+          }
+        }
+      }
+
+      // Convert questions to SinglePlayer format and take 30 questions
+      if (questionsToUse.length > 0) {
+        const convertedQuestions = questionsToUse.map((q, index) => ({
+          question: q.text || q.question,
+          options: q.options || [],
+          correct: q.options ? q.options.findIndex(opt => opt === q.correctAnswer) : 0,
+          explanation: q.explanation || `The correct answer is ${q.correctAnswer}`
+        }));
+
+        // Ensure we get 30 questions by repeating if necessary
+        let shuffled = convertedQuestions.sort(() => Math.random() - 0.5);
+
+        // If we have fewer than 30 questions, repeat them to reach 30
+        while (shuffled.length < 30) {
+          const additionalQuestions = convertedQuestions
+            .sort(() => Math.random() - 0.5)
+            .slice(0, Math.min(30 - shuffled.length, convertedQuestions.length));
+          shuffled = [...shuffled, ...additionalQuestions];
+        }
+
+        // Take exactly 30 questions
+        shuffled = shuffled.slice(0, 30);
+        console.log('Final questions for SinglePlayer (should be 30):', shuffled.length);
+        setQuestions(shuffled);
+        setGameState('playing');
+      } else {
+        console.warn('Individual files failed, trying combined.json from your directory');
+
+        try {
+          // Try your combined.json file (3 KB file we saw in class6 folder)
+          const response = await fetch(`/data/classes/${classParam}/combined.json`);
+          if (response.ok) {
+            const combinedData = await response.json();
+            console.log('Loaded combined.json successfully:', combinedData);
+
+            // Extract questions for the specific subject
+            let subjectQuestions = [];
+            if (combinedData[subjectParam]) {
+              subjectQuestions = combinedData[subjectParam];
+            } else if (combinedData.questions && combinedData.questions[subjectParam]) {
+              subjectQuestions = combinedData.questions[subjectParam];
+            } else {
+              // Try to find any questions in the combined file
+              subjectQuestions = Object.values(combinedData).flat().slice(0, 30);
+            }
+
+            if (subjectQuestions.length > 0) {
+              const convertedQuestions = subjectQuestions.map((q, index) => ({
+                question: q.text || q.question,
+                options: q.options || [],
+                correct: q.options ? q.options.findIndex(opt => opt === q.correctAnswer) : 0,
+                explanation: q.explanation || `The correct answer is ${q.correctAnswer}`
+              }));
+
+              // Ensure exactly 30 questions
+              let finalQuestions = convertedQuestions.sort(() => Math.random() - 0.5);
+              while (finalQuestions.length < 30 && convertedQuestions.length > 0) {
+                finalQuestions = [...finalQuestions, ...convertedQuestions.slice(0, 30 - finalQuestions.length)];
+              }
+              finalQuestions = finalQuestions.slice(0, 30);
+
+              console.log('Using combined.json questions:', finalQuestions.length);
+              setQuestions(finalQuestions);
+              setGameState('playing');
+              return;
+            }
+          }
+        } catch (combinedError) {
+          console.error('Combined.json also failed:', combinedError);
+        }
+
+        // Ultimate fallback
+        console.warn('All file loading failed, using built-in fallback');
+        const fallbackQuestions = getUltimateFallbackQuestions(subjectParam);
+        console.log('Using ultimate fallback questions:', fallbackQuestions.length);
+        setQuestions(fallbackQuestions);
+        setGameState('playing');
+      }
+
+    } catch (error) {
+      console.error('Error in loadQuestions:', error);
+      setGameState('error');
+    }
+  }, [curriculumQuestions, setCurriculumQuestions]);
+
   useEffect(() => {
     // Check if we have curriculum context data
     if (selectedClass && selectedSubject && selectedChapter) {
@@ -94,21 +303,21 @@ const SinglePlayerQuiz = () => {
       loadQuestions(selectedClass, selectedSubject, selectedChapter);
       return;
     }
-    
+
     // Fallback to URL parameters
     const params = new URLSearchParams(location.search);
     const classParam = params.get('class');
     const subjectParam = params.get('subject');
     const chapterParam = params.get('chapter');
-    
+
     if (!classParam || !subjectParam || !chapterParam) {
       navigate('/practice');
       return;
     }
-    
+
     console.log('Using URL parameters:', { classParam, subjectParam, chapterParam });
     loadQuestions(classParam, subjectParam, chapterParam);
-  }, [selectedClass, selectedSubject, selectedChapter, location, navigate]);
+  }, [selectedClass, selectedSubject, selectedChapter, location, navigate, loadQuestions]);
 
   // Force load questions if missing (same logic as MultiplayerQuiz)
   useEffect(() => {
@@ -167,216 +376,6 @@ const SinglePlayerQuiz = () => {
     testFileAccess();
   }, []);
 
-
-  const loadQuestions = async (classParam, subjectParam, chapterParam) => {
-    try {
-      console.log('Loading questions for SinglePlayer:', { classParam, subjectParam, chapterParam });
-      setGameState('loading');
-      
-      let questionsToUse = [];
-      
-      // First try to use questions from curriculum context (if already loaded)
-      if (curriculumQuestions && curriculumQuestions.length > 0) {
-        console.log('Using questions from curriculum context:', curriculumQuestions.length);
-        questionsToUse = curriculumQuestions;
-      } else {
-        // Try to fetch questions using CurriculumService (same as MultiplayerQuiz)
-        try {
-          console.log('Fetching questions from curriculum service...');
-          const fetchedQuestions = await CurriculumService.fetchQuestions(
-            classParam, 
-            subjectParam, 
-            chapterParam
-          );
-          
-          if (fetchedQuestions && fetchedQuestions.length > 0) {
-            console.log('Successfully fetched questions:', fetchedQuestions.length);
-            questionsToUse = fetchedQuestions;
-            setCurriculumQuestions(fetchedQuestions); // Store in context
-          }
-        } catch (error) {
-          console.error('CurriculumService.fetchQuestions failed:', error);
-        }
-        
-        // If still no questions, try hardcoded fallback
-        if (questionsToUse.length === 0) {
-          console.log('Trying hardcoded questions fallback...');
-          const hardcodedQuestions = CurriculumService.getHardcodedQuestions(
-            classParam, 
-            subjectParam, 
-            chapterParam
-          );
-          
-          if (hardcodedQuestions && hardcodedQuestions.length > 0) {
-            console.log('Using hardcoded questions:', hardcodedQuestions.length);
-            questionsToUse = hardcodedQuestions;
-            setCurriculumQuestions(hardcodedQuestions);
-          }
-        }
-        
-        // Enhanced fallback with multiple path attempts
-        if (questionsToUse.length === 0) {
-          console.log('Testing multiple fetch paths...');
-          
-          // Try paths matching your exact directory structure
-          const possiblePaths = [
-            `/data/classes/${classParam}/${subjectParam}/${chapterParam}.json`,
-            `/data/classes/${classParam}/${subjectParam}/all-chapters.json`,
-            `/data/classes/${classParam}/combined.json`,
-            `./data/classes/${classParam}/${subjectParam}/${chapterParam}.json`,
-            `./data/classes/${classParam}/${subjectParam}/all-chapters.json`,
-            `./data/classes/${classParam}/combined.json`
-          ];
-
-          console.log('Testing paths for:', {
-            classParam,    // should be "class6"
-            subjectParam,  // should be "mathematics", "english", etc.
-            chapterParam   // should be "patterns-in-mathematics", etc.
-          });
-
-          // Debug: Log what we expect vs what we're trying
-          console.log('Expected file structure based on your directory:');
-          console.log(`Main path: /data/classes/${classParam}/${subjectParam}/${chapterParam}.json`);
-          console.log(`Fallback: /data/classes/${classParam}/${subjectParam}/all-chapters.json`);
-          console.log(`Combined: /data/classes/${classParam}/combined.json`);
-
-          // Test specific files we know exist from your screenshots
-          if (classParam === 'class6' && subjectParam === 'mathematics') {
-            const knownFiles = [
-              'patterns-in-mathematics.json',
-              'number-play.json', 
-              'all-chapters.json',
-              'fractions.json',
-              'lines-and-angles.json'
-            ];
-            
-            console.log('Known math files in your directory:', knownFiles);
-            
-            // Try the specific file we know exists (patterns-in-mathematics.json is 9 KB)
-            if (chapterParam === 'patterns-in-mathematics') {
-              possiblePaths.unshift(`/data/classes/class6/mathematics/patterns-in-mathematics.json`);
-            }
-          }
-          
-          for (const path of possiblePaths) {
-            try {
-              console.log(`Trying path: ${path}`);
-              const response = await fetch(path);
-              
-              if (response.ok) {
-                const contentType = response.headers.get('content-type');
-                console.log(`Response content-type: ${contentType}`);
-                
-                if (contentType && contentType.includes('application/json')) {
-                  const data = await response.json();
-                  console.log('Direct fetch success from path:', path, data);
-                  
-                  const processedQuestions = CurriculumService.normalizeQuestions(data);
-                  console.log('Processed questions:', processedQuestions.length);
-                  
-                  if (processedQuestions.length > 0) {
-                    questionsToUse = processedQuestions;
-                    setCurriculumQuestions(processedQuestions);
-                    break; // Exit loop on success
-                  }
-                } else {
-                  console.log(`Path ${path} returned non-JSON content (likely 404 HTML)`);
-                }
-              } else {
-                console.log(`Path ${path} returned status: ${response.status}`);
-              }
-            } catch (error) {
-              console.log(`Path ${path} failed:`, error.message);
-            }
-          }
-        }
-      }
-      
-      // Convert questions to SinglePlayer format and take 30 questions
-      if (questionsToUse.length > 0) {
-        const convertedQuestions = questionsToUse.map((q, index) => ({
-          question: q.text || q.question,
-          options: q.options || [],
-          correct: q.options ? q.options.findIndex(opt => opt === q.correctAnswer) : 0,
-          explanation: q.explanation || `The correct answer is ${q.correctAnswer}`
-        }));
-        
-        // Ensure we get 30 questions by repeating if necessary
-        let shuffled = convertedQuestions.sort(() => Math.random() - 0.5);
-
-        // If we have fewer than 30 questions, repeat them to reach 30
-        while (shuffled.length < 30) {
-          const additionalQuestions = convertedQuestions
-            .sort(() => Math.random() - 0.5)
-            .slice(0, Math.min(30 - shuffled.length, convertedQuestions.length));
-          shuffled = [...shuffled, ...additionalQuestions];
-        }
-
-        // Take exactly 30 questions
-        shuffled = shuffled.slice(0, 30);
-        console.log('Final questions for SinglePlayer (should be 30):', shuffled.length);
-        setQuestions(shuffled);
-        setGameState('playing');
-      } else {
-        console.warn('Individual files failed, trying combined.json from your directory');
-        
-        try {
-          // Try your combined.json file (3 KB file we saw in class6 folder)
-          const response = await fetch(`/data/classes/${classParam}/combined.json`);
-          if (response.ok) {
-            const combinedData = await response.json();
-            console.log('Loaded combined.json successfully:', combinedData);
-            
-            // Extract questions for the specific subject
-            let subjectQuestions = [];
-            if (combinedData[subjectParam]) {
-              subjectQuestions = combinedData[subjectParam];
-            } else if (combinedData.questions && combinedData.questions[subjectParam]) {
-              subjectQuestions = combinedData.questions[subjectParam];
-            } else {
-              // Try to find any questions in the combined file
-              subjectQuestions = Object.values(combinedData).flat().slice(0, 30);
-            }
-            
-            if (subjectQuestions.length > 0) {
-              const convertedQuestions = subjectQuestions.map((q, index) => ({
-                question: q.text || q.question,
-                options: q.options || [],
-                correct: q.options ? q.options.findIndex(opt => opt === q.correctAnswer) : 0,
-                explanation: q.explanation || `The correct answer is ${q.correctAnswer}`
-              }));
-              
-              // Ensure exactly 30 questions
-              let finalQuestions = convertedQuestions.sort(() => Math.random() - 0.5);
-              while (finalQuestions.length < 30 && convertedQuestions.length > 0) {
-                finalQuestions = [...finalQuestions, ...convertedQuestions.slice(0, 30 - finalQuestions.length)];
-              }
-              finalQuestions = finalQuestions.slice(0, 30);
-              
-              console.log('Using combined.json questions:', finalQuestions.length);
-              setQuestions(finalQuestions);
-              setGameState('playing');
-              return;
-            }
-          }
-        } catch (combinedError) {
-          console.error('Combined.json also failed:', combinedError);
-        }
-        
-        // Ultimate fallback
-        console.warn('All file loading failed, using built-in fallback');
-        const fallbackQuestions = getUltimateFallbackQuestions(subjectParam);
-        console.log('Using ultimate fallback questions:', fallbackQuestions.length);
-        setQuestions(fallbackQuestions);
-        setGameState('playing');
-      }
-      
-    } catch (error) {
-      console.error('Error in loadQuestions:', error);
-      setGameState('error');
-    }
-  };
-
   const handleAnswerSelect = (optionIndex) => {
     if (showResult) return;
     
@@ -408,7 +407,7 @@ const SinglePlayerQuiz = () => {
     }
   };
 
-  const restartQuiz = () => {
+  const restartQuiz = useCallback(() => {
     setCurrentQuestion(0);
     setScore(0);
     setStreak(0);
@@ -416,7 +415,7 @@ const SinglePlayerQuiz = () => {
     setSelectedAnswer(-1);
     setShowResult(false);
     loadQuestions(selectedClass, selectedSubject, selectedChapter);
-  };
+  }, [selectedClass, selectedSubject, selectedChapter, loadQuestions]);
 
   const formatSubjectName = (subject) => {
     return subject?.charAt(0).toUpperCase() + subject?.slice(1).replace('-', ' ');

@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { STUDENTS, COURSES, getAllStudents, getCourseById } from '../../config/students';
-import { WORLDS, TROPHY_MILESTONES, GIFT_LEVELS, getLevelProgress, getAvailableTrophies } from '../../config/courseStructure';
+import { getAllStudents, getCourseById } from '../../config/students';
+import { getLevelProgress, getAvailableTrophies } from '../../config/courseStructure';
 
 const StudentXPManager = () => {
   const navigate = useNavigate();
@@ -226,6 +226,7 @@ const StudentXPManager = () => {
 // Student Progress Card Component
 const StudentProgressCard = ({ student, onEdit, index }) => {
   const { progress } = student;
+  // eslint-disable-next-line no-unused-vars
   const currentLevel = getLevelProgress(progress.courseXP);
   const availableTrophies = getAvailableTrophies(progress.courseXP);
   const progressPercent = Math.min((progress.completedLevels.length / 100) * 100, 100);

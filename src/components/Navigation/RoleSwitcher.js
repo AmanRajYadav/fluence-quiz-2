@@ -1,7 +1,7 @@
 // src/components/Navigation/RoleSwitcher.js
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom'; // Unused import removed
 
 const RoleSwitcher = ({ currentRole, onSwitch }) => {
   const [showSwitchModal, setShowSwitchModal] = useState(false);
@@ -17,6 +17,7 @@ const RoleSwitcher = ({ currentRole, onSwitch }) => {
     onSwitch('logout');
   };
   
+  // eslint-disable-next-line no-unused-vars
   const handleGoHome = () => {
     onSwitch('home');
   };

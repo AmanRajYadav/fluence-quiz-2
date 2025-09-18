@@ -1,6 +1,6 @@
 // src/components/Teacher/TeacherAnalytics.js
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
 // Mock analytics data
@@ -67,6 +67,7 @@ const TeacherAnalytics = () => {
   const navigate = useNavigate();
   const [selectedTimeframe, setSelectedTimeframe] = useState('this-month');
   const [selectedView, setSelectedView] = useState('overview');
+  // eslint-disable-next-line no-unused-vars
   const [data, setData] = useState(mockAnalyticsData);
 
   const renderOverviewCards = () => {

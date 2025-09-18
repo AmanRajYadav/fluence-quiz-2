@@ -1,5 +1,5 @@
 // src/components/Social/Leaderboard.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
@@ -64,6 +64,64 @@ const mockDataManager = {
   }
 };
 
+// Mock data generation functions (moved outside component to avoid re-creation)
+const generateMockLeaderboard = (currentUser, selectedCategory) => {
+  const userStats = mockDataManager.getUserStats();
+
+  // Generate mock competitors
+  const mockUsers = [
+    { id: '1', username: 'QuizMaster2024', level: 15, xp: 3250, totalGamesPlayed: 156, averageScore: 89, avatarEmoji: '🎓' },
+    { id: '2', username: 'StudyHero', level: 14, xp: 3100, totalGamesPlayed: 142, averageScore: 87, avatarEmoji: '📚' },
+    { id: '3', username: 'BrainAce', level: 13, xp: 2980, totalGamesPlayed: 139, averageScore: 91, avatarEmoji: '🧠' },
+    { id: '4', username: 'LearningLegend', level: 12, xp: 2750, totalGamesPlayed: 128, averageScore: 85, avatarEmoji: '⭐' },
+    { id: '5', username: 'KnowledgeKnight', level: 11, xp: 2500, totalGamesPlayed: 118, averageScore: 83, avatarEmoji: '🏆' },
+    {
+      id: currentUser.id,
+      username: currentUser.username,
+      level: userStats.basic.level,
+      xp: userStats.basic.xp,
+      totalGamesPlayed: userStats.basic.totalGamesPlayed,
+      averageScore: userStats.basic.accuracyRate,
+      avatarEmoji: currentUser.avatarEmoji
+    },
+    { id: '6', username: 'SmartStudent', level: 10, xp: 2200, totalGamesPlayed: 102, averageScore: 82, avatarEmoji: '🤓' },
+    { id: '7', username: 'QuizChamp', level: 9, xp: 1950, totalGamesPlayed: 95, averageScore: 79, avatarEmoji: '🚀' },
+    { id: '8', username: 'StudyStar', level: 8, xp: 1700, totalGamesPlayed: 87, averageScore: 77, avatarEmoji: '🌟' },
+    { id: '9', username: 'BrightMind', level: 7, xp: 1450, totalGamesPlayed: 78, averageScore: 75, avatarEmoji: '💡' },
+  ];
+
+  // Sort based on selected category
+  return mockUsers.sort((a, b) => {
+    switch (selectedCategory) {
+      case 'xp':
+        return b.xp - a.xp;
+      case 'level':
+        return b.level - a.level;
+      case 'games':
+        return b.totalGamesPlayed - a.totalGamesPlayed;
+      case 'accuracy':
+        return b.averageScore - a.averageScore;
+      default:
+        return b.xp - a.xp;
+    }
+  });
+};
+
+const generateMockFriends = () => {
+  return [
+    { id: 'f1', username: 'StudyBuddy', level: 8, xp: 1600, status: 'online', avatarEmoji: '😊' },
+    { id: 'f2', username: 'QuizPartner', level: 10, xp: 2100, status: 'offline', avatarEmoji: '🎯' },
+    { id: 'f3', username: 'LearningPal', level: 9, xp: 1850, status: 'online', avatarEmoji: '📖' }
+  ];
+};
+
+const generateMockFriendRequests = () => {
+  return [
+    { id: 'r1', username: 'NewFriend', level: 6, message: 'Hi! Let\'s study together!', avatarEmoji: '🤝' },
+    { id: 'r2', username: 'ClassMate', level: 7, message: 'We\'re in the same class!', avatarEmoji: '🎓' }
+  ];
+};
+
 const Leaderboard = () => {
   const navigate = useNavigate();
   const [currentUser, setCurrentUser] = useState(null);
@@ -74,82 +132,26 @@ const Leaderboard = () => {
   const [friends, setFriends] = useState([]);
   const [friendRequests, setFriendRequests] = useState([]);
 
-  useEffect(() => {
-    loadLeaderboardData();
-  }, [selectedCategory, selectedTimeframe]);
-
-  const loadLeaderboardData = () => {
+  const loadLeaderboardData = useCallback(() => {
     const user = mockDataManager.getUserProfile();
     setCurrentUser(user);
 
     // Update user's position in leaderboard
+    // eslint-disable-next-line no-unused-vars
     const updatedLeaderboard = mockDataManager.updateLeaderboard();
-    
+
     // Generate mock leaderboard data (in a real app, this would come from backend)
-    const mockLeaderboard = generateMockLeaderboard(user);
+    const mockLeaderboard = generateMockLeaderboard(user, selectedCategory);
     setLeaderboardData(mockLeaderboard);
-    
+
     // Load friends (mock data)
-    setFriends(generateMockFriends(user));
+    setFriends(generateMockFriends());
     setFriendRequests(generateMockFriendRequests());
-  };
+  }, [selectedCategory]);
 
-  const generateMockLeaderboard = (currentUser) => {
-    const userStats = mockDataManager.getUserStats();
-    
-    // Generate mock competitors
-    const mockUsers = [
-      { id: '1', username: 'QuizMaster2024', level: 15, xp: 3250, totalGamesPlayed: 156, averageScore: 89, avatarEmoji: '🎓' },
-      { id: '2', username: 'StudyHero', level: 14, xp: 3100, totalGamesPlayed: 142, averageScore: 87, avatarEmoji: '📚' },
-      { id: '3', username: 'BrainAce', level: 13, xp: 2980, totalGamesPlayed: 139, averageScore: 91, avatarEmoji: '🧠' },
-      { id: '4', username: 'LearningLegend', level: 12, xp: 2750, totalGamesPlayed: 128, averageScore: 85, avatarEmoji: '⭐' },
-      { id: '5', username: 'KnowledgeKnight', level: 11, xp: 2500, totalGamesPlayed: 118, averageScore: 83, avatarEmoji: '🏆' },
-      { 
-        id: currentUser.id, 
-        username: currentUser.username, 
-        level: userStats.basic.level, 
-        xp: userStats.basic.xp, 
-        totalGamesPlayed: userStats.basic.totalGamesPlayed, 
-        averageScore: userStats.basic.accuracyRate,
-        avatarEmoji: currentUser.avatarEmoji
-      },
-      { id: '6', username: 'SmartStudent', level: 10, xp: 2200, totalGamesPlayed: 102, averageScore: 82, avatarEmoji: '🤓' },
-      { id: '7', username: 'QuizChamp', level: 9, xp: 1950, totalGamesPlayed: 95, averageScore: 79, avatarEmoji: '🚀' },
-      { id: '8', username: 'StudyStar', level: 8, xp: 1700, totalGamesPlayed: 87, averageScore: 77, avatarEmoji: '🌟' },
-      { id: '9', username: 'BrightMind', level: 7, xp: 1450, totalGamesPlayed: 78, averageScore: 75, avatarEmoji: '💡' },
-    ];
-
-    // Sort based on selected category
-    return mockUsers.sort((a, b) => {
-      switch (selectedCategory) {
-        case 'xp':
-          return b.xp - a.xp;
-        case 'level':
-          return b.level - a.level;
-        case 'games':
-          return b.totalGamesPlayed - a.totalGamesPlayed;
-        case 'accuracy':
-          return b.averageScore - a.averageScore;
-        default:
-          return b.xp - a.xp;
-      }
-    });
-  };
-
-  const generateMockFriends = (currentUser) => {
-    return [
-      { id: 'f1', username: 'StudyBuddy', level: 8, xp: 1600, status: 'online', avatarEmoji: '😊' },
-      { id: 'f2', username: 'QuizPartner', level: 10, xp: 2100, status: 'offline', avatarEmoji: '🎯' },
-      { id: 'f3', username: 'LearningPal', level: 9, xp: 1850, status: 'online', avatarEmoji: '📖' }
-    ];
-  };
-
-  const generateMockFriendRequests = () => {
-    return [
-      { id: 'r1', username: 'NewFriend', level: 6, message: 'Hi! Let\'s study together!', avatarEmoji: '🤝' },
-      { id: 'r2', username: 'ClassMate', level: 7, message: 'We\'re in the same class!', avatarEmoji: '🎓' }
-    ];
-  };
+  useEffect(() => {
+    loadLeaderboardData();
+  }, [selectedCategory, selectedTimeframe, loadLeaderboardData]);
 
   const getUserRank = () => {
     return leaderboardData.findIndex(user => user.id === currentUser?.id) + 1;

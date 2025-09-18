@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Clock, Users, Trophy, Target, Zap, AlertCircle } from 'lucide-react';
+import { Clock, Users, Trophy, Target, Zap } from 'lucide-react';
 import io from 'socket.io-client';
 import { useCurriculum } from '../contexts/CurriculumContext';
 import CurriculumService from '../services/curriculumService';
@@ -134,6 +134,7 @@ const MultiplayerQuiz = () => {
   }, [selectedClass, selectedSubject, selectedChapter, curriculumQuestions.length, setCurriculumQuestions]);
 
   // Default questions fallback
+  // eslint-disable-next-line no-unused-vars
   const defaultQuestions = [
     {
       text: "What is 3²?",

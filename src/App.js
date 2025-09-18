@@ -131,24 +131,7 @@ const ComingSoon = ({ feature }) => {
 };
 
 // Placeholder components for teacher features (you can implement these later)
-const TeacherClassManagement = () => (
-  <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
-    <div className="max-w-4xl mx-auto">
-      <div className="bg-white rounded-xl shadow-lg p-8 text-center">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">Class Management</h1>
-        <p className="text-gray-600 mb-6">Manage your classes and student enrollment</p>
-        <div className="text-4xl mb-4">🏫</div>
-        <p className="text-gray-500">Coming soon - Advanced class management features</p>
-        <button
-          onClick={() => window.history.back()}
-          className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors"
-        >
-          Back to Dashboard
-        </button>
-      </div>
-    </div>
-  </div>
-);
+// TeacherClassManagement component removed as it's unused
 
 
 const TeacherReports = () => (
@@ -173,107 +156,6 @@ const TeacherReports = () => (
 // Additional Components needed
 // Achievements component replaced with AchievementSystem import
 
-const JoinClass = () => {
-  const [classCode, setClassCode] = React.useState('');
-  const [error, setError] = React.useState('');
-  const [success, setSuccess] = React.useState('');
-
-  const handleJoinClass = () => {
-    if (!classCode.trim()) {
-      setError('Please enter a class code');
-      return;
-    }
-
-    // Mock join class logic
-    const userProfile = JSON.parse(localStorage.getItem('fluence_user_profile') || '{}');
-    
-    // In a real app, this would make an API call
-    setTimeout(() => {
-      if (classCode.toUpperCase() === 'ABC123') {
-        setSuccess(`Successfully joined class with code: ${classCode}`);
-        setError('');
-        
-        // Update user profile with class info
-        userProfile.classCode = classCode.toUpperCase();
-        userProfile.teacherId = 'teacher_123';
-        localStorage.setItem('fluence_user_profile', JSON.stringify(userProfile));
-        
-        setTimeout(() => {
-          window.location.href = '/';
-        }, 2000);
-      } else {
-        setError('Invalid class code. Try "ABC123" for demo.');
-        setSuccess('');
-      }
-    }, 1000);
-  };
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 flex items-center justify-center p-4">
-      <div className="bg-white/10 backdrop-blur-md rounded-xl p-8 w-full max-w-md">
-        <div className="text-center mb-6">
-          <div className="text-4xl mb-4">🏫</div>
-          <h1 className="text-2xl font-bold text-white mb-2">Join a Class</h1>
-          <p className="text-purple-200">Enter your teacher's class code to join</p>
-        </div>
-
-        <div className="space-y-4">
-          <div>
-            <label className="block text-white mb-2 font-semibold">
-              Class Code
-            </label>
-            <input
-              type="text"
-              value={classCode}
-              onChange={(e) => setClassCode(e.target.value)}
-              className="w-full bg-white/20 text-white placeholder-white/60 border border-white/30 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-400 uppercase"
-              placeholder="e.g., ABC123"
-              maxLength={10}
-            />
-          </div>
-
-          {error && (
-            <div className="bg-red-500/20 border border-red-400 text-red-300 px-4 py-3 rounded-lg">
-              {error}
-            </div>
-          )}
-
-          {success && (
-            <div className="bg-green-500/20 border border-green-400 text-green-300 px-4 py-3 rounded-lg">
-              {success}
-            </div>
-          )}
-
-          <button
-            onClick={handleJoinClass}
-            disabled={!classCode.trim()}
-            className={`w-full py-3 rounded-lg font-semibold transition-colors ${
-              classCode.trim()
-                ? 'bg-purple-600 hover:bg-purple-700 text-white'
-                : 'bg-gray-600 text-gray-400 cursor-not-allowed'
-            }`}
-          >
-            Join Class
-          </button>
-
-          <button
-            onClick={() => window.history.back()}
-            className="w-full bg-gray-600 hover:bg-gray-700 text-white py-3 rounded-lg transition-colors"
-          >
-            Cancel
-          </button>
-        </div>
-
-        <div className="mt-6 p-4 bg-blue-500/20 border border-blue-400/50 rounded-lg">
-          <div className="text-sm text-blue-200">
-            <strong>💡 For Demo:</strong>
-            <br />
-            Try class code: <span className="font-mono font-bold">ABC123</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+// JoinClass component removed as it's unused
 
 export default App;
