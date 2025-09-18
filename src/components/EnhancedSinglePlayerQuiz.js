@@ -82,7 +82,7 @@ const EnhancedSinglePlayerQuiz = () => {
         chapter: selectedChapter
       });
       
-      setQuestions(shuffleArray(loadedQuestions).slice(0, 15)); // Take 15 random questions
+      setQuestions(shuffleArray(loadedQuestions).slice(0, 30)); // Take 30 random questions
       setGameStartTime(Date.now());
       setQuestionStartTime(Date.now());
       setTimeLeft(30); // 30 seconds per question
@@ -216,10 +216,7 @@ const EnhancedSinglePlayerQuiz = () => {
       responseTime
     });
 
-    // Auto-advance after 3 seconds
-    setTimeout(() => {
-      moveToNextQuestion();
-    }, 3000);
+    // Remove auto-advance - user will click Next Question button
   };
 
   const handleTimeUp = () => {
@@ -237,9 +234,7 @@ const EnhancedSinglePlayerQuiz = () => {
       responseTime: 30000
     });
 
-    setTimeout(() => {
-      moveToNextQuestion();
-    }, 3000);
+    // Remove auto-advance - user will click Next Question button
   };
 
   const moveToNextQuestion = () => {
@@ -506,10 +501,20 @@ const EnhancedSinglePlayerQuiz = () => {
                 </p>
                 
                 {showResult.explanation && (
-                  <p className="text-purple-200 text-sm">
+                  <p className="text-purple-200 text-sm mb-4">
                     {showResult.explanation}
                   </p>
                 )}
+
+                {/* Next Question Button */}
+                <motion.button
+                  onClick={moveToNextQuestion}
+                  className="mt-4 bg-gradient-to-r from-purple-500 to-blue-600 hover:from-purple-600 hover:to-blue-700 text-white py-3 px-6 rounded-lg font-bold transition-all duration-300"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Next Question →
+                </motion.button>
               </div>
             </motion.div>
           )}

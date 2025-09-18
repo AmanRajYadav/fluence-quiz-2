@@ -5,7 +5,7 @@ import { useCurriculum } from '../contexts/CurriculumContext';
 import CurriculumService from '../services/curriculumService';
 import FileTestService from '../services/FileTestService';
 
-// Ultimate fallback - guaranteed 20 questions
+// Ultimate fallback - guaranteed 30 questions
 const getUltimateFallbackQuestions = (subject = 'mathematics') => {
   const baseQuestions = {
     mathematics: [
@@ -31,10 +31,10 @@ const getUltimateFallbackQuestions = (subject = 'mathematics') => {
   
   const questions = baseQuestions[subject] || baseQuestions.mathematics;
   
-  // Repeat questions to make exactly 20
+  // Repeat questions to make exactly 30
   const result = [];
-  while (result.length < 20) {
-    const remaining = 20 - result.length;
+  while (result.length < 30) {
+    const remaining = 30 - result.length;
     const questionsToAdd = questions.slice(0, Math.min(remaining, questions.length));
     
     // Add some variation to repeated questions
@@ -46,7 +46,7 @@ const getUltimateFallbackQuestions = (subject = 'mathematics') => {
     result.push(...modifiedQuestions);
   }
   
-  return result.slice(0, 20);
+  return result.slice(0, 30);
 };
 // Test function to verify file access
 const testFileAccess = async () => {
@@ -292,7 +292,7 @@ const SinglePlayerQuiz = () => {
         }
       }
       
-      // Convert questions to SinglePlayer format and take 20 questions
+      // Convert questions to SinglePlayer format and take 30 questions
       if (questionsToUse.length > 0) {
         const convertedQuestions = questionsToUse.map((q, index) => ({
           question: q.text || q.question,
@@ -301,20 +301,20 @@ const SinglePlayerQuiz = () => {
           explanation: q.explanation || `The correct answer is ${q.correctAnswer}`
         }));
         
-        // Ensure we get 20 questions by repeating if necessary
+        // Ensure we get 30 questions by repeating if necessary
         let shuffled = convertedQuestions.sort(() => Math.random() - 0.5);
 
-        // If we have fewer than 20 questions, repeat them to reach 20
-        while (shuffled.length < 20) {
+        // If we have fewer than 30 questions, repeat them to reach 30
+        while (shuffled.length < 30) {
           const additionalQuestions = convertedQuestions
             .sort(() => Math.random() - 0.5)
-            .slice(0, Math.min(20 - shuffled.length, convertedQuestions.length));
+            .slice(0, Math.min(30 - shuffled.length, convertedQuestions.length));
           shuffled = [...shuffled, ...additionalQuestions];
         }
 
-        // Take exactly 20 questions
-        shuffled = shuffled.slice(0, 20);
-        console.log('Final questions for SinglePlayer (should be 20):', shuffled.length);
+        // Take exactly 30 questions
+        shuffled = shuffled.slice(0, 30);
+        console.log('Final questions for SinglePlayer (should be 30):', shuffled.length);
         setQuestions(shuffled);
         setGameState('playing');
       } else {
@@ -335,7 +335,7 @@ const SinglePlayerQuiz = () => {
               subjectQuestions = combinedData.questions[subjectParam];
             } else {
               // Try to find any questions in the combined file
-              subjectQuestions = Object.values(combinedData).flat().slice(0, 20);
+              subjectQuestions = Object.values(combinedData).flat().slice(0, 30);
             }
             
             if (subjectQuestions.length > 0) {
@@ -346,12 +346,12 @@ const SinglePlayerQuiz = () => {
                 explanation: q.explanation || `The correct answer is ${q.correctAnswer}`
               }));
               
-              // Ensure exactly 20 questions
+              // Ensure exactly 30 questions
               let finalQuestions = convertedQuestions.sort(() => Math.random() - 0.5);
-              while (finalQuestions.length < 20 && convertedQuestions.length > 0) {
-                finalQuestions = [...finalQuestions, ...convertedQuestions.slice(0, 20 - finalQuestions.length)];
+              while (finalQuestions.length < 30 && convertedQuestions.length > 0) {
+                finalQuestions = [...finalQuestions, ...convertedQuestions.slice(0, 30 - finalQuestions.length)];
               }
-              finalQuestions = finalQuestions.slice(0, 20);
+              finalQuestions = finalQuestions.slice(0, 30);
               
               console.log('Using combined.json questions:', finalQuestions.length);
               setQuestions(finalQuestions);
@@ -394,15 +394,18 @@ const SinglePlayerQuiz = () => {
       setLives(lives - 1);
     }
     
-    setTimeout(() => {
-      if (currentQuestion + 1 < questions.length && lives > (isCorrect ? 0 : 1)) {
-        setCurrentQuestion(currentQuestion + 1);
-        setSelectedAnswer(-1);
-        setShowResult(false);
-      } else {
-        setGameState('results');
-      }
-    }, 2500);
+    // Remove auto-advance - user will click Next Question button
+  };
+
+  const moveToNextQuestion = () => {
+    const isCorrect = selectedAnswer === questions[currentQuestion].correct;
+    if (currentQuestion + 1 < questions.length && lives > (isCorrect ? 0 : 1)) {
+      setCurrentQuestion(currentQuestion + 1);
+      setSelectedAnswer(-1);
+      setShowResult(false);
+    } else {
+      setGameState('results');
+    }
   };
 
   const restartQuiz = () => {
@@ -465,7 +468,7 @@ const SinglePlayerQuiz = () => {
             <h3 className="text-white font-bold mb-2">Your Results</h3>
             <p className="text-white text-xl">Score: {score}</p>
             <p className="text-white">Accuracy: {accuracy}%</p>
-            <p className="text-white">Questions: {currentQuestion + 1}/{questions.length} (Target: 20)</p>
+            <p className="text-white">Questions: {currentQuestion + 1}/{questions.length} (Target: 30)</p>
             <p className="text-white">Best Streak: {streak}</p>
           </div>
           
@@ -592,6 +595,14 @@ const SinglePlayerQuiz = () => {
                 <p className="text-white/80">{questions[currentQuestion].explanation}</p>
               </div>
             )}
+
+            {/* Next Question Button */}
+            <button
+              onClick={moveToNextQuestion}
+              className="mt-4 bg-gradient-to-r from-purple-500 to-blue-600 hover:from-purple-600 hover:to-blue-700 text-white py-3 px-6 rounded-lg font-bold transition-all duration-300"
+            >
+              Next Question →
+            </button>
           </div>
         )}
       </div>
